@@ -7,7 +7,7 @@
             <div class="col-lg-3 col-sm-6">
                 <div class="dental-tourism-footer-widget">
                     <h2>
-                        <a href="index-4.html">Grin</a>
+                        <a href="index.php">Grin</a>
                     </h2>
                     <ul class="info-list">
                         <li><span>Location:</span> 35 West Dental Street</li>

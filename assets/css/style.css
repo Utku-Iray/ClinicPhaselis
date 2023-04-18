@@ -5422,6 +5422,7 @@ Navbar Area CSS
 }
 
 .dental-tourism-navbar .main-navbar .navbar .navbar-brand {
+  width: 220px;
   padding: 0;
   position: relative;
   z-index: 1;
@@ -5438,7 +5439,7 @@ Navbar Area CSS
   left: -100px;
   width: 350px;
   height: 150px;
-  background-image: url(../../assets/images/dental-tourism/logo-bg.png);
+  /* background-image: url(../../assets/images/dental-tourism/logo-bg.png); */
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -31,7 +31,7 @@
         <!-- Responsive CSS -->
 		<link rel="stylesheet" href="assets/css/responsive.css">
 		
-		<title>Grin - Medical Health & Dental Clinic HTML Template</title>
+		<title>Clinic Phaselis</title>
 
-        <link rel="icon" type="image/png" href="assets/images/favicon.png">
+        <link rel="icon" type="image/png" href="assets/images/logo/fav-icon.png">
     </head>
