@@ -1,24 +1,22 @@
 [{
-    "treatment_name_en": "Body",
+    "treatment_name_en": "Body Treatment",
     "treatment_first_photo": "assets/images/services/services-1.jpg",
-    "treatment_description":"A dental implant is a titanium screw that can mimic the root of a tooth. Just like a natural root,",
-    "treatment_link":"plastic_surgery_body.php"
-    
+    "treatment_description": "A dental implant is a titanium screw that can mimic the root of a tooth. Just like a natural root,",
+    "treatment_link": "plastic_surgery_body.php"
 
-
-},{
-    "treatment_name_en": "Breast",
+}, {
+    "treatment_name_en": "Breast Treatment",
     "treatment_first_photo": "assets/images/services/services-1.jpg",
-    "treatment_description":"A dental implant is a titanium screw that can mimic the root of a tooth. Just like a natural root,",
-    "treatment_link":"plastic_surgery_breast.php"
-},{
-    "treatment_name_en": "Face",
+    "treatment_description": "A dental implant is a titanium screw that can mimic the root of a tooth. Just like a natural root,",
+    "treatment_link": "plastic_surgery_breast.php"
+}, {
+    "treatment_name_en": "Face Treatment",
     "treatment_first_photo": "assets/images/services/services-1.jpg",
-    "treatment_description":"A dental implant is a titanium screw that can mimic the root of a tooth. Just like a natural root,",
-    "treatment_link":"plastic_surgery_face.php"
-},{
-    "treatment_name_en": "Rhinoplasty",
+    "treatment_description": "A dental implant is a titanium screw that can mimic the root of a tooth. Just like a natural root,",
+    "treatment_link": "plastic_surgery_face.php"
+}, {
+    "treatment_name_en": "Rhinoplasty Treatment",
     "treatment_first_photo": "assets/images/services/services-1.jpg",
-    "treatment_description":"A dental implant is a titanium screw that can mimic the root of a tooth. Just like a natural root,",
-    "treatment_link":"plastic_surgery_rhinoplasty_details.php"
+    "treatment_description": "A dental implant is a titanium screw that can mimic the root of a tooth. Just like a natural root,",
+    "treatment_link": "plastic_surgery_rhinoplasty_details.php"
 }]

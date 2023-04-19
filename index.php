@@ -11,12 +11,12 @@
 <div class="dental-tourism-banner-area">
     <div class="container-fluid">
         <div class="dental-tourism-banner-content">
-            <span class="sub-title wow animate__animated animate__fadeInDown" data-wow-delay="0.5s"># Professional</span>
-            <h1 class="wow animate__animated animate__fadeInLeft" data-wow-delay="0.5s">Dental Tourism Help From Our Consultants</h1>
-            <p class="wow animate__animated animate__fadeInLeft" data-wow-delay="0.5s">Mauris blandit aliquet elit eget tincidunt nibh pulvinar. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Pellentesque in ipsum id orci porta dapibus.</p>
+            <!-- <span class="sub-title wow animate__animated animate__fadeInDown" data-wow-delay="0.5s"># Professional</span> -->
+            <h1 class="wow animate__animated animate__fadeInLeft" data-wow-delay="0.5s">Welcome to a NEW ERA in COSMETİC SURGERY</h1>
+            <!-- <p class="wow animate__animated animate__fadeInLeft" data-wow-delay="0.5s">Mauris blandit aliquet elit eget tincidunt nibh pulvinar. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Pellentesque in ipsum id orci porta dapibus.</p> -->
 
             <div class="banner-btn wow animate__animated animate__fadeInDown" data-wow-delay="0.5s">
-                <a href="services.html" class="default-btn">View Our Services</a>
+                <a href="appointment.html" class="default-btn">Book Appointment</a>
             </div>
         </div>
     </div>
@@ -31,14 +31,14 @@
                 <div class="single-dental-tourism-features">
                     <div class="content">
                         <div class="icon-image">
-                            <a href="#"><img src="assets/images/dental-tourism/features/assistance.png" alt="image"></a>
+                            <a href="#"><img src="assets/images/dental-tourism/features/travel.png" alt="image"></a>
 
-                            <div class="number">1</div>
+                            <!-- <div class="number">1</div> -->
                         </div>
                         <h3>
-                            <a href="#">Customer Service</a>
+                            <a href="#">Tours</a>
                         </h3>
-                        <p>We always provide 24/7 support to help the tourists</p>
+                        <p>Tours to all historical and touristic places in and around Antalya</p>
                     </div>
                 </div>
             </div>
@@ -46,14 +46,14 @@
                 <div class="single-dental-tourism-features">
                     <div class="content">
                         <div class="icon-image">
-                            <a href="#"><img src="assets/images/dental-tourism/features/travel.png" alt="image"></a>
+                            <a href="#"><img src="assets/images/dental-tourism/features/assistance.png" alt="image"></a>
 
-                            <div class="number">2</div>
+                            <!-- <div class="number">2</div> -->
                         </div>
                         <h3>
-                            <a href="#">Dedicated Transport</a>
+                            <a href="#">Accommodation</a>
                         </h3>
-                        <p>Our dedicated drivers provide you with affordable transportation</p>
+                        <p>Accommodation in 3 to 5 star hotels with high guest satisfaction rates</p>
                     </div>
                 </div>
             </div>
@@ -66,9 +66,9 @@
                             <div class="number">3</div>
                         </div>
                         <h3>
-                            <a href="#">Lowest Prices</a>
+                            <a href="#">All Transfers</a>
                         </h3>
-                        <p>We offer all types dental treatments for tourists the lowest prices</p>
+                        <p>Tours to all historical and touristic places in and around Antalya</p>
                     </div>
                 </div>
             </div>
@@ -93,15 +93,14 @@
 
             <div class="col-lg-7 col-md-12">
                 <div class="dental-tourism-about-content">
-                    <span># About Dental Tourism</span>
-                    <h3>We Offer You Dental Treatment That Meets Top Quality Standards</h3>
-                    <p>Vivamus magna justo lacinia eget consectetur sed convallis at tellus. Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi pretium ut lacinia in elementum id enim.</p>
+                    <span># Clinic Phaselis</span>
+                    <h3>Quality Meets Aesthetics</h3>
+
                     <ul class="list">
-                        <li><i class='bx bxs-check-shield'></i> Search for innovation in dentistry</li>
-                        <li><i class='bx bxs-check-shield'></i> Flights, visa assistance and airport transfers</li>
-                        <li><i class='bx bxs-check-shield'></i> 24 x 7 Personal client relationship manager</li>
-                        <li><i class='bx bxs-check-shield'></i> Life time warranties on all treatments</li>
-                        <li><i class='bx bxs-check-shield'></i> Advanced dental setup & technology</li>
+                        <li><i class='bx bxs-check-shield'></i>Combining our expertise and experience in cosmetic surgery and patient care with our spectacular services, we deliver a wide variety of procedures to address any cosmetic concerns you may have.</li>
+                        <li><i class='bx bxs-check-shield'></i>Our aim is to provide you an exceptional medical service by introducing you to our experienced board-certified surgeons and medical team.</li>
+                        <li><i class='bx bxs-check-shield'></i> Our medical team provides a specific treatment plan personalized and totally tailored to your unique needs. With us, you will feel the difference of receiving an exceptional health care management from A to Z. </li>
+                        <li><i class='bx bxs-check-shield'></i> We understand your concerns about having a procedure abroad therefore we are here with you throughout the entire process providing support 24/7.</li>
                     </ul>
                     <div class="about-btn">
                         <a href="about-us.html" class="default-btn">Learn More</a>
@@ -119,14 +118,14 @@
         <div class="row align-items-center">
             <div class="col-lg-5">
                 <div class="section-title-warp">
-                    <span class="sub-title"># What We Do</span>
-                    <h2>We Provided All Types Of Dental Treatment</h2>
+                    <span class="sub-title"># Treatments</span>
+                    <h2>Enhance Your Beauty with a Genuine Touch</h2>
                 </div>
             </div>
 
             <div class="col-lg-7">
                 <div class="section-warp-btn">
-                    <a href="services.html" class="default-btn">See All Services</a>
+                    <a href="plastic_surgery_procedures.php" class="default-btn">See All Services</a>
                 </div>
             </div>
         </div>
@@ -134,76 +133,23 @@
 
     <div class="container-fluid">
         <div class="dental-tourism-services-slides owl-carousel owl-theme">
-            <div class="dental-tourism-services-card">
-                <div class="services-image">
-                    <a href="services-details.html"><img src="assets/images/dental-tourism/services/services-1.jpg" alt="image"></a>
+            <?php foreach ($plastic_JSON as $plastic) { ?>
 
-                    <div class="icon">
-                        <i class="flaticon-dental-implant"></i>
+                <div class="dental-tourism-services-card">
+                    <div class="services-image">
+                        <a href="<?= $plastic->treatment_link ?>"><img src="<?= $plastic->treatment_first_photo ?>" alt="image"></a>
+
+                        <div class="icon">
+                            <i class="flaticon-dental-implant"></i>
+                        </div>
+                    </div>
+                    <div class="services-content">
+                        <h3>
+                            <a href="<?= $plastic->treatment_link ?>"><?= $plastic->treatment_name_en ?></a>
+                        </h3>
                     </div>
                 </div>
-                <div class="services-content">
-                    <h3>
-                        <a href="services-details.html">Dental Implants</a>
-                    </h3>
-                </div>
-            </div>
-            <div class="dental-tourism-services-card">
-                <div class="services-image">
-                    <a href="services-details.html"><img src="assets/images/dental-tourism/services/services-2.jpg" alt="image"></a>
-
-                    <div class="icon">
-                        <i class="flaticon-chair"></i>
-                    </div>
-                </div>
-                <div class="services-content">
-                    <h3>
-                        <a href="services-details.html">Root Canal</a>
-                    </h3>
-                </div>
-            </div>
-            <div class="dental-tourism-services-card">
-                <div class="services-image">
-                    <a href="services-details.html"><img src="assets/images/dental-tourism/services/services-3.jpg" alt="image"></a>
-
-                    <div class="icon">
-                        <i class="flaticon-tooth-2"></i>
-                    </div>
-                </div>
-                <div class="services-content">
-                    <h3>
-                        <a href="services-details.html">Fillings</a>
-                    </h3>
-                </div>
-            </div>
-            <div class="dental-tourism-services-card">
-                <div class="services-image">
-                    <a href="services-details.html"><img src="assets/images/dental-tourism/services/services-4.jpg" alt="image"></a>
-
-                    <div class="icon">
-                        <i class="flaticon-dental-care"></i>
-                    </div>
-                </div>
-                <div class="services-content">
-                    <h3>
-                        <a href="services-details.html">Cosmetic Dentistry</a>
-                    </h3>
-                </div>
-            </div>
-            <div class="dental-tourism-services-card">
-                <div class="services-image">
-                    <a href="services-details.html"><img src="assets/images/dental-tourism/services/services-5.jpg" alt="image"></a>
-
-                    <div class="icon">
-                        <i class="flaticon-tooth-1"></i>
-                    </div>
-                </div>
-                <div class="services-content">
-                    <h3>
-                        <a href="services-details.html">Whitening</a>
-                    </h3>
-                </div>
-            </div>
+            <?php } ?>
         </div>
     </div>
 </div>
@@ -216,24 +162,15 @@
             <div class="col-lg-6 col-md-12">
                 <div class="dental-tourism-choose-content">
                     <span># Why Choose Us</span>
-                    <h3>Benefits of Dental Tourism</h3>
-                    <p>Vivamus magna justo lacinia eget consectetur sed convallis tellus. Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam dui posuere blandit.</p>
+                    <h3>We never leave health to chance.</h3>
+                    <p><i class='bx bxs-badge-check' style="color:black" ></i> We work with board certified surgeons who are compassionate and friendly in order to achieve the finest results. They will gladly spend time with you to determine the best ways to enhance your most attractive features. We designed a 'Zero-Risk-Model' to ensure that any complication be avoided at all costs. Every step and every decision made by you or your surgeons are documented in a Unique Patient Surgery File.
+                        ‍<br><br>
+                        <i class='bx bxs-badge-check' style="color:black"></i> We concentrated on medical expertise and invested in delivering the best care to our patients throughout their journey. We offer quality at an affordable and accessible price. <br><br>
+                        <i class='bx bxs-badge-check'style="color:black"></i>  We devised a Zero-Risk-Model to eliminate the possibility of complications by carefully preparing and carrying out each phase of your surgery plan. A unique Patient Surgery File is formed to document every detail; such as your blood results, consultations, anesthesia as well as the decisions you and your doctor make to achieve your goals, outlining your tailored schedule. You have regular check-ins with our medical team and have priority access to our support lines. Before your operation, a team comprised of your internal medicine specialist, anesthesiologist, and plastic surgeon evaluate and create a precise surgery road map.</p>
+                   
 
-                    <div class="choose-inner-content">
-                        <i class='bx bxs-badge-check'></i>
-                        <h4>Low Cost</h4>
-                        <p>Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi pretium ut lacinia in elementum id enim. Donec sollicitudin molestie malesuada. Curabitur arcu erat accumsan id imperdiet et porttitor at sem.</p>
-                    </div>
-                    <div class="choose-inner-content">
-                        <i class='bx bxs-badge-check'></i>
-                        <h4>Highly Qualified Staff</h4>
-                        <p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla quis loremut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada.</p>
-                    </div>
-                    <div class="choose-inner-content">
-                        <i class='bx bxs-badge-check'></i>
-                        <h4>Idyllic Destination</h4>
-                        <p>Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi pretium ut lacinia in elementum id enim. Donec sollicitudin molestie malesuada. Curabitur arcu erat accumsan id imperdiet et porttitor at sem.</p>
-                    </div>
+                  
+
                 </div>
             </div>
 
@@ -329,254 +266,90 @@
 </div>
 <!-- End Dental Tourism Appointment Area -->
 
-<!-- Start Dental Tourism Dentist Area -->
-<div class="dental-tourism-dentist-area ptb-100">
+<div class="skin-care-features-area pt-100 pb-75">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-8">
-                <div class="section-title-warp">
-                    <span class="sub-title"># Our Dentist</span>
-                    <h2>Our Specialized and Experienced Dentist</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6">
+                <div class="skin-care-features-card">
+                    <div class="features-title">
+                        <div class="icon-image">
+                            <a href="#0"><img src="assets/images/skin-care/features/medical-doctor.png" alt="image"></a>
+                        </div>
+                        <h3>
+                            <a href="#0">Free Medical Consultation</a>
+                        </h3>
+                    </div>
+                    <p>Unique treatment plan specifically tailored for you</p>
                 </div>
             </div>
-
-            <div class="col-lg-4">
-                <div class="section-warp-btn">
-                    <a href="dentist.html" class="default-btn">See All Dentist</a>
+            <div class="col-lg-4 col-md-6">
+                <div class="skin-care-features-card">
+                    <div class="features-title">
+                        <div class="icon-image">
+                            <a href="#0"><img src="assets/images/skin-care/features/medical-doctor.png" alt="image"></a>
+                        </div>
+                        <h3>
+                            <a href="#0">Board-Certified Surgeons</a>
+                        </h3>
+                    </div>
+                    <p>Surgeons with extensive experience and expertise in their fields who are mostly internationally accredited</p>
                 </div>
             </div>
-        </div>
-
-        <div class="dental-tourism-dentist-slides owl-carousel owl-theme">
-            <div class="dental-tourism-dentist-card">
-                <div class="dentist-image">
-                    <a href="dentist-details.html"><img src="assets/images/dental-tourism/dentist/dentist-1.jpg" alt="image"></a>
-                    <ul class="share-link">
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook'></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/?lang=en" target="_blank"><i class='bx bxl-twitter'></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="dentist-content">
-                    <h3>
-                        <a href="dentist-details.html">Dr. John Melborn</a>
-                    </h3>
-                    <span>Dental Medicine</span>
+            <div class="col-lg-4 col-md-6">
+                <div class="skin-care-features-card">
+                    <div class="features-title">
+                        <div class="icon-image">
+                            <a href="#0"><img src="assets/images/skin-care/features/medical-doctor.png" alt="image"></a>
+                        </div>
+                        <h3>
+                            <a href="#0">Best Hospitals</a>
+                        </h3>
+                    </div>
+                    <p>Accredited chain hospitals with international standards</p>
                 </div>
             </div>
-            <div class="dental-tourism-dentist-card">
-                <div class="dentist-image">
-                    <a href="dentist-details.html"><img src="assets/images/dental-tourism/dentist/dentist-2.jpg" alt="image"></a>
-                    <ul class="share-link">
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook'></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/?lang=en" target="_blank"><i class='bx bxl-twitter'></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="dentist-content">
-                    <h3>
-                        <a href="dentist-details.html">Dr. Ena Dicrosa</a>
-                    </h3>
-                    <span>Dental Surgeon</span>
+            <div class="col-lg-4 col-md-6">
+                <div class="skin-care-features-card">
+                    <div class="features-title">
+                        <div class="icon-image">
+                            <a href="#0"><img src="assets/images/skin-care/features/medical-doctor.png" alt="image"></a>
+                        </div>
+                        <h3>
+                            <a href="#0">Excellent Aftercare</a>
+                        </h3>
+                    </div>
+                    <p>24/7 private nurse assistance throughout your medical journey</p>
                 </div>
             </div>
-            <div class="dental-tourism-dentist-card">
-                <div class="dentist-image">
-                    <a href="dentist-details.html"><img src="assets/images/dental-tourism/dentist/dentist-3.jpg" alt="image"></a>
-                    <ul class="share-link">
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook'></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/?lang=en" target="_blank"><i class='bx bxl-twitter'></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="dentist-content">
-                    <h3>
-                        <a href="dentist-details.html">Dr. Addison Smith</a>
-                    </h3>
-                    <span>Dental Tourist Host</span>
+            <div class="col-lg-4 col-md-6">
+                <div class="skin-care-features-card">
+                    <div class="features-title">
+                        <div class="icon-image">
+                            <a href="#0"><img src="assets/images/skin-care/features/medical-doctor.png" alt="image"></a>
+                        </div>
+                        <h3>
+                            <a href="#0">Ongoing Follow-up</a>
+                        </h3>
+                    </div>
+                    <p>Medical support throughout your recovery after you leave via your consultant and surgeon</p>
                 </div>
             </div>
-            <div class="dental-tourism-dentist-card">
-                <div class="dentist-image">
-                    <a href="dentist-details.html"><img src="assets/images/dental-tourism/dentist/dentist-1.jpg" alt="image"></a>
-                    <ul class="share-link">
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook'></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/?lang=en" target="_blank"><i class='bx bxl-twitter'></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="dentist-content">
-                    <h3>
-                        <a href="dentist-details.html">Dr. John Melborn</a>
-                    </h3>
-                    <span>Dental Medicine</span>
-                </div>
-            </div>
-            <div class="dental-tourism-dentist-card">
-                <div class="dentist-image">
-                    <a href="dentist-details.html"><img src="assets/images/dental-tourism/dentist/dentist-2.jpg" alt="image"></a>
-                    <ul class="share-link">
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook'></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/?lang=en" target="_blank"><i class='bx bxl-twitter'></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="dentist-content">
-                    <h3>
-                        <a href="dentist-details.html">Dr. Ena Dicrosa</a>
-                    </h3>
-                    <span>Dental Surgeon</span>
-                </div>
-            </div>
-            <div class="dental-tourism-dentist-card">
-                <div class="dentist-image">
-                    <a href="dentist-details.html"><img src="assets/images/dental-tourism/dentist/dentist-3.jpg" alt="image"></a>
-                    <ul class="share-link">
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook'></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/?lang=en" target="_blank"><i class='bx bxl-twitter'></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="dentist-content">
-                    <h3>
-                        <a href="dentist-details.html">Dr. Addison Smith</a>
-                    </h3>
-                    <span>Dental Tourist Host</span>
-                </div>
-            </div>
-            <div class="dental-tourism-dentist-card">
-                <div class="dentist-image">
-                    <a href="dentist-details.html"><img src="assets/images/dental-tourism/dentist/dentist-1.jpg" alt="image"></a>
-                    <ul class="share-link">
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook'></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/?lang=en" target="_blank"><i class='bx bxl-twitter'></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="dentist-content">
-                    <h3>
-                        <a href="dentist-details.html">Dr. John Melborn</a>
-                    </h3>
-                    <span>Dental Medicine</span>
-                </div>
-            </div>
-            <div class="dental-tourism-dentist-card">
-                <div class="dentist-image">
-                    <a href="dentist-details.html"><img src="assets/images/dental-tourism/dentist/dentist-2.jpg" alt="image"></a>
-                    <ul class="share-link">
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook'></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/?lang=en" target="_blank"><i class='bx bxl-twitter'></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="dentist-content">
-                    <h3>
-                        <a href="dentist-details.html">Dr. Ena Dicrosa</a>
-                    </h3>
-                    <span>Dental Surgeon</span>
-                </div>
-            </div>
-            <div class="dental-tourism-dentist-card">
-                <div class="dentist-image">
-                    <a href="dentist-details.html"><img src="assets/images/dental-tourism/dentist/dentist-3.jpg" alt="image"></a>
-                    <ul class="share-link">
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook'></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/?lang=en" target="_blank"><i class='bx bxl-twitter'></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="dentist-content">
-                    <h3>
-                        <a href="dentist-details.html">Dr. Addison Smith</a>
-                    </h3>
-                    <span>Dental Tourist Host</span>
+            <div class="col-lg-4 col-md-6">
+                <div class="skin-care-features-card">
+                    <div class="features-title">
+                        <div class="icon-image">
+                            <a href="#0"><img src="assets/images/skin-care/features/medical-doctor.png" alt="image"></a>
+                        </div>
+                        <h3>
+                            <a href="#0">Recovery Hotels</a>
+                        </h3>
+                    </div>
+                    <p>Accommodation at hotels designed for your recovery</p>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!-- End Dental Tourism Dentist Area -->
 
 <!-- Start Dental Tourism Tourists Area -->
 <div class="dental-tourism-tourists-area pb-75">
@@ -584,75 +357,26 @@
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-12">
                 <div class="dental-tourism-tourists-content">
-                    <h3>Popular Destinations for Dental Tourists</h3>
-                    <p>Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi pretium ut lacinia in elementum enim.</p>
+                    <h3>What We Offer?</h3>
+                    <!-- <p>Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi pretium ut lacinia in elementum enim.</p> -->
 
                     <ul class="list">
-                        <li><i class='bx bxs-check-shield'></i> Upgraded their facilities and equipment</li>
-                        <li><i class='bx bxs-check-shield'></i> 24 x 7 Personal client relationship manager</li>
-                        <li><i class='bx bxs-check-shield'></i> Donec rutrum congue leo eget malesuada</li>
-                        <li><i class='bx bxs-check-shield'></i> Life time warranties on all treatments</li>
-                        <li><i class='bx bxs-check-shield'></i> Nulla quis lorem ut libero malesuada feugiat</li>
+                        <li><i class='bx bxs-check-shield'></i> Clinic Phaselis aims to maintain the boutique and premium practice model for every patient. All our patients are exclusive and they all receive an exclusive service with affordable prices. </li>
+
                     </ul>
                 </div>
             </div>
             <div class="col-lg-6 col-md-12">
-                <div class="dental-tourism-tourists-image">
+                <div class="dental-tourism-tourists-imagez" style="position:inherit">
                     <div class="row">
-                        <div class="col-lg-4 col-sm-4 col-6">
-                            <div class="tourists-image">
-                                <img src="assets/images/dental-tourism/tourists/mexico.jpg" alt="image">
 
-                                <div class="content">
-                                    <h3>Mexico</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-4 col-6">
-                            <div class="tourists-image">
-                                <img src="assets/images/dental-tourism/tourists/colombia.jpg" alt="image">
+                        <div class="tourists-image">
+                            <img src="assets/images/belge.jpg" alt="image">
 
-                                <div class="content">
-                                    <h3>Colombia</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-4 col-6">
-                            <div class="tourists-image">
-                                <img src="assets/images/dental-tourism/tourists/spain.jpg" alt="image">
 
-                                <div class="content">
-                                    <h3>Spain</h3>
-                                </div>
-                            </div>
                         </div>
-                        <div class="col-lg-4 col-sm-4 col-6">
-                            <div class="tourists-image">
-                                <img src="assets/images/dental-tourism/tourists/malaysia.jpg" alt="image">
 
-                                <div class="content">
-                                    <h3>Malaysia</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-4 col-6">
-                            <div class="tourists-image">
-                                <img src="assets/images/dental-tourism/tourists/thailand.jpg" alt="image">
 
-                                <div class="content">
-                                    <h3>Thailand</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-4 col-6">
-                            <div class="tourists-image">
-                                <img src="assets/images/dental-tourism/tourists/turkey.jpg" alt="image">
-
-                                <div class="content">
-                                    <h3>Turkey</h3>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -794,85 +518,5 @@
 <!-- End Dental Tourism Review Area -->
 
 <!-- Start Dental Tourism Blog Area -->
-<div class="dental-tourism-blog-area pt-100 pb-75">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <div class="section-title-warp">
-                    <span class="sub-title"># Update News & Blog</span>
-                    <h2>Stay Updated With Our Latest News And Blog Articles</h2>
-                </div>
-            </div>
 
-            <div class="col-lg-6">
-                <div class="section-warp-btn">
-                    <a href="blog.html" class="default-btn">See All Blog</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-6">
-                <div class="dental-tourism-blog-card">
-                    <div class="blog-image">
-                        <a href="blog-details.html"><img src="assets/images/dental-tourism/blog/blog-1.jpg" alt="image"></a>
-                        <div class="tag">
-                            <a href="blog.html">Hygiene</a>
-                        </div>
-                    </div>
-                    <div class="blog-content">
-                        <ul class="entry-meta">
-                            <li><i class='bx bx-user'></i> By: <a href="blog.html">Grin</a></li>
-                            <li><i class='bx bx-time'></i> 30 Dec, 2022</li>
-                            <li><i class='bx bx-message-dots'></i> No Comments</li>
-                        </ul>
-                        <h3>
-                            <a href="blog-details.html">Hygiene for All Age to Make Smile Brighter</a>
-                        </h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="dental-tourism-blog-card">
-                    <div class="blog-image">
-                        <a href="blog-details.html"><img src="assets/images/dental-tourism/blog/blog-2.jpg" alt="image"></a>
-                        <div class="tag">
-                            <a href="blog.html">Dental</a>
-                        </div>
-                    </div>
-                    <div class="blog-content">
-                        <ul class="entry-meta">
-                            <li><i class='bx bx-user'></i> By: <a href="blog.html">Grin</a></li>
-                            <li><i class='bx bx-time'></i> 30 Dec, 2022</li>
-                            <li><i class='bx bx-message-dots'></i> No Comments</li>
-                        </ul>
-                        <h3>
-                            <a href="blog-details.html">World Best Dentist Meetup in Workshop</a>
-                        </h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="dental-tourism-blog-card">
-                    <div class="blog-image">
-                        <a href="blog-details.html"><img src="assets/images/dental-tourism/blog/blog-3.jpg" alt="image"></a>
-                        <div class="tag">
-                            <a href="blog.html">Technology</a>
-                        </div>
-                    </div>
-                    <div class="blog-content">
-                        <ul class="entry-meta">
-                            <li><i class='bx bx-user'></i> By: <a href="blog.html">Grin</a></li>
-                            <li><i class='bx bx-time'></i> 30 Dec, 2022</li>
-                            <li><i class='bx bx-message-dots'></i> No Comments</li>
-                        </ul>
-                        <h3>
-                            <a href="blog-details.html">10 Dental Technology That Really Help People</a>
-                        </h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 <?php include 'php/footer.php' ?>
