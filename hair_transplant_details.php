@@ -46,15 +46,15 @@
                     <div class="widget widget_grin_posts_thumb">
                         <h3 class="widget-title">Treatments</h3>
                         <hr>
-                        <?php foreach ($hair_JSON as $hair) {?>
+                        <?php foreach ($plastic_JSON as $hair) {?>
                            
                         <article class="item">
-                            <a href="hair_transplant_details.php?name=<?= $hair -> treatment_name_en ?>" class="thumb">
+                            <a href="<?= $hair -> treatment_link ?>" class="thumb">
                                 <img src="<?= $hair -> treatment_first_photo ?>" alt="">
                             </a>
                             <div class="info">
                                 <h4 class="title usmall">
-                                    <a href="hair_transplant_details.php?name=<?= $hair -> treatment_name_en ?>"><?= $hair -> treatment_name_en ?></a>
+                                    <a href="<?= $hair -> treatment_link ?>"><?= $hair -> treatment_name_en ?></a>
                                 </h4>
                             </div>
                         </article>

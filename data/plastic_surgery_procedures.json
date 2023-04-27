@@ -1,22 +1,22 @@
 [{
     "treatment_name_en": "Body Treatment",
-    "treatment_first_photo": "assets/images/services/services-1.jpg",
-    "treatment_description": "A dental implant is a titanium screw that can mimic the root of a tooth. Just like a natural root,",
+    "treatment_first_photo": "assets/images/treatments/plastic-surgery-body/liposuction-1.jpg",
+    "treatment_description": "",
     "treatment_link": "plastic_surgery_body.php"
 
 }, {
     "treatment_name_en": "Breast Treatment",
-    "treatment_first_photo": "assets/images/services/services-1.jpg",
-    "treatment_description": "A dental implant is a titanium screw that can mimic the root of a tooth. Just like a natural root,",
+    "treatment_first_photo": "assets/images/treatments/plastic-surgery-breast/breast-augmentation-1.jpg",
+    "treatment_description": "",
     "treatment_link": "plastic_surgery_breast.php"
 }, {
     "treatment_name_en": "Face Treatment",
-    "treatment_first_photo": "assets/images/services/services-1.jpg",
-    "treatment_description": "A dental implant is a titanium screw that can mimic the root of a tooth. Just like a natural root,",
+    "treatment_first_photo": "assets/images/treatments/plastic-surgery-face/face-neck-lift-1.jpg",
+    "treatment_description": "",
     "treatment_link": "plastic_surgery_face.php"
 }, {
     "treatment_name_en": "Rhinoplasty Treatment",
-    "treatment_first_photo": "assets/images/services/services-1.jpg",
-    "treatment_description": "A dental implant is a titanium screw that can mimic the root of a tooth. Just like a natural root,",
+    "treatment_first_photo": "assets/images/treatments/plastic-surgery-rhinoplasty/rhinoplasty-1.jpg",
+    "treatment_description": "",
     "treatment_link": "plastic_surgery_rhinoplasty_details.php"
 }]

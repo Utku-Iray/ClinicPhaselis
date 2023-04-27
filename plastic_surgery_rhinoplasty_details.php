@@ -46,15 +46,15 @@
                     <div class="widget widget_grin_posts_thumb">
                         <h3 class="widget-title">Treatments</h3>
                         <hr>
-                        <?php foreach ($rhinoplasty_JSON as $rhinoplasty) {?>
+                        <?php foreach ($plastic_JSON as $rhinoplasty) {?>
                            
                         <article class="item">
-                            <a href="plastic_surgery_rhinoplasty_details.php?name=<?= $rhinoplasty -> treatment_name_en ?>" class="thumb">
+                            <a href="<?= $rhinoplasty -> treatment_link ?>" class="thumb">
                                 <img src="<?= $rhinoplasty -> treatment_first_photo ?>" alt="">
                             </a>
                             <div class="info">
                                 <h4 class="title usmall">
-                                    <a href="plastic_surgery_rhinoplasty_details.php?name=<?= $rhinoplasty -> treatment_name_en ?>"><?= $rhinoplasty -> treatment_name_en ?></a>
+                                    <a href="<?= $rhinoplasty -> treatment_link ?>"><?= $rhinoplasty -> treatment_name_en ?></a>
                                 </h4>
                             </div>
                         </article>
