@@ -300,11 +300,11 @@ $hair_JSON = json_decode($JSON);
                                 </div>
                             </div> -->
 
-                                <div class="option-item">
+                                <!-- <div class="option-item">
                                     <div class="navbar-btn">
                                         <a href="appointment.html" class="default-btn">Book Appointment</a>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </nav>

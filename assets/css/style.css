@@ -5508,7 +5508,7 @@ Top Area CSS
 }
 
 .top-dental-tourism-information.with-left {
-    margin-left: 290px;
+    /* margin-left: 290px; */
 }
 
 .top-dental-tourism-information li {
@@ -5977,7 +5977,7 @@ Dental Tourism Banner Area CSS
 =================================================*/
 
 .dental-tourism-banner-area {
-    background-image: url(../../assets/images/dental-tourism/banner/banner-bg.jpg);
+    background-image: url(../../assets/images/antalya2.jpeg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -6004,10 +6004,13 @@ Dental Tourism Banner Area CSS
 }
 
 .dental-tourism-banner-content h1 {
-    font-size: 80px;
+    font-size: 77px;
     font-family: "Heebo", sans-serif;
     color: #002345;
     margin-bottom: 12px;
+    background-color: #f0f8ff99;
+    padding: 10px;
+    border-radius: 15px;
 }
 
 .dental-tourism-banner-content p {
@@ -6337,15 +6340,17 @@ Dental Tourism Appointment Area CSS
 =================================================*/
 
 .dental-tourism-appointment-area {
-    background-image: url(../../assets/images/dental-tourism/appointment/appointment-bg.jpg);
+    background-image: url(../../assets/images/antalya2.jpeg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .dental-tourism-appointment-form {
+    padding: 36px;
     max-width: 600px;
     margin-left: auto;
+    background-color: #f0f8ff96;
 }
 
 .dental-tourism-appointment-form h4 {

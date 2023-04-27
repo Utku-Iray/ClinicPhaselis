@@ -7,8 +7,56 @@
             <div class="col-lg-3 col-sm-6">
                 <div class="dental-tourism-footer-widget">
                     <h2>
-                        <a href="index.php">Grin</a>
+                        <a href="index.php">
+                            <img src="assets/images/logo/clinic-phaselis.png" alt="">
+                        </a>
                     </h2>
+                    
+                </div>
+            </div>
+            <div class="col-lg-2 col-sm-6">
+                <div class="dental-tourism-footer-widget">
+                    <h3>Useful Links</h3>
+
+                    <ul class="quick-links">
+                        <li><i class='bx bxs-chevrons-right'></i> <a href="about-us.html">Homepage</a></li>
+                        <li><i class='bx bxs-chevrons-right'></i> <a href="services.html">About Us</a></li>
+                        <li><i class='bx bxs-chevrons-right'></i> <a href="appointment.html">Contact Us</a></li>
+                        <!-- <li><i class='bx bxs-chevrons-right'></i> <a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><i class='bx bxs-chevrons-right'></i> <a href="contact-us.html">Contact Us</a></li> -->
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-sm-6">
+                <div class="dental-tourism-footer-widget">
+                    <h3>Our Services</h3>
+
+                    <ul class="quick-links">
+                        <?php foreach ($plastic_JSON as $plastic ) {?>
+                            
+                       
+                        <li><i class='bx bxs-chevrons-right'></i> <a href="services-details.html"><?= $plastic -> treatment_name_en ?></a></li>
+                        <?php   } ?>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-sm-6">
+                <div class="dental-tourism-footer-widget">
+                    <h3>Our Services</h3>
+
+                    <ul class="quick-links">
+                        <?php foreach ($breast_JSON as $breast ) {?>
+                            
+                       
+                        <li><i class='bx bxs-chevrons-right'></i> <a href="services-details.html"><?= $breast -> treatment_name_en ?></a></li>
+                        <?php   } ?>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="dental-tourism-footer-widget">
+                    <h3>Newsletter</h3>
+
                     <ul class="info-list">
                         <li><span>Location:</span> 35 West Dental Street</li>
                         <li><span>Phone:</span> <a href="tel:088123654987">+088 123 654 987</a></li>
@@ -31,61 +79,6 @@
                             <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a>
                         </li>
                     </ul>
-                </div>
-            </div>
-            <div class="col-lg-2 col-sm-6">
-                <div class="dental-tourism-footer-widget">
-                    <h3>Useful Links</h3>
-
-                    <ul class="quick-links">
-                        <li><i class='bx bxs-chevrons-right'></i> <a href="about-us.html">About Us</a></li>
-                        <li><i class='bx bxs-chevrons-right'></i> <a href="services.html">Our Services</a></li>
-                        <li><i class='bx bxs-chevrons-right'></i> <a href="appointment.html">Appointment</a></li>
-                        <li><i class='bx bxs-chevrons-right'></i> <a href="privacy-policy.html">Privacy Policy</a></li>
-                        <li><i class='bx bxs-chevrons-right'></i> <a href="contact-us.html">Contact Us</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-2 col-sm-6">
-                <div class="dental-tourism-footer-widget">
-                    <h3>Our Services</h3>
-
-                    <ul class="quick-links">
-                        <li><i class='bx bxs-chevrons-right'></i> <a href="services-details.html">Cosmetic Dentistry</a></li>
-                        <li><i class='bx bxs-chevrons-right'></i> <a href="services-details.html">General Dentistry</a></li>
-                        <li><i class='bx bxs-chevrons-right'></i> <a href="dentist-details.html">Certified Dentist</a></li>
-                        <li><i class='bx bxs-chevrons-right'></i> <a href="services-details.html">New Technology</a></li>
-                        <li><i class='bx bxs-chevrons-right'></i> <a href="services-details.html">Accept Insurance</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-2 col-sm-6">
-                <div class="dental-tourism-footer-widget">
-                    <h3>Our Services</h3>
-
-                    <ul class="quick-links">
-                        <li><i class='bx bxs-chevrons-right'></i> <a href="dentist.html">Our Dentist</a></li>
-                        <li><i class='bx bxs-chevrons-right'></i> <a href="terms-of-service.html">Terms of Services</a></li>
-                        <li><i class='bx bxs-chevrons-right'></i> <a href="privacy-policy.html">Privacy Policy</a></li>
-                        <li><i class='bx bxs-chevrons-right'></i> <a href="pricing.html">Our Pricing</a></li>
-                        <li><i class='bx bxs-chevrons-right'></i> <a href="testimonials.html">Testimonials</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="dental-tourism-footer-widget">
-                    <h3>Newsletter</h3>
-
-                    <form class="newsletter-form">
-                        <p>Sign up for our newsletter and get updated about our latest promotions</p>
-
-                        <div class="form-group">
-                            <input type="email" class="input-newsletter" placeholder="Your email address" name="EMAIL" required autocomplete="off">
-
-                            <button type="submit"><i class='bx bx-send'></i></button>
-                        </div>
-                        <div id="validator-newsletter" class="form-result"></div>
-                    </form>
                 </div>
             </div>
         </div>

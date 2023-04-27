@@ -12,7 +12,7 @@
     <div class="container-fluid">
         <div class="dental-tourism-banner-content">
             <!-- <span class="sub-title wow animate__animated animate__fadeInDown" data-wow-delay="0.5s"># Professional</span> -->
-            <h1 class="wow animate__animated animate__fadeInLeft" data-wow-delay="0.5s">Welcome to a NEW ERA in COSMETİC SURGERY</h1>
+            <h1 class="wow animate__animated animate__fadeInLeft" data-wow-delay="0.5s">Welcome to a NEW ERA in  COSMETİC SURGERY</h1>
             <!-- <p class="wow animate__animated animate__fadeInLeft" data-wow-delay="0.5s">Mauris blandit aliquet elit eget tincidunt nibh pulvinar. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Pellentesque in ipsum id orci porta dapibus.</p> -->
 
             <div class="banner-btn wow animate__animated animate__fadeInDown" data-wow-delay="0.5s">
@@ -63,7 +63,7 @@
                         <div class="icon-image">
                             <a href="#"><img src="assets/images/dental-tourism/features/cost.png" alt="image"></a>
 
-                            <div class="number">3</div>
+                            <!-- <div class="number">3</div> -->
                         </div>
                         <h3>
                             <a href="#">All Transfers</a>
@@ -196,17 +196,7 @@
 
             <form>
                 <div class="row">
-                    <div class="col-lg-12 col-md-12">
-                        <div class="form-group">
-                            <select>
-                                <option value="1">Select a Procedure</option>
-                                <option value="2">General Dentistry</option>
-                                <option value="3">Cosmetic Dentistry</option>
-                                <option value="4">Dental Implants</option>
-                                <option value="5">Orthodontics</option>
-                            </select>
-                        </div>
-                    </div>
+                    
 
                     <div class="col-lg-6 col-md-12">
                         <div class="form-group">
@@ -226,23 +216,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-12">
-                        <div class="form-group">
-                            <input type="date" class="form-control" placeholder="Appointment Date">
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-12">
-                        <div class="form-group">
-                            <select>
-                                <option value="1">Select Country</option>
-                                <option value="2">Finland</option>
-                                <option value="3">Denmark</option>
-                                <option value="4">Norway</option>
-                                <option value="5">Belgium</option>
-                            </select>
-                        </div>
-                    </div>
+                  
 
                     <div class="col-lg-6 col-md-12">
                         <div class="form-group">
@@ -396,11 +370,11 @@
                 </div>
             </div>
 
-            <div class="col-lg-4">
+            <!-- <div class="col-lg-4">
                 <div class="section-warp-btn">
                     <a href="testimonials.html" class="default-btn">See All Review</a>
                 </div>
-            </div>
+            </div> -->
         </div>
 
         <div class="dental-tourism-review-slides owl-carousel owl-theme">
