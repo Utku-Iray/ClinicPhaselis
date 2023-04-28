@@ -8,7 +8,7 @@
                 <div class="dental-tourism-footer-widget">
                     <h2>
                         <a href="index.php">
-                            <img src="assets/images/logo/clinic-phaselis.png" alt="">
+                            <img src="assets/images/logo/clinic-phaselis-beyaz.png" alt="">
                         </a>
                     </h2>
                     
@@ -55,12 +55,12 @@
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="dental-tourism-footer-widget">
-                    <h3>Newsletter</h3>
+                    <h3>Contact</h3>
 
                     <ul class="info-list">
-                        <li><span>Location:</span> 35 West Dental Street</li>
-                        <li><span>Phone:</span> <a href="tel:088123654987">+088 123 654 987</a></li>
-                        <li><span>Email:</span> <a href="mailto:info@grin.com">info@grin.com</a></li>
+                        <li><span>Location:</span> Muratpaşa/Antalya</li>
+                        <li><span>Phone:</span> <a href="tel:088123654987">+90 542 159 09 07</a></li>
+                        <li><span>Email:</span> <a href="mailto:info@clinicphaselis.com">info@clinicphaselis.com</a></li>
                     </ul>
                     <ul class="share-link">
                         <li>
@@ -87,9 +87,9 @@
             <div class="container">
                 <div class="copyright-area-content">
                     <p>
-                        © Grin is proudly created by
-                        <a href="https://hibootstrap.com" target="_blank">
-                            HiBootstrap
+                        © 
+                        <a href="https://www.ideaplusagency.net/" target="_blank">
+                            Ideaplus Digital Agency
                         </a>
                     </p>
                 </div>

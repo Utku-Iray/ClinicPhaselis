@@ -6923,7 +6923,7 @@ Dental Tourism Footer Area CSS
 =================================================*/
 
 .dental-tourism-footer-area {
-    background-image: url(../../assets/images/dental-tourism/footer/footer-bg.jpg);
+    /* background-image: url(../../assets/images/dental-tourism/footer/footer-bg.jpg); */
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -14557,7 +14557,7 @@ Hospital Information Area CSS
     height: 85px;
     width: 85px;
     line-height: 85px;
-    background-color: #13A8B4;
+    background-color: #231e61;
     text-align: center;
     font-size: 50px;
     color: #ffffff;

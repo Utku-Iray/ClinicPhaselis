@@ -16,7 +16,7 @@
             <!-- <p class="wow animate__animated animate__fadeInLeft" data-wow-delay="0.5s">Mauris blandit aliquet elit eget tincidunt nibh pulvinar. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Pellentesque in ipsum id orci porta dapibus.</p> -->
 
             <div class="banner-btn wow animate__animated animate__fadeInDown" data-wow-delay="0.5s">
-                <a href="appointment.html" class="default-btn">Book Appointment</a>
+                <a href="appointment.php" class="default-btn">Book Appointment</a>
             </div>
         </div>
     </div>

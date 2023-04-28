@@ -55,17 +55,17 @@ $hair_JSON = json_decode($JSON);
                         <ul class="top-dental-tourism-information with-left">
                             <li>
                                 <i class='bx bxs-phone'></i>
-                                <a href="tel:08812365498835">+088 123 654 988 35</a>
+                                <a href="tel:+905421590907">+90 542 159 09 07</a>
                             </li>
 
                             <li>
                                 <i class='bx bxs-map'></i>
-                                35 West Dental Street, California 1004
+                                Fener Mahallesi, 1967. Sokak, No:6/8 Muratpaşa/Antalya
                             </li>
 
                             <li>
                                 <i class='bx bx-envelope-open'></i>
-                                <a href="mailto:support@grin.com">support@grin.com</a>
+                                <a href="mailto:info@clinicphaselis.com">info@clinicphaselis.com</a>
                             </li>
                         </ul>
                     </div>
@@ -161,12 +161,17 @@ $hair_JSON = json_decode($JSON);
                                     </li>
                                 </ul>
                             </li> -->
-
+                            <li class="nav-item">
+                                    <a href="index.php" class="nav-link">Homepage</a>
+                                </li>
                                 <li class="nav-item">
-                                    <a href="about-us.html" class="nav-link">About Us <i class='bx bx-caret-down'></i></a>
+                                    <a href="#0" class="nav-link">About Us <i class='bx bx-caret-down'></i></a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <a href="index.html" class="nav-link">Home One</a>
+                                            <a href="about-us.php" class="nav-link">Who are We</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="accommodation.php" class="nav-link">Hospitals & Accommodation</a>
                                         </li>
 
                                     </ul>
@@ -212,7 +217,7 @@ $hair_JSON = json_decode($JSON);
                                     </ul>
                                 </li>
 
-                                <li class="nav-item">
+                                <!-- <li class="nav-item">
                                     <a href="#" class="nav-link">
                                         Pages
                                         <i class='bx bx-caret-down'></i>
@@ -267,9 +272,9 @@ $hair_JSON = json_decode($JSON);
                                             <a href="coming-soon.html" class="nav-link">Coming Soon</a>
                                         </li>
                                     </ul>
-                                </li>
+                                </li> -->
 
-                                <li class="nav-item">
+                                <!-- <li class="nav-item">
                                     <a href="#" class="nav-link">
                                         Blog
                                         <i class='bx bx-caret-down'></i>
@@ -284,10 +289,12 @@ $hair_JSON = json_decode($JSON);
                                             <a href="blog-details.html" class="nav-link">Blog Details</a>
                                         </li>
                                     </ul>
-                                </li>
-
+                                </li> -->
                                 <li class="nav-item">
-                                    <a href="contact-us.html" class="nav-link">Contact Us</a>
+                                    <a href="testimonials.php" class="nav-link">Testimonials</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="contact-us.php" class="nav-link">Contact Us</a>
                                 </li>
                             </ul>
 
