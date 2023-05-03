@@ -10,15 +10,23 @@
 <!-- Start Dental Tourism Banner Area -->
 <div class="dental-tourism-banner-area">
     <div class="container-fluid">
+        <video autoplay muted loop style="  position: absolute;top:130px;
+  right: 0;
+  width: 100%;">
+            <source src="assets/images/slider.mp4" type="video/mp4">
+        </video>
         <div class="dental-tourism-banner-content">
+
+
             <!-- <span class="sub-title wow animate__animated animate__fadeInDown" data-wow-delay="0.5s"># Professional</span> -->
-            <h1 class="wow animate__animated animate__fadeInLeft" data-wow-delay="0.5s">Welcome to a NEW ERA in  COSMETİC SURGERY</h1>
+            <h1 class="wow animate__animated animate__fadeInLeft" data-wow-delay="0.5s" style="position: relative;">Welcome to a NEW ERA in COSMETİC SURGERY</h1>
             <!-- <p class="wow animate__animated animate__fadeInLeft" data-wow-delay="0.5s">Mauris blandit aliquet elit eget tincidunt nibh pulvinar. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Pellentesque in ipsum id orci porta dapibus.</p> -->
 
-            <div class="banner-btn wow animate__animated animate__fadeInDown" data-wow-delay="0.5s">
+            <div class="banner-btn wow animate__animated animate__fadeInDown" style="position: relative;" data-wow-delay="0.5s">
                 <a href="appointment.php" class="default-btn">Book Appointment</a>
             </div>
         </div>
+        <!-- <video style="height:100%;position:absolute;"  src="assets/images/slider.mp4" autoplay="1" muted loop></video> -->
     </div>
 </div>
 <!-- End Dental Tourism Banner Area -->
@@ -83,11 +91,11 @@
         <div class="row align-items-center">
             <div class="col-lg-5 col-md-12">
                 <div class="dental-tourism-about-image">
-                    <img src="assets/images/dental-tourism/about/about.jpg" alt="image">
+                    <img src="assets/images/1.png" alt="image">
 
-                    <div class="certified">
+                    <!-- <div class="certified">
                         <img src="assets/images/dental-tourism/about/certified.png" alt="image">
-                    </div>
+                    </div> -->
                 </div>
             </div>
 
@@ -111,7 +119,49 @@
     </div>
 </div>
 <!-- End Dental Tourism About Area -->
+<div class="dental-tourism-review-area ptb-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="section-title-warp">
+                    <span class="sub-title"># Our Clients Review</span>
+                    <h2>Real Review From Our Real Customer</h2>
+                </div>
+            </div>
 
+            <!-- <div class="col-lg-4">
+                <div class="section-warp-btn">
+                    <a href="testimonials.html" class="default-btn">See All Review</a>
+                </div>
+            </div> -->
+        </div>
+
+        <div class="dental-tourism-review-slides owl-carousel owl-theme">
+            <?php for ($i = 0; $i < 6; $i++) { ?>
+                <div class="dental-tourism-review-card">
+                    <div class="review-info">
+                        <img src="<?= $reviews_JSON[$i]->reviews_image ?>" class="rounded-circle" alt="image">
+                        <h3><?= $reviews_JSON[$i]->reviews_name ?></h3>
+                        <!-- <span>Manager</span> -->
+                    </div>
+                    <p><?= $reviews_JSON[$i]->reviews_content ?></p>
+                    <ul class="rating">
+                        <li><i class='bx bxs-star'></i></li>
+                        <li><i class='bx bxs-star'></i></li>
+                        <li><i class='bx bxs-star'></i></li>
+                        <li><i class='bx bxs-star'></i></li>
+                        <li><i class='bx bxs-star'></i></li>
+                    </ul>
+                    <div class="icon-quote">
+                        <i class='bx bxs-quote-alt-right'></i>
+                    </div>
+                </div>
+            <?php } ?>
+
+
+        </div>
+    </div>
+</div>
 <!-- Start Dental Tourism Services Area -->
 <div class="dental-tourism-services-area ptb-100">
     <div class="container">
@@ -163,24 +213,25 @@
                 <div class="dental-tourism-choose-content">
                     <span># Why Choose Us</span>
                     <h3>We never leave health to chance.</h3>
-                    <p><i class='bx bxs-badge-check' style="color:black" ></i> We work with board certified surgeons who are compassionate and friendly in order to achieve the finest results. They will gladly spend time with you to determine the best ways to enhance your most attractive features. We designed a 'Zero-Risk-Model' to ensure that any complication be avoided at all costs. Every step and every decision made by you or your surgeons are documented in a Unique Patient Surgery File.
+                    <p><i class='bx bxs-badge-check' style="color:black"></i> We work with board certified surgeons who are compassionate and friendly in order to achieve the finest results. They will gladly spend time with you to determine the best ways to enhance your most attractive features. We designed a 'Zero-Risk-Model' to ensure that any complication be avoided at all costs. Every step and every decision made by you or your surgeons are documented in a Unique Patient Surgery File.
                         ‍<br><br>
                         <i class='bx bxs-badge-check' style="color:black"></i> We concentrated on medical expertise and invested in delivering the best care to our patients throughout their journey. We offer quality at an affordable and accessible price. <br><br>
-                        <i class='bx bxs-badge-check'style="color:black"></i>  We devised a Zero-Risk-Model to eliminate the possibility of complications by carefully preparing and carrying out each phase of your surgery plan. A unique Patient Surgery File is formed to document every detail; such as your blood results, consultations, anesthesia as well as the decisions you and your doctor make to achieve your goals, outlining your tailored schedule. You have regular check-ins with our medical team and have priority access to our support lines. Before your operation, a team comprised of your internal medicine specialist, anesthesiologist, and plastic surgeon evaluate and create a precise surgery road map.</p>
-                   
+                        <i class='bx bxs-badge-check' style="color:black"></i> We devised a Zero-Risk-Model to eliminate the possibility of complications by carefully preparing and carrying out each phase of your surgery plan. A unique Patient Surgery File is formed to document every detail; such as your blood results, consultations, anesthesia as well as the decisions you and your doctor make to achieve your goals, outlining your tailored schedule. You have regular check-ins with our medical team and have priority access to our support lines. Before your operation, a team comprised of your internal medicine specialist, anesthesiologist, and plastic surgeon evaluate and create a precise surgery road map.
+                    </p>
 
-                  
+
+
 
                 </div>
             </div>
 
             <div class="col-lg-6 col-md-12">
                 <div class="dental-tourism-choose-image">
-                    <img src="assets/images/dental-tourism/choose/choose.png" alt="image">
+                    <img src="assets/images/2.png" alt="image">
 
-                    <a href="https://www.youtube.com/watch?v=Buhosl-jJGA" class="video-btn popup-youtube">
+                    <!-- <a href="https://www.youtube.com/watch?v=Buhosl-jJGA" class="video-btn popup-youtube">
                         <i class='bx bx-play-circle'></i>
-                    </a>
+                    </a> -->
                 </div>
             </div>
         </div>
@@ -196,7 +247,7 @@
 
             <form>
                 <div class="row">
-                    
+
 
                     <div class="col-lg-6 col-md-12">
                         <div class="form-group">
@@ -216,7 +267,7 @@
                         </div>
                     </div>
 
-                  
+
 
                     <div class="col-lg-6 col-md-12">
                         <div class="form-group">
@@ -360,135 +411,7 @@
 <!-- End Dental Tourism Tourists Area -->
 
 <!-- Start Dental Tourism Review Area -->
-<div class="dental-tourism-review-area ptb-100">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8">
-                <div class="section-title-warp">
-                    <span class="sub-title"># Our Clients Review</span>
-                    <h2>Real Review From Our Real Customer</h2>
-                </div>
-            </div>
 
-            <!-- <div class="col-lg-4">
-                <div class="section-warp-btn">
-                    <a href="testimonials.html" class="default-btn">See All Review</a>
-                </div>
-            </div> -->
-        </div>
-
-        <div class="dental-tourism-review-slides owl-carousel owl-theme">
-            <div class="dental-tourism-review-card">
-                <div class="review-info">
-                    <img src="assets/images/dental-tourism/review/review-1.jpg" class="rounded-circle" alt="image">
-                    <h3>Dorothy Bratt</h3>
-                    <span>Manager</span>
-                </div>
-                <p>“Vivamus magna justo lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi pretium ut lacinia.”</p>
-                <ul class="rating">
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                </ul>
-                <div class="icon-quote">
-                    <i class='bx bxs-quote-alt-right'></i>
-                </div>
-            </div>
-            <div class="dental-tourism-review-card">
-                <div class="review-info">
-                    <img src="assets/images/dental-tourism/review/review-2.jpg" class="rounded-circle" alt="image">
-                    <h3>Milan Wakefield</h3>
-                    <span>Director</span>
-                </div>
-                <p>“Vivamus magna justo lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi pretium ut lacinia.”</p>
-                <ul class="rating">
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                </ul>
-                <div class="icon-quote">
-                    <i class='bx bxs-quote-alt-right'></i>
-                </div>
-            </div>
-            <div class="dental-tourism-review-card">
-                <div class="review-info">
-                    <img src="assets/images/dental-tourism/review/review-1.jpg" class="rounded-circle" alt="image">
-                    <h3>Dorothy Bratt</h3>
-                    <span>Manager</span>
-                </div>
-                <p>“Vivamus magna justo lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi pretium ut lacinia.”</p>
-                <ul class="rating">
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                </ul>
-                <div class="icon-quote">
-                    <i class='bx bxs-quote-alt-right'></i>
-                </div>
-            </div>
-            <div class="dental-tourism-review-card">
-                <div class="review-info">
-                    <img src="assets/images/dental-tourism/review/review-2.jpg" class="rounded-circle" alt="image">
-                    <h3>Milan Wakefield</h3>
-                    <span>Director</span>
-                </div>
-                <p>“Vivamus magna justo lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi pretium ut lacinia.”</p>
-                <ul class="rating">
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                </ul>
-                <div class="icon-quote">
-                    <i class='bx bxs-quote-alt-right'></i>
-                </div>
-            </div>
-            <div class="dental-tourism-review-card">
-                <div class="review-info">
-                    <img src="assets/images/dental-tourism/review/review-1.jpg" class="rounded-circle" alt="image">
-                    <h3>Dorothy Bratt</h3>
-                    <span>Manager</span>
-                </div>
-                <p>“Vivamus magna justo lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi pretium ut lacinia.”</p>
-                <ul class="rating">
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                </ul>
-                <div class="icon-quote">
-                    <i class='bx bxs-quote-alt-right'></i>
-                </div>
-            </div>
-            <div class="dental-tourism-review-card">
-                <div class="review-info">
-                    <img src="assets/images/dental-tourism/review/review-2.jpg" class="rounded-circle" alt="image">
-                    <h3>Milan Wakefield</h3>
-                    <span>Director</span>
-                </div>
-                <p>“Vivamus magna justo lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi pretium ut lacinia.”</p>
-                <ul class="rating">
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                </ul>
-                <div class="icon-quote">
-                    <i class='bx bxs-quote-alt-right'></i>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 <!-- End Dental Tourism Review Area -->
 
 <!-- Start Dental Tourism Blog Area -->

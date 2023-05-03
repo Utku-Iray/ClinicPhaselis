@@ -2886,7 +2886,7 @@ Gallery Area CSS
 }
 
 .single-gallery::before {
-    content: '';
+    /* content: ''; */
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(black));
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0), black);
     width: 100%;
@@ -5982,7 +5982,7 @@ Dental Tourism Banner Area CSS
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 120px;
-    padding-bottom: 120px;
+    padding-bottom: 250px;
 }
 
 .dental-tourism-banner-area .container-fluid {
@@ -6720,13 +6720,13 @@ Dental Tourism Review Area CSS
 
 .dental-tourism-review-card {
     background-color: #ffffff;
-    padding: 50px 65px;
+    padding: 30px 30px;
 }
 
 .dental-tourism-review-card .review-info {
     position: relative;
     padding-left: 85px;
-    margin-bottom: 25px;
+    margin-bottom: 45px;
 }
 
 .dental-tourism-review-card .review-info img {
@@ -16166,3 +16166,161 @@ Covid Footer Area CSS
 
 
 /*# sourceMappingURL=style.css.map */
+
+@-webkit-keyframes cptCircle {
+    0% {
+        -webkit-transform: rotate(0) scale(.5) skew(1deg);
+        transform: rotate(0) scale(.5) skew(1deg);
+        opacity: .01
+    }
+    30% {
+        -webkit-transform: rotate(0) scale(.7) skew(1deg);
+        transform: rotate(0) scale(.7) skew(1deg);
+        opacity: .5
+    }
+    100% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+        transform: rotate(0) scale(1) skew(1deg);
+        opacity: .01
+    }
+}
+
+@keyframes cptCircle {
+    0% {
+        -webkit-transform: rotate(0) scale(.5) skew(1deg);
+        transform: rotate(0) scale(.5) skew(1deg);
+        opacity: .01
+    }
+    30% {
+        -webkit-transform: rotate(0) scale(.7) skew(1deg);
+        transform: rotate(0) scale(.7) skew(1deg);
+        opacity: .5
+    }
+    100% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+        transform: rotate(0) scale(1) skew(1deg);
+        opacity: .01
+    }
+}
+
+@-webkit-keyframes cptCircleFill {
+    0% {
+        -webkit-transform: rotate(0) scale(.6) skew(1deg);
+        transform: rotate(0) scale(.6) skew(1deg);
+        opacity: 0
+    }
+    50% {
+        webkit-transform: rotate(0) scale(1) skew(1deg);
+        transform: rotate(0) scale(1) skew(1deg);
+        opacity: .2
+    }
+    100% {
+        -webkit-transform: rotate(0) scale(.6) skew(1deg);
+        transform: rotate(0) scale(.6) skew(1deg);
+        opacity: .2
+    }
+}
+
+@keyframes cptCircleFill {
+    0% {
+        -webkit-transform: rotate(0) scale(.6) skew(1deg);
+        transform: rotate(0) scale(.6) skew(1deg);
+        opacity: 0
+    }
+    50% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+        transform: rotate(0) scale(1) skew(1deg);
+        opacity: .2
+    }
+    100% {
+        -webkit-transform: rotate(0) scale(.6) skew(1deg);
+        transform: rotate(0) scale(.6) skew(1deg);
+        opacity: .2
+    }
+}
+
+#capitol-callback {
+    font-family: Arial;
+    position: fixed;
+    width: 72px;
+    height: 72px;
+    bottom: 20px;
+    top: auto;
+    right: auto;
+    left: 40px;
+    z-index: 1;
+}
+
+.cpt-circle,
+.cpt-circle-fill {
+    position: absolute;
+    border-radius: 100%;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    opacity: 0;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s
+}
+
+.cpt-circle {
+    width: 150%;
+    height: 150%;
+    background-color: transparent;
+    border: 2px solid #189d0e;
+    -webkit-animation: cptCircle 2.2s infinite ease-in-out;
+    animation: cptCircle 2.2s infinite ease-in-out;
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    left: -20%;
+    top: -28%;
+}
+
+.cpt-circle-fill {
+    width: 135%;
+    height: 135%;
+    background-color: #189d0e;
+    border: 2px solid transparent;
+    -webkit-animation: cptCircleFill 2.3s infinite ease-in-out;
+    animation: cptCircleFill 2.3s infinite ease-in-out;
+    box-shadow: 0 0 2px 0 #189d0e!important;
+    left: -13.5%;
+    top: -19.5%;
+}
+
+.main-button {
+    position: relative;
+    right: 1px;
+    top: 1px;
+    float: right;
+    width: 64px;
+    height: 64px;
+    background: center center no-repeat #189d0e;
+    box-shadow: 0 3px 5px 1px rgba(0, 0, 0, .2);
+    background-size: 30px;
+    border-radius: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 58px;
+}
+
+.main-button i {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all .6s cubic-bezier(.55, 0, .1, 1);
+    transition: all .6s cubic-bezier(.55, 0, .1, 1);
+    -webkit-transform: perspective(400px) rotateY(-180deg) scale(.4) translate3d(-50%, -50%, 0);
+    transform: perspective(400px) rotateY(-180deg) scale(.4) translate3d(-50%, -50%, 0);
+    z-index: 1;
+    width: 45%;
+    height: 45%;
+    font-size: 16px;
+}
+
+.main-button img {
+    vertical-align: middle;
+}

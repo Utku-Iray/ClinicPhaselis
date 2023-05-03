@@ -67,7 +67,7 @@
 
             <div class="col-lg-5">
                 <div class="about-image">
-                    <img src="assets/images/dental-tourism/about/about.jpg" alt="image">
+                    <img src="assets/images/hastan1.png" alt="image">
                 </div>
             </div>
         </div>
@@ -81,7 +81,7 @@
         <div class="row align-items-center">
             <div class="col-lg-5 col-md-12">
                 <div class="dental-tourism-about-image">
-                    <img src="assets/images/dental-tourism/about/about.jpg" alt="image">
+                    <img src="assets/images/hastan2.png" alt="image">
 
                    
                 </div>
@@ -114,7 +114,7 @@ There is also free WIFI access in our hotels.
             <div class="col-lg-7">
                 <div class="about-content">
 
-                    <h3>Our Founders </h3>
+                    <h3>Our Story </h3>
                     <p>Clinic Phaselis is founded by two successful doctors who idealized creating a brand-new clinic providing medical services on plastic surgery, dental treatments, bariatric surgery and hair transplant.
                         <br><br> Being a respected Internal Medicine Specialist and a Respected Oncologist, they served as a consultant to numerous surgeries.
                         <br><br> Working in the field more than 10 years, managing thousands of patients enabled them to witness the obstacles of the patients face while visiting a country for a surgery abroad.
@@ -132,7 +132,7 @@ There is also free WIFI access in our hotels.
 
             <div class="col-lg-5">
                 <div class="about-image">
-                    <img src="assets/images/dental-tourism/about/about.jpg" alt="image">
+                    <img src="assets/images/hastan3.png" alt="image">
                 </div>
             </div>
         </div>

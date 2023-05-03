@@ -1,5 +1,11 @@
 <!-- End Dental Tourism Blog Area -->
-
+<div id="capitol-callback">
+  <div class="cpt-circle"></div>
+  <div class="cpt-circle-fill"></div>
+  <a href="https://api.whatsapp.com/send?phone=+905421590907&text=Hello" id="WhatsAppBtnDesktop" target="_blank" class="main-button" lang="en">
+    <img src="https://nhtagent.com/nht-upload/assets/javascripts/WhatsApp/WhatsApp.png" width="50%">
+  </a>
+</div>
 <!-- Start Dental Tourism Footer Area -->
 <div class="dental-tourism-footer-area pt-100">
     <div class="container">
@@ -67,17 +73,25 @@
                             <span>Get Social:</span>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook'></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/?lang=en" target="_blank"><i class='bx bxl-twitter'></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a>
-                        </li>
+                                <a href="https://www.facebook.com/clinicphaselis" target="_blank">
+                                    <i class='bx bxl-facebook'></i>
+                                </a>
+                            </li>
+                            <!-- <li>
+                                <a href="https://twitter.com/?lang=en" target="_blank">
+                                    <i class='bx bxl-twitter'></i>
+                                </a>
+                            </li> -->
+                            <li>
+                                <a href="https://www.linkedin.com/company/clinicphaselis/" target="_blank">
+                                    <i class='bx bxl-linkedin'></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/clinicphaselis/" target="_blank">
+                                    <i class='bx bxl-instagram'></i>
+                                </a>
+                            </li>
                     </ul>
                 </div>
             </div>

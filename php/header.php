@@ -31,6 +31,14 @@ $URL = 'data/hair_transplant.json';
 $JSON = file_get_contents($URL);
 $hair_JSON = json_decode($JSON);
 
+$URL = 'data/reviews.json';
+$JSON = file_get_contents($URL);
+$reviews_JSON = json_decode($JSON);
+
+$URL = 'data/before_after.json';
+$JSON = file_get_contents($URL);
+$beforeAfter_JSON = json_decode($JSON);
+
 ?>
 
    
@@ -73,22 +81,22 @@ $hair_JSON = json_decode($JSON);
                     <div class="col-lg-4 col-md-12">
                         <ul class="top-dental-tourism-optional">
                             <li>
-                                <a href="https://www.facebook.com/" target="_blank">
+                                <a href="https://www.facebook.com/clinicphaselis" target="_blank">
                                     <i class='bx bxl-facebook'></i>
                                 </a>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a href="https://twitter.com/?lang=en" target="_blank">
                                     <i class='bx bxl-twitter'></i>
                                 </a>
-                            </li>
+                            </li> -->
                             <li>
-                                <a href="https://www.linkedin.com/" target="_blank">
+                                <a href="https://www.linkedin.com/company/clinicphaselis/" target="_blank">
                                     <i class='bx bxl-linkedin'></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/" target="_blank">
+                                <a href="https://www.instagram.com/clinicphaselis/" target="_blank">
                                     <i class='bx bxl-instagram'></i>
                                 </a>
                             </li>
@@ -201,6 +209,9 @@ $hair_JSON = json_decode($JSON);
                                     </a>
 
                                     <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                            <a href="plastic_surgery_procedures.php" class="nav-link">Plastic Surgery Procedures</a>
+                                        </li>
                                         <li class="nav-item">
                                             <a href="bariatric_surgery.php" class="nav-link">Bariatric Surgery</a>
                                         </li>
@@ -208,9 +219,7 @@ $hair_JSON = json_decode($JSON);
                                         <li class="nav-item">
                                             <a href="dental_procedures.php" class="nav-link">Dental Procedures</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a href="plastic_surgery_procedures.php" class="nav-link">Plastic Surgery Procedures</a>
-                                        </li>
+                                       
                                         <li class="nav-item">
                                             <a href="hair_transplant_details.php" class="nav-link">Hair Transplant</a>
                                         </li>
@@ -291,7 +300,10 @@ $hair_JSON = json_decode($JSON);
                                     </ul>
                                 </li> -->
                                 <li class="nav-item">
-                                    <a href="testimonials.php" class="nav-link">Testimonials</a>
+                                    <a href="testimonials.php" class="nav-link">Reviews</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="gallery.php" class="nav-link">B&A Gallery</a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="contact-us.php" class="nav-link">Contact Us</a>
@@ -307,11 +319,11 @@ $hair_JSON = json_decode($JSON);
                                 </div>
                             </div> -->
 
-                                <!-- <div class="option-item">
+                                <div class="option-item">
                                     <div class="navbar-btn">
-                                        <a href="appointment.html" class="default-btn">Book Appointment</a>
+                                        <a href="https://www.trustpilot.com/review/clinicphaselis.com"><img width="100px" src="assets/images/trustpliot.png" alt=""></a>
                                     </div>
-                                </div> -->
+                                </div>
                             </div>
                         </div>
                     </nav>
