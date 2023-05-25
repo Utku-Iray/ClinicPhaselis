@@ -60,7 +60,7 @@
 
             <div class="col-lg-5">
                 <div class="about-image">
-                    <img src="assets/images/2.png" alt="image">
+                    <img src="assets/images/anasayfa2.jpg" alt="image">
                 </div>
             </div>
         </div>
@@ -74,7 +74,7 @@
         <div class="row align-items-center">
             <div class="col-lg-5 col-md-12">
                 <div class="dental-tourism-about-image">
-                    <img src="assets/images/1.png" alt="image">
+                    <img src="assets/images/anasayfa1.jpg" alt="image">
 
                     <!-- <div class="certified">
                         <img src="assets/images/dental-tourism/about/certified.png" alt="image">

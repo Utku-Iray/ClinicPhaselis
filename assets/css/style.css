@@ -1257,7 +1257,7 @@ Main Slides Area CSS
 =================================================*/
 
 .main-slides-item {
-    background-image: url(../../assets/images/main-slides/slides-bg1.jpg);
+    background-image: url(../../assets/images/slider/plastic.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1268,19 +1268,22 @@ Main Slides Area CSS
 }
 
 .main-slides-item.item-bg2 {
-    background-image: url(../../assets/images/main-slides/slides-bg2.jpg);
+    background-image: url(../../assets/images/slider/bariatric.jpg);
 }
 
 .main-slides-item.item-bg3 {
-    background-image: url(../../assets/images/main-slides/slides-bg3.jpg);
+    background-image: url(../../assets/images/slider/dental.jpg);
 }
 
 .main-slides-item.item-bg4 {
-    background-image: url(../../assets/images/main-slides/slides-bg4.jpg);
+    background-image: url(../../assets/images/slider/hair.jpg);
 }
 
 .main-slides-item.item-bg4 .main-slides-content {
-    max-width: 675px;
+    background-color: #f0f8ff8c;
+    max-width: 600px;
+    padding: 30px 60px;
+    border-radius: 15px;
 }
 
 .main-slides-item.item-bg5 {
@@ -1300,7 +1303,10 @@ Main Slides Area CSS
 }
 
 .main-slides-content {
-    max-width: 630px;
+    background-color: #f0f8ff8c;
+    max-width: 600px;
+    padding: 30px 60px;
+    border-radius: 15px;
 }
 
 .main-slides-content .sub-title {
@@ -5559,15 +5565,15 @@ Top Area CSS
 
 .top-dental-tourism-optional li a i {
     color: #ffffff;
-    font-size: 15px;
+    font-size: 24px;
     position: relative;
     top: 1px;
     -webkit-transition: 0.6s;
     transition: 0.6s;
     display: inline-block;
-    height: 25px;
-    width: 25px;
-    line-height: 22px;
+    height: 30px;
+    width: 30px;
+    line-height: 27px;
     border: 2px solid #ffffff;
     text-align: center;
     border-radius: 5px;
@@ -6928,7 +6934,7 @@ Dental Tourism Footer Area CSS
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 .dental-tourism-footer-area::before {
@@ -7017,15 +7023,15 @@ Dental Tourism Footer Area CSS
 
 .dental-tourism-footer-widget .share-link li a i {
     color: #ffffff;
-    font-size: 15px;
+    font-size: 25px;
     position: relative;
     top: 1px;
     -webkit-transition: 0.6s;
     transition: 0.6s;
     display: inline-block;
-    height: 25px;
-    width: 25px;
-    line-height: 22px;
+    height: 32px;
+    width: 32px;
+    line-height: 28px;
     border: 2px solid #ffffff;
     text-align: center;
     border-radius: 5px;

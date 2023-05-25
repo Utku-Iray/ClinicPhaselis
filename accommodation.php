@@ -67,7 +67,7 @@
 
             <div class="col-lg-5">
                 <div class="about-image">
-                    <img src="assets/images/hastan1.png" alt="image">
+                    <img src="assets/images/2-.jpg" alt="image">
                 </div>
             </div>
         </div>
@@ -132,7 +132,7 @@ There is also free WIFI access in our hotels.
 
             <div class="col-lg-5">
                 <div class="about-image">
-                    <img src="assets/images/hastan3.png" alt="image">
+                    <img src="assets/images/1-.jpg" alt="image">
                 </div>
             </div>
         </div>

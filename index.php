@@ -8,25 +8,80 @@
 
 
 <!-- Start Dental Tourism Banner Area -->
-<div class="dental-tourism-banner-area">
-    <div class="container-fluid">
-        <video autoplay muted loop style="  position: absolute;top:130px;
-  right: 0;
-  width: 100%;">
-            <source src="assets/images/slider.mp4" type="video/mp4">
-        </video>
-        <div class="dental-tourism-banner-content">
+<div class="home-slides owl-carousel owl-theme">
+    <div class="main-slides-item">
+        <div class="container">
+            <div class="main-slides-content">
+                <span class="sub-title">
+                    <i class="flaticon-hashtag-symbol"></i>
+                   Surgery
+                </span>
+                <h1>Cosmetic Surgery  </h1>
+                
 
+                <div class="slides-btn">
+                    <a href="appointment.php" class="default-btn">Book Appointment</a>
 
-            <!-- <span class="sub-title wow animate__animated animate__fadeInDown" data-wow-delay="0.5s"># Professional</span> -->
-            <h1 class="wow animate__animated animate__fadeInLeft" data-wow-delay="0.5s" style="position: relative;">Welcome to a NEW ERA in COSMETİC SURGERY</h1>
-            <!-- <p class="wow animate__animated animate__fadeInLeft" data-wow-delay="0.5s">Mauris blandit aliquet elit eget tincidunt nibh pulvinar. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Pellentesque in ipsum id orci porta dapibus.</p> -->
-
-            <div class="banner-btn wow animate__animated animate__fadeInDown" style="position: relative;" data-wow-delay="0.5s">
-                <a href="appointment.php" class="default-btn">Book Appointment</a>
+                    
+                </div>
             </div>
         </div>
-        <!-- <video style="height:100%;position:absolute;"  src="assets/images/slider.mp4" autoplay="1" muted loop></video> -->
+    </div>
+
+    <div class="main-slides-item item-bg2">
+        <div class="container">
+            <div class="main-slides-content">
+                <span class="sub-title">
+                    <i class="flaticon-hashtag-symbol"></i>
+                    Surgery
+                </span>
+                <h1>Bariatric Surgery  </h1>
+              
+
+                <div class="slides-btn">
+                    <a href="appointment.php" class="default-btn">Book Appointment</a>
+
+                 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-slides-item item-bg3">
+        <div class="container">
+            <div class="main-slides-content">
+                <span class="sub-title">
+                    <i class="flaticon-hashtag-symbol"></i>
+                 Dental Treatment
+                </span>
+                <h1>Dental Treatment </h1>
+              
+
+                <div class="slides-btn">
+                    <a href="appointment.php" class="default-btn">Book Appointment</a>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-slides-item item-bg4">
+        <div class="container">
+            <div class="main-slides-content">
+                <span class="sub-title">
+                    <i class="flaticon-hashtag-symbol"></i>
+                    Hair Transplant 
+                </span>
+                <h1> Hair <br> Transplant  </h1>
+           
+
+                <div class="slides-btn">
+                    <a href="appointment.php" class="default-btn">Book Appointment</a>
+
+                   
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <!-- End Dental Tourism Banner Area -->
@@ -163,46 +218,110 @@
     </div>
 </div>
 <!-- Start Dental Tourism Services Area -->
-<div class="dental-tourism-services-area ptb-100">
+<section class="services-area pb-70">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-5">
+            <div class="col-lg-12">
                 <div class="section-title-warp">
-                    <span class="sub-title"># Treatments</span>
+                    <span class="sub-title">
+                        <i class="flaticon-hashtag-symbol"></i>
+                        Treatments
+                    </span>
                     <h2>Enhance Your Beauty with a Genuine Touch</h2>
                 </div>
             </div>
 
-            <div class="col-lg-7">
-                <div class="section-warp-btn">
-                    <a href="plastic_surgery_procedures.php" class="default-btn">See All Services</a>
-                </div>
-            </div>
+            <!-- <div class="col-lg-5">
+                        <div class="section-warp-btn">
+                            <a href="services.html" class="default-btn">View All</a>
+                        </div>
+                    </div> -->
         </div>
-    </div>
 
-    <div class="container-fluid">
-        <div class="dental-tourism-services-slides owl-carousel owl-theme">
-            <?php foreach ($plastic_JSON as $plastic) { ?>
-
-                <div class="dental-tourism-services-card">
+        <div class="row">
+        <div class="col-lg-4 col-md-6">
+                <div class="single-services">
                     <div class="services-image">
-                        <a href="<?= $plastic->treatment_link ?>"><img src="<?= $plastic->treatment_first_photo ?>" alt="image"></a>
+                        <a href="bariatric_surgery.php"><img src="assets/images/treatments/bariatric.jpeg" alt="image"></a>
 
                         <div class="icon">
-                            <i class="flaticon-dental-implant"></i>
+                            <a href="bariatric_surgery.php"><i class="flaticon-chair"></i></a>
                         </div>
                     </div>
+
                     <div class="services-content">
                         <h3>
-                            <a href="<?= $plastic->treatment_link ?>"><?= $plastic->treatment_name_en ?></a>
+                            <a href="bariatric_surgery.php">Bariatric Procedures</a>
                         </h3>
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
                     </div>
                 </div>
-            <?php } ?>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-services">
+                    <div class="services-image">
+                        <a href="dental_procedures.php"><img src="assets/images/treatments/dental.jpeg" alt="image"></a>
+
+                        <div class="icon">
+                            <a href="dental_procedures.php"><i class="flaticon-chair"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="services-content">
+                        <h3>
+                            <a href="dental_procedures.php">Dental Treatment</a>
+                        </h3>
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-services">
+                    <div class="services-image">
+                        <a href="hair_transplant_details.php"><img src="assets/images/treatments/hair-transplant.jpeg" alt="image"></a>
+
+                        <div class="icon">
+                            <a href="hair_transplant_details.php"><i class="flaticon-chair"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="services-content">
+                        <h3>
+                            <a href="hair_transplant_details.php">Hair Transplat</a>
+                        </h3>
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
+                    </div>
+                </div>
+            </div>
+            <?php for ($i = 0; $i < 3; $i++) { ?>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-services">
+                        <div class="services-image">
+                            <a href="<?= $plastic_JSON[$i]->treatment_link ?>"><img src="<?= $plastic_JSON[$i]->treatment_first_photo ?>" alt="image"></a>
+
+                            <div class="icon">
+                                <a href="<?= $plastic_JSON[$i]->treatment_link ?>"><i class="flaticon-chair"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="services-content">
+                            <h3>
+                                <a href="<?= $plastic_JSON[$i]->treatment_link ?>"><?= $plastic_JSON[$i]->treatment_name_en ?></a>
+                            </h3>
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
+                        </div>
+                    </div>
+                </div>
+            <?php  } ?>
+
+
+
+
+
         </div>
     </div>
-</div>
+</section>
 <!-- End Dental Tourism Services Area -->
 
 <!-- Start Dental Tourism Choose Area -->
