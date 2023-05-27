@@ -14,15 +14,15 @@
             <div class="main-slides-content">
                 <span class="sub-title">
                     <i class="flaticon-hashtag-symbol"></i>
-                   Surgery
+                    Surgery
                 </span>
-                <h1>Cosmetic Surgery  </h1>
-                
+                <h1>Cosmetic Surgery </h1>
+
 
                 <div class="slides-btn">
                     <a href="appointment.php" class="default-btn">Book Appointment</a>
 
-                    
+
                 </div>
             </div>
         </div>
@@ -35,13 +35,13 @@
                     <i class="flaticon-hashtag-symbol"></i>
                     Surgery
                 </span>
-                <h1>Bariatric Surgery  </h1>
-              
+                <h1>Bariatric Surgery </h1>
+
 
                 <div class="slides-btn">
                     <a href="appointment.php" class="default-btn">Book Appointment</a>
 
-                 
+
                 </div>
             </div>
         </div>
@@ -52,15 +52,15 @@
             <div class="main-slides-content">
                 <span class="sub-title">
                     <i class="flaticon-hashtag-symbol"></i>
-                 Dental Treatment
+                    Dental Treatment
                 </span>
                 <h1>Dental Treatment </h1>
-              
+
 
                 <div class="slides-btn">
                     <a href="appointment.php" class="default-btn">Book Appointment</a>
 
-                    
+
                 </div>
             </div>
         </div>
@@ -70,15 +70,15 @@
             <div class="main-slides-content">
                 <span class="sub-title">
                     <i class="flaticon-hashtag-symbol"></i>
-                    Hair Transplant 
+                    Hair Transplant
                 </span>
-                <h1> Hair <br> Transplant  </h1>
-           
+                <h1> Hair <br> Transplant </h1>
+
 
                 <div class="slides-btn">
                     <a href="appointment.php" class="default-btn">Book Appointment</a>
 
-                   
+
                 </div>
             </div>
         </div>
@@ -239,7 +239,7 @@
         </div>
 
         <div class="row">
-        <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6">
                 <div class="single-services">
                     <div class="services-image">
                         <a href="bariatric_surgery.php"><img src="assets/images/treatments/bariatric.jpeg" alt="image"></a>
@@ -521,6 +521,14 @@
                         </div>
 
 
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 20px;">
+                    <div class="col-md-6">
+                        <img src="assets/images/saglik-bakanliği.png" style="width: 130px;" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="assets/images/tursab-logo.png" style="width: 250px;" alt="">
                     </div>
                 </div>
             </div>
