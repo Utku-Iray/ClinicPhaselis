@@ -39,9 +39,14 @@ $URL = 'data/before_after.json';
 $JSON = file_get_contents($URL);
 $beforeAfter_JSON = json_decode($JSON);
 
+$URL = 'data/dental_before_after.json';
+$JSON = file_get_contents($URL);
+$dentalBeforeAfter_JSON = json_decode($JSON);
+
+
 ?>
 
-   
+
 <body>
 
     <!-- Start Preloader Area -->
@@ -169,7 +174,7 @@ $beforeAfter_JSON = json_decode($JSON);
                                     </li>
                                 </ul>
                             </li> -->
-                            <li class="nav-item">
+                                <li class="nav-item">
                                     <a href="index.php" class="nav-link">Homepage</a>
                                 </li>
                                 <li class="nav-item">
@@ -209,7 +214,7 @@ $beforeAfter_JSON = json_decode($JSON);
                                     </a>
 
                                     <ul class="dropdown-menu">
-                                    <li class="nav-item">
+                                        <li class="nav-item">
                                             <a href="plastic_surgery_procedures.php" class="nav-link">Plastic Surgery Procedures</a>
                                         </li>
                                         <li class="nav-item">
@@ -219,7 +224,7 @@ $beforeAfter_JSON = json_decode($JSON);
                                         <li class="nav-item">
                                             <a href="dental_procedures.php" class="nav-link">Dental Procedures</a>
                                         </li>
-                                       
+
                                         <li class="nav-item">
                                             <a href="hair_transplant_details.php" class="nav-link">Hair Transplant</a>
                                         </li>
@@ -303,7 +308,18 @@ $beforeAfter_JSON = json_decode($JSON);
                                     <a href="testimonials.php" class="nav-link">Reviews</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="gallery.php" class="nav-link">B&A Gallery</a>
+                                    <a href="#0" class="nav-link">B&A Gallery
+                                        <i class='bx bx-caret-down'></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a href="plastic-surgery-gallery.php" class="nav-link">Plastic Surgery B&A</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="dental-gallery.php" class="nav-link">Dental B&A</a>
+                                        </li>
+                                        
+                                    </ul>
                                 </li>
                                 <li class="nav-item">
                                     <a href="contact-us.php" class="nav-link">Contact Us</a>
