@@ -525,7 +525,7 @@
                 </div>
                 <div class="row" style="margin-top: 20px;">
                     <div class="col-md-6">
-                        <img src="assets/images/saglik-bakanliği.png" style="width: 130px;" alt="">
+                        <img src="assets/images/saglik-bakanligi.png" style="width: 130px;" alt="">
                     </div>
                     <div class="col-md-6">
                         <img src="assets/images/tursab-logo.png" style="width: 250px;" alt="">
