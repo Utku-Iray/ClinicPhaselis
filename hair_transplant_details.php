@@ -31,7 +31,7 @@
                 </div>
 
                 <div class="services-details-content">
-                    <?= $hair_JSON[0] ->treatment_details ?>
+                    <?= $hair_JSON[0] ->$langTreatmentContent ?>
                 </div>
 
 
@@ -54,7 +54,7 @@
                             </a>
                             <div class="info">
                                 <h4 class="title usmall">
-                                    <a href="<?= $hair -> treatment_link ?>"><?= $hair -> treatment_name_en ?></a>
+                                    <a href="<?= $hair -> treatment_link ?>"><?= $hair -> $langTreatmentName ?></a>
                                 </h4>
                             </div>
                         </article>

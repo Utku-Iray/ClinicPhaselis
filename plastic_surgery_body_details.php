@@ -52,7 +52,7 @@ if (isset($_GET["name"])) {
                 </div>
 
                 <div class="services-details-content">
-                    <?= $selectedVal[0] ->treatment_details ?>
+                    <?= $selectedVal[0] ->$langTreatmentContent ?>
                 </div>
 
 

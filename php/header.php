@@ -1,4 +1,5 @@
 <?php
+include "config.php";
 $URL = 'data/bariatric_surgery.json';
 $JSON = file_get_contents($URL);
 $bariatric_JSON = json_decode($JSON);
@@ -318,12 +319,39 @@ $dentalBeforeAfter_JSON = json_decode($JSON);
                                         <li class="nav-item">
                                             <a href="dental-gallery.php" class="nav-link">Dental B&A</a>
                                         </li>
-                                        
+
                                     </ul>
                                 </li>
                                 <li class="nav-item">
                                     <a href="contact-us.php" class="nav-link">Contact Us</a>
                                 </li>
+
+                                <li class="nav-item">
+                                    <a href="#0" class="nav-link"><?= $_SESSION['lang'] ?>
+                                        <i class='bx bx-caret-down'></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a href="<?php
+                                                        $langQuery['lang'] = "tr";
+                                                        $query_result = http_build_query($langQuery);
+                                                        echo basename($_SERVER['PHP_SELF']) . "?" . $query_result; ?>" class="nav-link">TR</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="<?php
+                                                        $langQuery['lang'] = "fr";
+                                                        $query_result = http_build_query($langQuery);
+                                                        echo basename($_SERVER['PHP_SELF']) . "?" . $query_result; ?>" class="nav-link">FR</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="<?php
+                                                        $langQuery['lang'] = "en";
+                                                        $query_result = http_build_query($langQuery);
+                                                        echo basename($_SERVER['PHP_SELF']) . "?" . $query_result; ?>" class="nav-link">EN</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
                             </ul>
 
                             <div class="others-options d-flex align-items-center">

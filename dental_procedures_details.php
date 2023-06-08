@@ -1,30 +1,29 @@
 <?php
-
-$URL = 'data/dental_procedures.json';
-$JSON = file_get_contents($URL);
-$dental_JSON = json_decode($JSON);
-
 $selectedVal = array();
 
-if (isset($_GET["name"])) {
+if (isset($_GET["name"]) && $_GET["name"] != "" && !isset($_GET["lang"])) {
 
     $name = $_GET['name'];
-    for ($i = 0; $i < count($dental_JSON); $i++) {
-        if ($dental_JSON[$i]->treatment_name_en == $name) {
-
-            array_push($selectedVal, $dental_JSON[$i]);
-        }
-    }
 } else {
     header("Location: index.php");
 }
-
 ?>
 <!doctype html>
 <html lang="zxx">
 
 <?php include 'php/head.php' ?>
 <?php include 'php/header.php' ?>
+<?php 
+
+for ($i = 0; $i < count($dental_JSON); $i++) {
+    if ($dental_JSON[$i]->$langTreatmentName == $name) {
+
+        array_push($selectedVal, $dental_JSON[$i]);
+    }
+}
+
+
+?>
 
 
 <!-- Start Page Banner -->
@@ -52,7 +51,7 @@ if (isset($_GET["name"])) {
                 </div>
 
                 <div class="services-details-content">
-                    <?= $selectedVal[0] ->treatment_details ?>
+                    <?= $selectedVal[0] ->$langTreatmentContent ?>
                 </div>
 
 
@@ -70,12 +69,12 @@ if (isset($_GET["name"])) {
                         <?php foreach ($dental_JSON as $bariatric) {?>
                            
                         <article class="item">
-                            <a href="dental_procedures_details.php?name=<?= $bariatric -> treatment_name_en ?>" class="thumb">
+                            <a href="dental_procedures_details.php?name=<?= $bariatric -> langTreatmentName ?>" class="thumb">
                                 <img src="<?= $bariatric -> treatment_first_photo ?>" alt="">
                             </a>
                             <div class="info">
                                 <h4 class="title usmall">
-                                    <a href="dental_procedures_details.php?name=<?= $bariatric -> treatment_name_en ?>"><?= $bariatric -> treatment_name_en ?></a>
+                                    <a href="dental_procedures_details.php?name=<?= $bariatric -> langTreatmentName ?>"><?= $bariatric -> langTreatmentName ?></a>
                                 </h4>
                             </div>
                         </article>

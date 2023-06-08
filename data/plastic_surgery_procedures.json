@@ -1,21 +1,29 @@
 [{
     "treatment_name_en": "Body Procedures",
+    "treatment_name_tr": "Body Procedures",
+    "treatment_name_fr": "Body Procedures",
     "treatment_first_photo": "assets/images/treatments/plastic-surgery-body/liposuction-1.jpg",
     "treatment_description": "",
     "treatment_link": "plastic_surgery_body.php"
 
 }, {
     "treatment_name_en": "Breast Procedures",
+    "treatment_name_tr": "Breast Procedures",
+    "treatment_name_fr": "Breast Procedures",
     "treatment_first_photo": "assets/images/treatments/plastic-surgery-breast/breast-augmentation-1.jpg",
     "treatment_description": "",
     "treatment_link": "plastic_surgery_breast.php"
 }, {
     "treatment_name_en": "Facial Procedures",
+    "treatment_name_tr": "Facial Procedures",
+    "treatment_name_fr": "Facial Procedures",
     "treatment_first_photo": "assets/images/treatments/plastic-surgery-face/face-neck-lift-1.jpg",
     "treatment_description": "",
     "treatment_link": "plastic_surgery_face.php"
 }, {
     "treatment_name_en": "Rhinoplasty",
+    "treatment_name_tr": "Rhinoplasty",
+    "treatment_name_fr": "Rhinoplasty",
     "treatment_first_photo": "assets/images/treatments/plastic-surgery-rhinoplasty/rhinoplasty-1.jpg",
     "treatment_description": "",
     "treatment_link": "plastic_surgery_rhinoplasty_details.php"

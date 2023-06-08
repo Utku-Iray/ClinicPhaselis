@@ -1,31 +1,29 @@
 <?php
-
-$URL = 'data/bariatric_surgery.json';
-$JSON = file_get_contents($URL);
-$bariatric_JSON = json_decode($JSON);
-
 $selectedVal = array();
 
-if (isset($_GET["name"])) {
+if (isset($_GET["name"]) && $_GET["name"] != "" && !isset($_GET["lang"])) {
 
     $name = $_GET['name'];
-    for ($i = 0; $i < count($bariatric_JSON); $i++) {
-        if ($bariatric_JSON[$i]->treatment_name_en == $name) {
-
-            array_push($selectedVal, $bariatric_JSON[$i]);
-        }
-    }
 } else {
     header("Location: index.php");
 }
-
 ?>
 <!doctype html>
 <html lang="zxx">
 
 <?php include 'php/head.php' ?>
 <?php include 'php/header.php' ?>
+<?php 
 
+for ($i = 0; $i < count($bariatric_JSON); $i++) {
+    if ($bariatric_JSON[$i]->$langTreatmentName == $name) {
+
+        array_push($selectedVal, $bariatric_JSON[$i]);
+    }
+}
+
+
+?>
 
 <!-- Start Page Banner -->
 <!-- <div class="page-banner-area">
@@ -48,11 +46,11 @@ if (isset($_GET["name"])) {
         <div class="row">
             <div class="col-lg-8 col-md-12">
                 <div class="services-details-image">
-                    <img src="<?= $selectedVal[0] ->treatment_photo ?>" alt="image">
+                    <img src="<?= $selectedVal[0]->treatment_photo ?>" alt="image">
                 </div>
 
                 <div class="services-details-content">
-                    <?= $selectedVal[0] ->treatment_details ?>
+                    <?= $selectedVal[0]->$langTreatmentContent ?>
                 </div>
 
 
@@ -70,12 +68,12 @@ if (isset($_GET["name"])) {
                         <?php foreach ($bariatric_JSON as $bariatric) {?>
                            
                         <article class="item">
-                            <a href="bariatric_surgery_details.php?name=<?= $bariatric -> treatment_name_en ?>" class="thumb">
-                                <img src="<?= $bariatric -> treatment_first_photo ?>" alt="">
+                            <a href="bariatric_surgery_details.php?name=<?= $bariatric->$langTreatmentName ?>" class="thumb">
+                                <img src="<?= $bariatric->treatment_first_photo ?>" alt="">
                             </a>
                             <div class="info">
                                 <h4 class="title usmall">
-                                    <a href="bariatric_surgery_details.php?name=<?= $bariatric -> treatment_name_en ?>"><?= $bariatric -> treatment_name_en ?></a>
+                                    <a href="bariatric_surgery_details.php?name=<?= $bariatric->$langTreatmentName ?>"><?= $bariatric->$langTreatmentName ?></a>
                                 </h4>
                             </div>
                         </article>
