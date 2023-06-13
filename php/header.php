@@ -68,7 +68,7 @@ $dentalBeforeAfter_JSON = json_decode($JSON);
                     <div class="col-lg-8 col-md-12">
                         <ul class="top-dental-tourism-information with-left">
                             <li>
-                                <i class='bx bxs-phone'></i>
+                                <i class='bx bxl-whatsapp'></i>
                                 <a href="tel:+905421590907">+90 542 159 09 07</a>
                             </li>
 
@@ -119,9 +119,9 @@ $dentalBeforeAfter_JSON = json_decode($JSON);
                 <div class="container">
                     <div class="main-responsive-menu">
                         <div class="logo">
-                            <a href="index.html">
-                                <img src="assets/images/logo.png" class="main-logo" alt="logo">
-                                <img src="assets/images/logo-2.png" class="white-logo" alt="logo">
+                            <a href="index.php">
+                                <img src="assets/images/logo/clinic-phaselis.png" class="main-logo" alt="logo">
+                                <img src="assets/images/logo/clinic-phaselis.png" class="white-logo" alt="logo">
                             </a>
                         </div>
                     </div>
@@ -176,16 +176,16 @@ $dentalBeforeAfter_JSON = json_decode($JSON);
                                 </ul>
                             </li> -->
                                 <li class="nav-item">
-                                    <a href="index.php" class="nav-link">Homepage</a>
+                                    <a href="index.php" class="nav-link"><?php echo $lang['homePage'] ?></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#0" class="nav-link">About Us <i class='bx bx-caret-down'></i></a>
+                                    <a href="#0" class="nav-link"><?php echo $lang['aboutUs'] ?> <i class='bx bx-caret-down'></i></a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <a href="about-us.php" class="nav-link">Who are We</a>
+                                            <a href="about-us.php" class="nav-link"><?php echo $lang['whoAreWe'] ?></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="accommodation.php" class="nav-link">Hospitals & Accommodation</a>
+                                            <a href="accommodation.php" class="nav-link"><?php echo $lang['hospitals'] ?></a>
                                         </li>
 
                                     </ul>
@@ -210,24 +210,24 @@ $dentalBeforeAfter_JSON = json_decode($JSON);
 
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">
-                                        Treatments
+                                    <?php echo $lang['treatments'] ?>
                                         <i class='bx bx-caret-down'></i>
                                     </a>
 
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <a href="plastic_surgery_procedures.php" class="nav-link">Plastic Surgery Procedures</a>
+                                            <a href="plastic_surgery_procedures.php" class="nav-link"> <?php echo $lang['plasticSurgeryProcedures'] ?></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="bariatric_surgery.php" class="nav-link">Bariatric Surgery</a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a href="dental_procedures.php" class="nav-link">Dental Procedures</a>
+                                            <a href="bariatric_surgery.php" class="nav-link"> <?php echo $lang['bariatricSurgery'] ?></a>
                                         </li>
 
                                         <li class="nav-item">
-                                            <a href="hair_transplant_details.php" class="nav-link">Hair Transplant</a>
+                                            <a href="dental_procedures.php" class="nav-link"> <?php echo $lang['dentalProcedures'] ?></a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="hair_transplant_details.php" class="nav-link"> <?php echo $lang['hairTransplant'] ?></a>
                                         </li>
                                     </ul>
                                 </li>
@@ -306,28 +306,28 @@ $dentalBeforeAfter_JSON = json_decode($JSON);
                                     </ul>
                                 </li> -->
                                 <li class="nav-item">
-                                    <a href="testimonials.php" class="nav-link">Reviews</a>
+                                    <a href="testimonials.php" class="nav-link"><?php echo $lang['reviews'] ?></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#0" class="nav-link">B&A Gallery
+                                    <a href="#0" class="nav-link"><?php echo $lang['baGallery'] ?>
                                         <i class='bx bx-caret-down'></i>
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <a href="plastic-surgery-gallery.php" class="nav-link">Plastic Surgery B&A</a>
+                                            <a href="plastic-surgery-gallery.php" class="nav-link"><?php echo $lang['plasticSurgeryBA'] ?></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="dental-gallery.php" class="nav-link">Dental B&A</a>
+                                            <a href="dental-gallery.php" class="nav-link"><?php echo $lang['dentalBA'] ?></a>
                                         </li>
 
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="contact-us.php" class="nav-link">Contact Us</a>
+                                    <a href="contact-us.php" class="nav-link"><?php echo $lang['contactUs'] ?></a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="#0" class="nav-link"><?= $_SESSION['lang'] ?>
+                                    <a href="#0" class="nav-link"> <img style="width: 30px;" src="assets/images/flag/<?= $_SESSION['lang'] ?>.png" alt="">
                                         <i class='bx bx-caret-down'></i>
                                     </a>
                                     <ul class="dropdown-menu">
@@ -335,19 +335,19 @@ $dentalBeforeAfter_JSON = json_decode($JSON);
                                             <a href="<?php
                                                         $langQuery['lang'] = "tr";
                                                         $query_result = http_build_query($langQuery);
-                                                        echo basename($_SERVER['PHP_SELF']) . "?" . $query_result; ?>" class="nav-link">TR</a>
+                                                        echo basename($_SERVER['PHP_SELF']) . "?" . $query_result; ?>" class="nav-link"><img style="width:40px" src="assets/images/flag/tr.png" alt=""></a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="<?php
                                                         $langQuery['lang'] = "fr";
                                                         $query_result = http_build_query($langQuery);
-                                                        echo basename($_SERVER['PHP_SELF']) . "?" . $query_result; ?>" class="nav-link">FR</a>
+                                                        echo basename($_SERVER['PHP_SELF']) . "?" . $query_result; ?>" class="nav-link"><img style="width:40px" src="assets/images/flag/fr.png" alt=""></a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="<?php
                                                         $langQuery['lang'] = "en";
                                                         $query_result = http_build_query($langQuery);
-                                                        echo basename($_SERVER['PHP_SELF']) . "?" . $query_result; ?>" class="nav-link">EN</a>
+                                                        echo basename($_SERVER['PHP_SELF']) . "?" . $query_result; ?>" class="nav-link"><img style="width:40px" src="assets/images/flag/en.png" alt=""></a>
                                         </li>
                                     </ul>
                                 </li>
@@ -374,7 +374,7 @@ $dentalBeforeAfter_JSON = json_decode($JSON);
                 </div>
             </div>
 
-            <div class="others-option-for-responsive">
+            <!-- <div class="others-option-for-responsive">
                 <div class="container">
                     <div class="dot-menu">
                         <div class="inner">
@@ -397,14 +397,14 @@ $dentalBeforeAfter_JSON = json_decode($JSON);
 
                                 <div class="option-item">
                                     <div class="navbar-btn">
-                                        <a href="appointment.html" class="default-btn">Book Appointment</a>
+                                        <a href="appointment.html" class="default-btn"><?php echo $lang['bookAppointment'] ?></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
         <!-- End Navbar Area -->
 

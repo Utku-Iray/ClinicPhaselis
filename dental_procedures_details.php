@@ -64,17 +64,17 @@ for ($i = 0; $i < count($dental_JSON); $i++) {
 
 
                     <div class="widget widget_grin_posts_thumb">
-                        <h3 class="widget-title">Treatments</h3>
+                        <h3 class="widget-title"><?php echo $lang['treatments'] ?></h3>
                         <hr>
-                        <?php foreach ($dental_JSON as $bariatric) {?>
+                        <?php foreach ($dental_JSON as $dental) {?>
                            
                         <article class="item">
-                            <a href="dental_procedures_details.php?name=<?= $bariatric -> langTreatmentName ?>" class="thumb">
-                                <img src="<?= $bariatric -> treatment_first_photo ?>" alt="">
+                            <a href="dental_procedures_details.php?name=<?= $dental -> $langTreatmentName ?>" class="thumb">
+                                <img src="<?= $dental -> treatment_first_photo ?>" alt="">
                             </a>
                             <div class="info">
                                 <h4 class="title usmall">
-                                    <a href="dental_procedures_details.php?name=<?= $bariatric -> langTreatmentName ?>"><?= $bariatric -> langTreatmentName ?></a>
+                                    <a href="dental_procedures_details.php?name=<?= $dental -> $langTreatmentName ?>"><?= $dental -> $langTreatmentName ?></a>
                                 </h4>
                             </div>
                         </article>

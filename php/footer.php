@@ -22,12 +22,12 @@
             </div>
             <div class="col-lg-2 col-sm-6">
                 <div class="dental-tourism-footer-widget">
-                    <h3>Useful Links</h3>
+                    <h3><?php echo $lang['usefulLinks'] ?></h3>
 
                     <ul class="quick-links">
-                        <li><i class='bx bxs-chevrons-right'></i> <a href="about-us.html">Homepage</a></li>
-                        <li><i class='bx bxs-chevrons-right'></i> <a href="services.html">About Us</a></li>
-                        <li><i class='bx bxs-chevrons-right'></i> <a href="appointment.html">Contact Us</a></li>
+                        <li><i class='bx bxs-chevrons-right'></i> <a href="index.php"><?php echo $lang['homePage'] ?></a></li>
+                        <li><i class='bx bxs-chevrons-right'></i> <a href="about-us.php"><?php echo $lang['aboutUs'] ?></a></li>
+                        <li><i class='bx bxs-chevrons-right'></i> <a href="contact-us.php"><?php echo $lang['contactUs'] ?></a></li>
                         <!-- <li><i class='bx bxs-chevrons-right'></i> <a href="privacy-policy.html">Privacy Policy</a></li>
                         <li><i class='bx bxs-chevrons-right'></i> <a href="contact-us.html">Contact Us</a></li> -->
                     </ul>
@@ -35,42 +35,41 @@
             </div>
             <div class="col-lg-2 col-sm-6">
                 <div class="dental-tourism-footer-widget">
-                    <h3>Our Services</h3>
+                    <h3><?php echo $lang['ourServices'] ?></h3>
 
                     <ul class="quick-links">
                         <?php foreach ($plastic_JSON as $plastic ) {?>
                             
                        
-                        <li><i class='bx bxs-chevrons-right'></i> <a href="services-details.html"><?= $plastic -> treatment_name_en ?></a></li>
+                        <li><i class='bx bxs-chevrons-right'></i> <a href="<?= $plastic -> treatment_link ?>"><?= $plastic -> $langTreatmentName ?></a></li>
                         <?php   } ?>
                     </ul>
                 </div>
             </div>
             <div class="col-lg-2 col-sm-6">
                 <div class="dental-tourism-footer-widget">
-                    <h3>Our Services</h3>
+                    <h3><?php echo $lang['ourServices'] ?></h3>
 
                     <ul class="quick-links">
-                        <?php foreach ($breast_JSON as $breast ) {?>
-                            
-                       
-                        <li><i class='bx bxs-chevrons-right'></i> <a href="services-details.html"><?= $breast -> treatment_name_en ?></a></li>
-                        <?php   } ?>
+                        <li><i class='bx bxs-chevrons-right'></i> <a href="bariatric_surgery.php"><?php echo $lang['bariatricSurgery'] ?></a></li>
+                        <li><i class='bx bxs-chevrons-right'></i> <a href="dental_procedures.php"><?php echo $lang['dentalProcedures'] ?></a></li>
+                        <li><i class='bx bxs-chevrons-right'></i> <a href="hair_transplant_details.php"><?php echo $lang['hairTransplant'] ?></a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="dental-tourism-footer-widget">
-                    <h3>Contact</h3>
+                    <h3><?php echo $lang['contact'] ?></h3>
 
                     <ul class="info-list">
-                        <li><span>Location:</span> Muratpaşa/Antalya</li>
-                        <li><span>Phone:</span> <a href="tel:088123654987">+90 542 159 09 07</a></li>
-                        <li><span>Email:</span> <a href="mailto:info@clinicphaselis.com">info@clinicphaselis.com</a></li>
+                        <li><span><?php echo $lang['location'] ?>:</span> Muratpaşa/Antalya</li>
+                        <li><span><?php echo $lang['phone'] ?>:</span> <a href="tel:+90 0850 757 93 94"> + 90 0850 757 93 94</a></li>
+                        <li><span>Whatsapp:</span> <a href="tel:+90 542 159 09 07">+90 542 159 09 07</a></li>
+                        <li><span>E-Mail:</span> <a href="mailto:info@clinicphaselis.com">info@clinicphaselis.com</a></li>
                     </ul>
                     <ul class="share-link">
                         <li>
-                            <span>Get Social:</span>
+                            <span><?php echo $lang['getSocial'] ?>:</span>
                         </li>
                         <li>
                                 <a href="https://www.facebook.com/clinicphaselis" target="_blank">

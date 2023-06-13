@@ -1,31 +1,29 @@
 <?php
-
-$URL = 'data/plastic_surgery_face.json';
-$JSON = file_get_contents($URL);
-$face_JSON = json_decode($JSON);
-
 $selectedVal = array();
 
-if (isset($_GET["name"])) {
+if (isset($_GET["name"]) && $_GET["name"] != "" && !isset($_GET["lang"])) {
 
     $name = $_GET['name'];
-    for ($i = 0; $i < count($face_JSON); $i++) {
-        if ($face_JSON[$i]->treatment_name_en == $name) {
-
-            array_push($selectedVal, $face_JSON[$i]);
-        }
-    }
 } else {
     header("Location: index.php");
 }
-
 ?>
 <!doctype html>
 <html lang="zxx">
 
 <?php include 'php/head.php' ?>
 <?php include 'php/header.php' ?>
+<?php 
 
+for ($i = 0; $i < count($face_JSON); $i++) {
+    if ($face_JSON[$i]->$langTreatmentName == $name) {
+
+        array_push($selectedVal, $face_JSON[$i]);
+    }
+}
+
+
+?>
 
 <!-- Start Page Banner -->
 <!-- <div class="page-banner-area">
@@ -52,7 +50,7 @@ if (isset($_GET["name"])) {
                 </div>
 
                 <div class="services-details-content">
-                    <?= $selectedVal[0] ->treatment_details ?>
+                    <?= $selectedVal[0] ->$langTreatmentContent ?>
                 </div>
 
 
@@ -65,17 +63,17 @@ if (isset($_GET["name"])) {
 
 
                     <div class="widget widget_grin_posts_thumb">
-                        <h3 class="widget-title">Treatments</h3>
+                        <h3 class="widget-title"><?php echo $lang['treatments'] ?></h3>
                         <hr>
                         <?php foreach ($face_JSON as $face) {?>
                            
                         <article class="item">
-                            <a href="plastic_surgery_face_details.php?name=<?= $face -> treatment_name_en ?>" class="thumb">
+                            <a href="plastic_surgery_face_details.php?name=<?= $face -> $langTreatmentName ?>" class="thumb">
                                 <img src="<?= $face -> treatment_first_photo ?>" alt="">
                             </a>
                             <div class="info">
                                 <h4 class="title usmall">
-                                    <a href="plastic_surgery_face_details.php?name=<?= $face -> treatment_name_en ?>"><?= $face -> treatment_name_en ?></a>
+                                    <a href="plastic_surgery_face_details.php?name=<?= $face -> $langTreatmentName ?>"><?= $face -> $langTreatmentName ?></a>
                                 </h4>
                             </div>
                         </article>

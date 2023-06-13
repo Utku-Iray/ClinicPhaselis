@@ -30,7 +30,7 @@
                                     <i class="flaticon-caduceus"></i>
                                 </div>
                                 <h3>
-                                    <a href="services-details.html">Quality Brackets</a>
+                                    <a href="#0"><?php echo $lang['qualityBrackets'] ?></a>
                                 </h3>
                             </div>
                         </div>
@@ -43,7 +43,7 @@
                                     <i class="flaticon-policy"></i>
                                 </div>
                                 <h3>
-                                    <a href="services-details.html">Certified Dentist</a>
+                                    <a href="#0"><?php echo $lang['certifiedDoctors'] ?></a>
                                 </h3>
                             </div>
                         </div>
@@ -56,7 +56,7 @@
                                     <i class="flaticon-diamond"></i>
                                 </div>
                                 <h3>
-                                    <a href="services-details.html">Experience</a>
+                                    <a href="#0"><?php echo $lang['experience'] ?></a>
                                 </h3>
                             </div>
                         </div>
@@ -69,7 +69,7 @@
                                     <i class="flaticon-hospitalisation"></i>
                                 </div>
                                 <h3>
-                                    <a href="services-details.html">Patient Care</a>
+                                    <a href="#0"><?php echo $lang['patientCare'] ?></a>
                                 </h3>
                             </div>
                         </div>
@@ -83,26 +83,26 @@
         <section class="appointment-area bg-image ptb-100">
             <div class="container">
                 <div class="appointment-form">
-                    <h4><i class="flaticon-calendar"></i> Make An Appointment</h4>
+                    <h4><i class="flaticon-calendar"></i> <?php echo $lang['makeaAnAppointment'] ?></h4>
 
                     <form>
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Name">
+                            <input type="text" class="form-control" placeholder="<?php echo $lang['name'] ?>">
                         </div>
 
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Email">
+                            <input type="text" class="form-control" placeholder="<?php echo $lang['eMail'] ?>">
                         </div>
 
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Phone">
+                            <input type="text" class="form-control" placeholder="<?php echo $lang['number'] ?>">
                         </div>
 
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Date">
+                            <input type="text" class="form-control" placeholder="<?php echo $lang['subjject'] ?>">
                         </div>
 
-                        <button type="submit" class="default-btn">Book Appointment</button>
+                        <button type="submit" class="default-btn"><?php echo $lang['bookAppointment'] ?></button>
                     </form>
                 </div>
             </div>

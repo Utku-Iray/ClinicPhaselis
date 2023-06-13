@@ -31,7 +31,7 @@
                 </div>
 
                 <div class="services-details-content">
-                    <?= $rhinoplasty_JSON[0] ->treatment_details ?>
+                    <?= $rhinoplasty_JSON[0] ->$langTreatmentContent ?>
                 </div>
 
 
@@ -44,7 +44,7 @@
 
 
                     <div class="widget widget_grin_posts_thumb">
-                        <h3 class="widget-title">Treatments</h3>
+                        <h3 class="widget-title"><?php echo $lang['treatments'] ?></h3>
                         <hr>
                         <?php foreach ($plastic_JSON as $rhinoplasty) {?>
                            
@@ -54,7 +54,7 @@
                             </a>
                             <div class="info">
                                 <h4 class="title usmall">
-                                    <a href="<?= $rhinoplasty -> treatment_link ?>"><?= $rhinoplasty -> treatment_name_en ?></a>
+                                    <a href="<?= $rhinoplasty -> treatment_link ?>"><?= $rhinoplasty -> $langTreatmentName ?></a>
                                 </h4>
                             </div>
                         </article>

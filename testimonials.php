@@ -25,9 +25,9 @@
                 <div class="section-title">
                     <span class="sub-title">
                         <i class="flaticon-hashtag-symbol"></i>
-                        Our  Review
+                        <?php echo $lang['ourReview'] ?>
                     </span>
-                    <h2>Real Review From Our Real Customer</h2>
+                    <h2>   <?php echo $lang['realReviewFrom'] ?></h2>
                 </div>
 
                 <div class="row">

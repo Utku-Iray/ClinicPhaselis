@@ -14,13 +14,14 @@
             <div class="main-slides-content">
                 <span class="sub-title">
                     <i class="flaticon-hashtag-symbol"></i>
-                    Surgery
+                    <?php echo $lang['surgery'] ?>
                 </span>
-                <h1>Cosmetic Surgery </h1>
+                <h1><?php echo $lang['cosmeticSurgery'] ?> </h1>
+                <p><?php echo $lang['welcomeTheNew'] ?></p>
 
 
                 <div class="slides-btn">
-                    <a href="appointment.php" class="default-btn">Book Appointment</a>
+                    <a href="appointment.php" class="default-btn"><?php echo $lang['bookAppointment'] ?></a>
 
 
                 </div>
@@ -33,13 +34,14 @@
             <div class="main-slides-content">
                 <span class="sub-title">
                     <i class="flaticon-hashtag-symbol"></i>
-                    Surgery
+                    <?php echo $lang['surgery'] ?>
                 </span>
-                <h1>Bariatric Surgery </h1>
+                <h1><?php echo $lang['bariatricSurgery'] ?></h1>
+                <p><?php echo $lang['welcomeTheNew'] ?></p>
 
 
                 <div class="slides-btn">
-                    <a href="appointment.php" class="default-btn">Book Appointment</a>
+                    <a href="appointment.php" class="default-btn"><?php echo $lang['bookAppointment'] ?></a>
 
 
                 </div>
@@ -52,13 +54,13 @@
             <div class="main-slides-content">
                 <span class="sub-title">
                     <i class="flaticon-hashtag-symbol"></i>
-                    Dental Treatment
+                    <?php echo $lang['procedures'] ?>
                 </span>
-                <h1>Dental Treatment </h1>
-
+                <h1><?php echo $lang['dentalProcedures'] ?></h1>
+                <p><?php echo $lang['welcomeTheNew'] ?></p>
 
                 <div class="slides-btn">
-                    <a href="appointment.php" class="default-btn">Book Appointment</a>
+                    <a href="appointment.php" class="default-btn"><?php echo $lang['bookAppointment'] ?></a>
 
 
                 </div>
@@ -70,13 +72,13 @@
             <div class="main-slides-content">
                 <span class="sub-title">
                     <i class="flaticon-hashtag-symbol"></i>
-                    Hair Transplant
+                    <?php echo $lang['procedures'] ?>
                 </span>
-                <h1> Hair <br> Transplant </h1>
-
+                <h1> <?php echo $lang['hairTransplant'] ?> </h1>
+                <p><?php echo $lang['welcomeTheNew'] ?></p>
 
                 <div class="slides-btn">
-                    <a href="appointment.php" class="default-btn">Book Appointment</a>
+                    <a href="appointment.php" class="default-btn"><?php echo $lang['bookAppointment'] ?></a>
 
 
                 </div>
@@ -99,9 +101,9 @@
                             <!-- <div class="number">1</div> -->
                         </div>
                         <h3>
-                            <a href="#">Tours</a>
+                            <a href="#"><?php echo $lang['tours'] ?></a>
                         </h3>
-                        <p>Tours to all historical and touristic places in and around Antalya</p>
+                        <p><?php echo $lang['toursDescription'] ?></p>
                     </div>
                 </div>
             </div>
@@ -114,9 +116,9 @@
                             <!-- <div class="number">2</div> -->
                         </div>
                         <h3>
-                            <a href="#">Accommodation</a>
+                            <a href="#"><?php echo $lang['accommodation'] ?></a>
                         </h3>
-                        <p>Accommodation in 3 to 5 star hotels with high guest satisfaction rates</p>
+                        <p><?php echo $lang['accommodationDescription'] ?></p>
                     </div>
                 </div>
             </div>
@@ -129,9 +131,9 @@
                             <!-- <div class="number">3</div> -->
                         </div>
                         <h3>
-                            <a href="#">All Transfers</a>
+                            <a href="#"><?php echo $lang['transfer'] ?></a>
                         </h3>
-                        <p>Tours to all historical and touristic places in and around Antalya</p>
+                        <p><?php echo $lang['transferDescription'] ?></p>
                     </div>
                 </div>
             </div>
@@ -157,16 +159,16 @@
             <div class="col-lg-7 col-md-12">
                 <div class="dental-tourism-about-content">
                     <span># Clinic Phaselis</span>
-                    <h3>Quality Meets Aesthetics</h3>
+                    <h3><?php echo $lang['qualityMeetsAesthetics'] ?></h3>
 
                     <ul class="list">
-                        <li><i class='bx bxs-check-shield'></i>Combining our expertise and experience in cosmetic surgery and patient care with our spectacular services, we deliver a wide variety of procedures to address any cosmetic concerns you may have.</li>
-                        <li><i class='bx bxs-check-shield'></i>Our aim is to provide you an exceptional medical service by introducing you to our experienced board-certified surgeons and medical team.</li>
-                        <li><i class='bx bxs-check-shield'></i> Our medical team provides a specific treatment plan personalized and totally tailored to your unique needs. With us, you will feel the difference of receiving an exceptional health care management from A to Z. </li>
-                        <li><i class='bx bxs-check-shield'></i> We understand your concerns about having a procedure abroad therefore we are here with you throughout the entire process providing support 24/7.</li>
+                        <li><i class='bx bxs-check-shield'></i><?php echo $lang['list1qualityMeetsAesthetics'] ?></li>
+                        <li><i class='bx bxs-check-shield'></i><?php echo $lang['list2qualityMeetsAesthetics'] ?></li>
+                        <li><i class='bx bxs-check-shield'></i> <?php echo $lang['list3qualityMeetsAesthetics'] ?></li>
+                        <li><i class='bx bxs-check-shield'></i> <?php echo $lang['list4qualityMeetsAesthetics'] ?></li>
                     </ul>
                     <div class="about-btn">
-                        <a href="about-us.html" class="default-btn">Learn More</a>
+                        <a href="about-us.php" class="default-btn"><?php echo $lang['learnMore'] ?></a>
                     </div>
                 </div>
             </div>
@@ -179,8 +181,8 @@
         <div class="row">
             <div class="col-lg-8">
                 <div class="section-title-warp">
-                    <span class="sub-title"># Our Clients Review</span>
-                    <h2>Real Review From Our Real Customer</h2>
+                    <span class="sub-title"># <?php echo $lang['ourClientReview'] ?></span>
+                    <h2><?php echo $lang['realReviewFrom'] ?></h2>
                 </div>
             </div>
 
@@ -225,9 +227,9 @@
                 <div class="section-title-warp">
                     <span class="sub-title">
                         <i class="flaticon-hashtag-symbol"></i>
-                        Treatments
+                        <?php echo $lang['treatments'] ?>
                     </span>
-                    <h2>Enhance Your Beauty with a Genuine Touch</h2>
+                    <h2> <?php echo $lang['enhanceYourBeauty'] ?></h2>
                 </div>
             </div>
 
@@ -251,7 +253,7 @@
 
                     <div class="services-content">
                         <h3>
-                            <a href="bariatric_surgery.php">Bariatric Procedures</a>
+                            <a href="bariatric_surgery.php"><?php echo $lang['bariatricProcedures'] ?></a>
                         </h3>
                         <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
                     </div>
@@ -269,7 +271,7 @@
 
                     <div class="services-content">
                         <h3>
-                            <a href="dental_procedures.php">Dental Treatment</a>
+                            <a href="dental_procedures.php"><?php echo $lang['dentalProcedures'] ?></a>
                         </h3>
                         <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
                     </div>
@@ -287,7 +289,7 @@
 
                     <div class="services-content">
                         <h3>
-                            <a href="hair_transplant_details.php">Hair Transplat</a>
+                            <a href="hair_transplant_details.php"><?php echo $lang['hairTransplant'] ?></a>
                         </h3>
                         <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
                     </div>
@@ -307,7 +309,7 @@
 
                         <div class="services-content">
                             <h3>
-                                <a href="<?= $plastic_JSON[$i]->treatment_link ?>"><?= $plastic_JSON[$i]->treatment_name_en ?></a>
+                                <a href="<?= $plastic_JSON[$i]->treatment_link ?>"><?= $plastic_JSON[$i]->$langTreatmentName ?></a>
                             </h3>
                             <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
                         </div>
@@ -330,12 +332,12 @@
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-12">
                 <div class="dental-tourism-choose-content">
-                    <span># Why Choose Us</span>
-                    <h3>We never leave health to chance.</h3>
-                    <p><i class='bx bxs-badge-check' style="color:black"></i> We work with board certified surgeons who are compassionate and friendly in order to achieve the finest results. They will gladly spend time with you to determine the best ways to enhance your most attractive features. We designed a 'Zero-Risk-Model' to ensure that any complication be avoided at all costs. Every step and every decision made by you or your surgeons are documented in a Unique Patient Surgery File.
+                    <span># <?php echo $lang['whyChooseUs'] ?></span>
+                    <h3><?php echo $lang['weNeverLeaveHealth'] ?></h3>
+                    <p><i class='bx bxs-badge-check' style="color:black"></i> <?php echo $lang['list1weNeverLeaveHealth'] ?>
                         ‍<br><br>
-                        <i class='bx bxs-badge-check' style="color:black"></i> We concentrated on medical expertise and invested in delivering the best care to our patients throughout their journey. We offer quality at an affordable and accessible price. <br><br>
-                        <i class='bx bxs-badge-check' style="color:black"></i> We devised a Zero-Risk-Model to eliminate the possibility of complications by carefully preparing and carrying out each phase of your surgery plan. A unique Patient Surgery File is formed to document every detail; such as your blood results, consultations, anesthesia as well as the decisions you and your doctor make to achieve your goals, outlining your tailored schedule. You have regular check-ins with our medical team and have priority access to our support lines. Before your operation, a team comprised of your internal medicine specialist, anesthesiologist, and plastic surgeon evaluate and create a precise surgery road map.
+                        <i class='bx bxs-badge-check' style="color:black"></i><?php echo $lang['list2weNeverLeaveHealth'] ?> <br><br>
+                        <i class='bx bxs-badge-check' style="color:black"></i><?php echo $lang['list3weNeverLeaveHealth'] ?>
                     </p>
 
 
@@ -362,7 +364,7 @@
 <div class="dental-tourism-appointment-area ptb-100">
     <div class="container">
         <div class="dental-tourism-appointment-form">
-            <h4><i class="flaticon-calendar"></i> Make An Appointment</h4>
+            <h4><i class="flaticon-calendar"></i> <?php echo $lang['makeaAnAppointment'] ?></h4>
 
             <form>
                 <div class="row">
@@ -370,19 +372,19 @@
 
                     <div class="col-lg-6 col-md-12">
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Enter Name">
+                            <input type="text" class="form-control" placeholder="<?php echo $lang['name'] ?>">
                         </div>
                     </div>
 
                     <div class="col-lg-6 col-md-12">
                         <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Enter Email">
+                            <input type="email" class="form-control" placeholder="<?php echo $lang['eMail'] ?>">
                         </div>
                     </div>
 
                     <div class="col-lg-6 col-md-12">
                         <div class="form-group">
-                            <input type="number" class="form-control" placeholder="Phone Number">
+                            <input type="number" class="form-control" placeholder="<?php echo $lang['number'] ?>">
                         </div>
                     </div>
 
@@ -390,18 +392,18 @@
 
                     <div class="col-lg-6 col-md-12">
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Country Code">
+                            <input type="text" class="form-control" placeholder="<?php echo $lang['countryCode'] ?>">
                         </div>
                     </div>
 
                     <div class="col-lg-12 col-md-12">
                         <div class="form-group">
-                            <textarea name="message" class="form-control" placeholder="Message"></textarea>
+                            <textarea name="message" class="form-control" placeholder="<?php echo $lang['message'] ?>"></textarea>
                         </div>
                     </div>
 
                     <div class="col-lg-12 col-md-12">
-                        <button type="submit" class="default-btn">Book An Appointment</button>
+                        <button type="submit" class="default-btn"><?php echo $lang['bookAppointment'] ?></button>
                     </div>
                 </div>
             </form>
@@ -420,10 +422,10 @@
                             <a href="#0"><img src="assets/images/skin-care/features/medical-doctor.png" alt="image"></a>
                         </div>
                         <h3>
-                            <a href="#0">Free Medical Consultation</a>
+                            <a href="#0"><?php echo $lang['freeMedicalConsultation'] ?></a>
                         </h3>
                     </div>
-                    <p>Unique treatment plan specifically tailored for you</p>
+                    <p><?php echo $lang['freeMedicalConsultationDescription'] ?></p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -433,10 +435,10 @@
                             <a href="#0"><img src="assets/images/skin-care/features/medical-doctor.png" alt="image"></a>
                         </div>
                         <h3>
-                            <a href="#0">Board-Certified Surgeons</a>
+                            <a href="#0"><?php echo $lang['boardCertifiedSurgeons'] ?></a>
                         </h3>
                     </div>
-                    <p>Surgeons with extensive experience and expertise in their fields who are mostly internationally accredited</p>
+                    <p><?php echo $lang['boardCertifiedSurgeonsDescription'] ?></p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -446,10 +448,10 @@
                             <a href="#0"><img src="assets/images/skin-care/features/medical-doctor.png" alt="image"></a>
                         </div>
                         <h3>
-                            <a href="#0">Best Hospitals</a>
+                            <a href="#0"><?php echo $lang['bestHospitals'] ?></a>
                         </h3>
                     </div>
-                    <p>Accredited chain hospitals with international standards</p>
+                    <p><?php echo $lang['bestHospitalsDescription'] ?></p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -459,10 +461,10 @@
                             <a href="#0"><img src="assets/images/skin-care/features/medical-doctor.png" alt="image"></a>
                         </div>
                         <h3>
-                            <a href="#0">Excellent Aftercare</a>
+                            <a href="#0"><?php echo $lang['excellentAftercare'] ?></a>
                         </h3>
                     </div>
-                    <p>24/7 private nurse assistance throughout your medical journey</p>
+                    <p><?php echo $lang['excellentAftercareDescription'] ?></p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -472,10 +474,10 @@
                             <a href="#0"><img src="assets/images/skin-care/features/medical-doctor.png" alt="image"></a>
                         </div>
                         <h3>
-                            <a href="#0">Ongoing Follow-up</a>
+                            <a href="#0"><?php echo $lang['ongoingFollowUp'] ?></a>
                         </h3>
                     </div>
-                    <p>Medical support throughout your recovery after you leave via your consultant and surgeon</p>
+                    <p><?php echo $lang['ongoingFollowUpDescription'] ?></p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -485,10 +487,10 @@
                             <a href="#0"><img src="assets/images/skin-care/features/medical-doctor.png" alt="image"></a>
                         </div>
                         <h3>
-                            <a href="#0">Recovery Hotels</a>
+                            <a href="#0"><?php echo $lang['recoveryHotels'] ?></a>
                         </h3>
                     </div>
-                    <p>Accommodation at hotels designed for your recovery</p>
+                    <p><?php echo $lang['recoveryHotelsDescription'] ?></p>
                 </div>
             </div>
         </div>
@@ -501,11 +503,11 @@
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-12">
                 <div class="dental-tourism-tourists-content">
-                    <h3>What We Offer?</h3>
+                    <h3><?php echo $lang['whatWeOfer'] ?></h3>
                     <!-- <p>Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi pretium ut lacinia in elementum enim.</p> -->
 
                     <ul class="list">
-                        <li><i class='bx bxs-check-shield'></i> Clinic Phaselis aims to maintain the boutique and premium practice model for every patient. All our patients are exclusive and they all receive an exclusive service with affordable prices. </li>
+                        <li><i class='bx bxs-check-shield'></i> <?php echo $lang['whatWeOferDescription'] ?> </li>
 
                     </ul>
                 </div>

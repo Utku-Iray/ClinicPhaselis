@@ -63,7 +63,7 @@ for ($i = 0; $i < count($bariatric_JSON); $i++) {
 
 
                     <div class="widget widget_grin_posts_thumb">
-                        <h3 class="widget-title">Treatments</h3>
+                        <h3 class="widget-title"><?php echo $lang['treatments'] ?></h3>
                         <hr>
                         <?php foreach ($bariatric_JSON as $bariatric) {?>
                            

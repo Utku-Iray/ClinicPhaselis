@@ -47,9 +47,9 @@
 
                             <div class="services-content">
                                 <h3>
-                                    <a href="<?= $plastic -> treatment_link ?>"><?= $plastic -> treatment_name_en ?></a>
+                                    <a href="<?= $plastic -> treatment_link ?>"><?= $plastic -> $langTreatmentName ?></a>
                                 </h3>
-                                <p><?= $plastic -> treatment_description ?></p>
+                                <p><?= $plastic->$langTreatmentDescription ?></p>
                             </div>
                         </div>
                     </div>
