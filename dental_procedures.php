@@ -30,7 +30,7 @@
                         <i class="flaticon-hashtag-symbol"></i>
                         Our Best Dental Services
                     </span> -->
-            <h2>Dental Procedures</h2>
+            <h2><?php echo $lang['dentalProcedures'] ?></h2>
             <hr>
             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p> -->
         </div>

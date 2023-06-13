@@ -62,9 +62,9 @@ $lang = array(
 
     "weNeverLeaveHealth" => "We never leave health to chance.",
 
-    "list1weNeverLeaveHealth" => "We never leave health to chance.",
-    "list2weNeverLeaveHealth" => "We never leave health to chance.",
-    "list3weNeverLeaveHealth" => "We never leave health to chance.",
+    "list1weNeverLeaveHealth" => "We work with board certified surgeons who are compassionate and friendly in order to achieve the finest results. They will gladly spend time with you to determine the best ways to enhance your most attractive features. We designed a 'Zero-Risk-Model' to ensure that any complication be avoided at all costs. Every step and every decision made by you or your surgeons are documented in a Unique Patient Surgery File. ",
+    "list2weNeverLeaveHealth" => "We concentrated on medical expertise and invested in delivering the best care to our patients throughout their journey. We offer quality at an affordable and accessible price.",
+    "list3weNeverLeaveHealth" => "We devised a Zero-Risk-Model to eliminate the possibility of complications by carefully preparing and carrying out each phase of your surgery plan. A unique Patient Surgery File is formed to document every detail; such as your blood results, consultations, anesthesia as well as the decisions you and your doctor make to achieve your goals, outlining your tailored schedule. You have regular check-ins with our medical team and have priority access to our support lines. Before your operation, a team comprised of your internal medicine specialist, anesthesiologist, and plastic surgeon evaluate and create a precise surgery road map",
 
 
     //Form
