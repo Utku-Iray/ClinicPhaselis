@@ -80,7 +80,7 @@
         <div class="row align-items-center">
             <div class="col-lg-5 col-md-12">
                 <div class="dental-tourism-about-image">
-                    <img src="assets/images/hastan2.png" alt="image">
+                    <img src="assets/images/otel-manzara.jpg" alt="image">
 
 
                 </div>
@@ -126,7 +126,7 @@
 
             <div class="col-lg-5">
                 <div class="about-image">
-                    <img src="assets/images/1-.jpg" alt="image">
+                    <img src="assets/images/hastan2.png" alt="image">
                 </div>
             </div>
         </div>
