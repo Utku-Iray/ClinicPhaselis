@@ -6,6 +6,7 @@ $lang = array(
     "whoAreWe" => "Who are We",
     "hospitals" => "Hospitals & Accommodation",
     "treatments" => "Treatments",
+    
 
     "plasticSurgeryProcedures" => "Plastic Surgery Procedures",
     "bariatricSurgery" => "Bariatric Surgery",

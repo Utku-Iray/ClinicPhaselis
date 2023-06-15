@@ -30,7 +30,7 @@ $lang = array(
     "surgery" => "Chirurgie",
     "cosmeticSurgery" => "Chirurgie Esthétique",
     "procedures" => "Transactions",
-    "welcomeTheNew" =>"Welcome the New ERA in Cosmetic Surgery ",
+    "welcomeTheNew" =>"Bienvenue dans une nouvelle ère de la chirurgie esthétique",
 
     //Anasayfa
 

@@ -26,7 +26,7 @@ $lang = array(
     "surgery" => "Cerrahi",
     "cosmeticSurgery" => "Kozmetik Cerrahi",
     "procedures" => "İşlemler",
-    "welcomeTheNew" =>"Welcome the New ERA in Cosmetic Surgery ",
+    "welcomeTheNew" =>"Kozmetik Cerrahide Yeni Çağ'a Hoşgeldiniz",
 
     //Anasayfa
 
