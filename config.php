@@ -21,6 +21,8 @@ require_once "lang/" . $_SESSION['lang'] . ".php";
 $langTreatmentName = "treatment_name_" . $_SESSION['lang'];
 $langTreatmentDescription = "treatment_description_" . $_SESSION['lang'];
 $langTreatmentContent = "treatment_details_" . $_SESSION['lang'];
+$langFaq = "treatment_faq_" . $_SESSION['lang'];
+$langAnswer = "treatment_answer_" . $_SESSION['lang'];
 
 $langQuery = $_GET;
 
