@@ -13,6 +13,9 @@ $lang = array(
     "hairTransplant" => "Greffe de cheveux",
     "bariatricProcedures" => "Bariatric Procédures",
 
+    "faq" => "Q.F.P",
+    "frequentlyAskedQuestions" => "Questions Fréquemment Posées",
+
 
 
     "reviews" => "Commentaires",

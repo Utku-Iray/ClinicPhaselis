@@ -58,9 +58,9 @@ for ($i = 0; $i < count($body_JSON); $i++) {
                         <div class="section-title" style="text-align:left">
                             <span class="sub-title">
                                 <i class="flaticon-hashtag-symbol"></i>
-                                Frequently Asked Questions
+                                <?php echo $lang['faq'] ?>
                             </span>
-                            <h2>Get Every Single Answer There If You Want</h2>
+                            <h2> <?php echo $lang['frequentlyAskedQuestions'] ?></h2>
                         </div>
 
                         <div class="faq-accordion">

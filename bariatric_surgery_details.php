@@ -52,7 +52,37 @@ for ($i = 0; $i < count($bariatric_JSON); $i++) {
                 <div class="services-details-content">
                     <?= $selectedVal[0]->$langTreatmentContent ?>
                 </div>
+                <section class="faq-area ptb-100">
+                    <div class="container">
+                        <div class="section-title" style="text-align:left">
+                            <span class="sub-title">
+                                <i class="flaticon-hashtag-symbol"></i>
+                                <?php echo $lang['faq'] ?>
+                            </span>
+                            <h2> <?php echo $lang['frequentlyAskedQuestions'] ?></h2>
+                        </div>
 
+                        <div class="faq-accordion">
+                            <div class="accordion">
+                                <?php
+                                $treatment_faq = $selectedVal[0]->$langFaq;
+                                $treatment_answer = $selectedVal[0]->$langAnswer;
+                                for ($i = 0; $i < count($treatment_faq); $i++) { ?>
+                                    <div class="accordion-item">
+                                        <div class="accordion-title active">
+                                            <i class='bx bx-plus'></i>
+                                            <?= $treatment_faq[$i] ?>
+                                        </div>
+                                        <div class="accordion-content show">
+                                        <?= $treatment_answer[$i] ?>
+
+                                        </div>
+                                    </div>
+                                <?php  } ?>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
                
 

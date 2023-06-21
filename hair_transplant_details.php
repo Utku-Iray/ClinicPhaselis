@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="zxx">
 
@@ -27,15 +26,45 @@
         <div class="row">
             <div class="col-lg-8 col-md-12">
                 <div class="services-details-image">
-                    <img src="<?= $hair_JSON[0] ->treatment_photo ?>" alt="image">
+                    <img src="<?= $hair_JSON[0]->treatment_photo ?>" alt="image">
                 </div>
 
                 <div class="services-details-content">
-                    <?= $hair_JSON[0] ->$langTreatmentContent ?>
+                    <?= $hair_JSON[0]->$langTreatmentContent ?>
                 </div>
+                <section class="faq-area ptb-100">
+                    <div class="container">
+                        <div class="section-title" style="text-align:left">
+                            <span class="sub-title">
+                                <i class="flaticon-hashtag-symbol"></i>
+                                <?php echo $lang['faq'] ?>
+                            </span>
+                            <h2> <?php echo $lang['frequentlyAskedQuestions'] ?></h2>
+                        </div>
+
+                        <div class="faq-accordion">
+                            <div class="accordion">
+                                <?php
+                                $treatment_faq = $hair_JSON[0]->$langFaq;
+                                $treatment_answer = $hair_JSON[0]->$langAnswer;
+                                for ($i = 0; $i < count($treatment_faq); $i++) { ?>
+                                    <div class="accordion-item">
+                                        <div class="accordion-title active">
+                                            <i class='bx bx-plus'></i>
+                                            <?= $treatment_faq[$i] ?>
+                                        </div>
+                                        <div class="accordion-content show">
+                                            <?= $treatment_answer[$i] ?>
+
+                                        </div>
+                                    </div>
+                                <?php  } ?>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
 
-               
 
             </div>
 
@@ -46,18 +75,18 @@
                     <div class="widget widget_grin_posts_thumb">
                         <h3 class="widget-title"><?php echo $lang['treatments'] ?></h3>
                         <hr>
-                        <?php foreach ($plastic_JSON as $hair) {?>
-                           
-                        <article class="item">
-                            <a href="<?= $hair -> treatment_link ?>" class="thumb">
-                                <img src="<?= $hair -> treatment_first_photo ?>" alt="">
-                            </a>
-                            <div class="info">
-                                <h4 class="title usmall">
-                                    <a href="<?= $hair -> treatment_link ?>"><?= $hair -> $langTreatmentName ?></a>
-                                </h4>
-                            </div>
-                        </article>
+                        <?php foreach ($plastic_JSON as $hair) { ?>
+
+                            <article class="item">
+                                <a href="<?= $hair->treatment_link ?>" class="thumb">
+                                    <img src="<?= $hair->treatment_first_photo ?>" alt="">
+                                </a>
+                                <div class="info">
+                                    <h4 class="title usmall">
+                                        <a href="<?= $hair->treatment_link ?>"><?= $hair->$langTreatmentName ?></a>
+                                    </h4>
+                                </div>
+                            </article>
                         <?php  } ?>
 
                     </div>

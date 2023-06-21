@@ -13,7 +13,7 @@ if (isset($_GET["name"]) && $_GET["name"] != "" && !isset($_GET["lang"])) {
 
 <?php include 'php/head.php' ?>
 <?php include 'php/header.php' ?>
-<?php 
+<?php
 
 for ($i = 0; $i < count($dental_JSON); $i++) {
     if ($dental_JSON[$i]->$langTreatmentName == $name) {
@@ -47,15 +47,49 @@ for ($i = 0; $i < count($dental_JSON); $i++) {
         <div class="row">
             <div class="col-lg-8 col-md-12">
                 <div class="services-details-image">
-                    <img src="<?= $selectedVal[0] ->treatment_photo ?>" alt="image">
+                    <img src="<?= $selectedVal[0]->treatment_photo ?>" alt="image">
                 </div>
 
                 <div class="services-details-content">
-                    <?= $selectedVal[0] ->$langTreatmentContent ?>
+                    <?= $selectedVal[0]->$langTreatmentContent ?>
                 </div>
+                <?php
+                $treatment_faq = $selectedVal[0]->$langFaq;
+                $treatment_answer = $selectedVal[0]->$langAnswer;
+                if ($treatment_faq != [""]) { ?>
+                    <section class="faq-area ptb-100">
+                        <div class="container">
+                            <div class="section-title" style="text-align:left">
+                                <span class="sub-title">
+                                    <i class="flaticon-hashtag-symbol"></i>
+                                    <?php echo $lang['faq'] ?>
+                                </span>
+                                <h2><?php echo $lang['frequentlyAskedQuestions'] ?></h2>
+                            </div>
+
+                            <div class="faq-accordion">
+                                <div class="accordion">
+                                    <?php
+                                    for ($i = 0; $i < count($treatment_faq); $i++) {  ?>
+                                        <div class="accordion-item">
+                                            <div class="accordion-title active">
+                                                <i class='bx bx-plus'></i>
+                                                <?= $treatment_faq[$i] ?>
+                                            </div>
+                                            <div class="accordion-content show">
+                                                <?= $treatment_answer[$i] ?>
+
+                                            </div>
+                                        </div>
+                                    <?php    } ?>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                <?php   } ?>
 
 
-               
+
 
             </div>
 
@@ -66,18 +100,18 @@ for ($i = 0; $i < count($dental_JSON); $i++) {
                     <div class="widget widget_grin_posts_thumb">
                         <h3 class="widget-title"><?php echo $lang['treatments'] ?></h3>
                         <hr>
-                        <?php foreach ($dental_JSON as $dental) {?>
-                           
-                        <article class="item">
-                            <a href="dental_procedures_details.php?name=<?= $dental -> $langTreatmentName ?>" class="thumb">
-                                <img src="<?= $dental -> treatment_first_photo ?>" alt="">
-                            </a>
-                            <div class="info">
-                                <h4 class="title usmall">
-                                    <a href="dental_procedures_details.php?name=<?= $dental -> $langTreatmentName ?>"><?= $dental -> $langTreatmentName ?></a>
-                                </h4>
-                            </div>
-                        </article>
+                        <?php foreach ($dental_JSON as $dental) { ?>
+
+                            <article class="item">
+                                <a href="dental_procedures_details.php?name=<?= $dental->$langTreatmentName ?>" class="thumb">
+                                    <img src="<?= $dental->treatment_first_photo ?>" alt="">
+                                </a>
+                                <div class="info">
+                                    <h4 class="title usmall">
+                                        <a href="dental_procedures_details.php?name=<?= $dental->$langTreatmentName ?>"><?= $dental->$langTreatmentName ?></a>
+                                    </h4>
+                                </div>
+                            </article>
                         <?php  } ?>
 
                     </div>

@@ -14,6 +14,9 @@ $lang = array(
     "hairTransplant" => "Hair Transplant",
     "bariatricProcedures" => "Bariatric Procedures",
 
+    "faq" => "F.A.Q",
+    "frequentlyAskedQuestions" => "Frequently Asked Questions",
+
 
     "reviews" => "Reviews",
     "baGallery" => "B&A Gallery",
