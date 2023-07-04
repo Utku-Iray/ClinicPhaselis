@@ -1,10 +1,21 @@
 <!-- End Dental Tourism Blog Area -->
-<div id="capitol-callback">
-  <div class="cpt-circle"></div>
-  <div class="cpt-circle-fill"></div>
-  <a href="https://api.whatsapp.com/send?phone=+905421590907&text=Hello" id="WhatsAppBtnDesktop" target="_blank" class="main-button" lang="en">
-    <img src="https://nhtagent.com/nht-upload/assets/javascripts/WhatsApp/WhatsApp.png" width="50%">
-  </a>
+
+<div class="wp" id="capitol-callback">
+    <div class="cpt-circle"></div>
+    <div class="cpt-circle-fill"></div>
+    <a href="https://api.whatsapp.com/send?phone=+905421590907&text=Hello" id="WhatsAppBtnDesktop" target="_blank" class="main-button" lang="en">
+        <img src="https://nhtagent.com/nht-upload/assets/javascripts/WhatsApp/WhatsApp.png" width="50%">
+    </a>
+</div>
+<div style="display: none;" class="sticy-form-area-mobile">
+    <div class="col-md-6"> <a href="https://api.whatsapp.com/send?phone=+905421590907&text=Hello" id="phone-wp" target="_blank">
+            <span class="pulset">Whatsapp</span>
+        </a>
+    </div>
+    <div class="col-md-6"> <a href="tel:+9008507579394" id="phone-form">
+            <span class="pulset"><?php echo $lang['freeCall'] ?></span>
+        </a>
+    </div>
 </div>
 <!-- Start Dental Tourism Footer Area -->
 <div class="dental-tourism-footer-area pt-100">
@@ -17,7 +28,7 @@
                             <img src="assets/images/logo/clinic-phaselis-beyaz.png" alt="">
                         </a>
                     </h2>
-                    
+
                 </div>
             </div>
             <div class="col-lg-2 col-sm-6">
@@ -38,10 +49,10 @@
                     <h3><?php echo $lang['ourServices'] ?></h3>
 
                     <ul class="quick-links">
-                        <?php foreach ($plastic_JSON as $plastic ) {?>
-                            
-                       
-                        <li><i class='bx bxs-chevrons-right'></i> <a href="<?= $plastic -> treatment_link ?>"><?= $plastic -> $langTreatmentName ?></a></li>
+                        <?php foreach ($plastic_JSON as $plastic) { ?>
+
+
+                            <li><i class='bx bxs-chevrons-right'></i> <a href="<?= $plastic->treatment_link ?>"><?= $plastic->$langTreatmentName ?></a></li>
                         <?php   } ?>
                     </ul>
                 </div>
@@ -72,25 +83,25 @@
                             <span><?php echo $lang['getSocial'] ?>:</span>
                         </li>
                         <li>
-                                <a href="https://www.facebook.com/clinicphaselis" target="_blank">
-                                    <i class='bx bxl-facebook'></i>
-                                </a>
-                            </li>
-                            <!-- <li>
+                            <a href="https://www.facebook.com/clinicphaselis" target="_blank">
+                                <i class='bx bxl-facebook'></i>
+                            </a>
+                        </li>
+                        <!-- <li>
                                 <a href="https://twitter.com/?lang=en" target="_blank">
                                     <i class='bx bxl-twitter'></i>
                                 </a>
                             </li> -->
-                            <li>
-                                <a href="https://www.linkedin.com/company/clinicphaselis/" target="_blank">
-                                    <i class='bx bxl-linkedin'></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/clinicphaselis/" target="_blank">
-                                    <i class='bx bxl-instagram'></i>
-                                </a>
-                            </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/clinicphaselis/" target="_blank">
+                                <i class='bx bxl-linkedin'></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/clinicphaselis/" target="_blank">
+                                <i class='bx bxl-instagram'></i>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -100,7 +111,7 @@
             <div class="container">
                 <div class="copyright-area-content">
                     <p>
-                        © 
+                        ©
                         <a href="https://www.ideaplusagency.net/" target="_blank">
                             Ideaplus Digital Agency
                         </a>

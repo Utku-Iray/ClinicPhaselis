@@ -133,7 +133,7 @@ $lang = array(
     "EMail"=>"Email Us",
     "contactUsFree"=>"Contact Us Free",
     "sendMessage"=>"Send Message",
-
+    "freeCall" =>"Free Call",
 
 //accommodation
 "hospitalAccomodation"=>"Hospitals & Accommodation",

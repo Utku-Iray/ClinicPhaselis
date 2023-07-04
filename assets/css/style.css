@@ -16332,3 +16332,37 @@ Covid Footer Area CSS
 .main-button img {
     vertical-align: middle;
 }
+#phone-wp {
+    float: right;
+    font-weight: bold;
+    width: 49%;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 13px;
+    background-color: #b449b7;
+    color: #FFF;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgba(35, 35, 35, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    z-index: 8;
+    transform: scale(1);
+    animation: pulse-green 2s infinite;
+}
+
+#phone-form {
+    float: left;
+    font-weight: bold;
+    width: 49%;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 13px;
+    background-color: #3179c9;
+    color: #FFF;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgba(35, 35, 35, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    z-index: 8;
+    transform: scale(1);
+    animation: pulse-purple 2s infinite;
+}

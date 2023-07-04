@@ -132,6 +132,7 @@ $lang = array(
     "EMail" => "Bize e-posta gönderin",
     "contactUsFree" => "Bize Ulaşın Ücretsiz",
     "sendMessage" => "Mesaj gönder",
+    "freeCall" =>"Ücretsiz Ulaşın",
 
     //accommodation
     "hospitalAccomodation" => "Hastaneler & Konaklama",
