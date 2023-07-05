@@ -1,0 +1,122 @@
+[28-Mar-2023 22:35:37 Europe/Istanbul] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'smilestu_2023'@'localhost' (using password: YES) in /home/u1100122/public_html/utilities/posta/clinic-ici.php:29
+Stack trace:
+#0 /home/u1100122/public_html/utilities/posta/clinic-ici.php(29): mysqli_connect()
+#1 {main}
+  thrown in /home/u1100122/public_html/utilities/posta/clinic-ici.php on line 29
+[28-Mar-2023 22:39:44 Europe/Istanbul] PHP Warning:  Undefined variable $tarih in /home/u1100122/public_html/utilities/posta/clinic-ici.php on line 31
+[28-Mar-2023 22:39:44 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined function each() in /home/u1100122/public_html/utilities/posta/class.smtp.php:617
+Stack trace:
+#0 /home/u1100122/public_html/utilities/posta/inc/class.phpmailer.php(1023): SMTP->Data()
+#1 /home/u1100122/public_html/utilities/posta/inc/class.phpmailer.php(845): PHPMailer->SmtpSend()
+#2 /home/u1100122/public_html/utilities/posta/inc/class.phpmailer.php(763): PHPMailer->PostSend()
+#3 /home/u1100122/public_html/utilities/posta/clinic-ici.php(34): PHPMailer->Send()
+#4 /home/u1100122/public_html/utilities/posta/clinic-ici.php(39): mailgonder()
+#5 {main}
+  thrown in /home/u1100122/public_html/utilities/posta/class.smtp.php on line 617
+[28-Mar-2023 22:40:37 Europe/Istanbul] PHP Warning:  Undefined variable $tarih in /home/u1100122/public_html/utilities/posta/clinic-ici.php on line 31
+[28-Mar-2023 22:40:38 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined function each() in /home/u1100122/public_html/utilities/posta/class.smtp.php:617
+Stack trace:
+#0 /home/u1100122/public_html/utilities/posta/inc/class.phpmailer.php(1023): SMTP->Data()
+#1 /home/u1100122/public_html/utilities/posta/inc/class.phpmailer.php(845): PHPMailer->SmtpSend()
+#2 /home/u1100122/public_html/utilities/posta/inc/class.phpmailer.php(763): PHPMailer->PostSend()
+#3 /home/u1100122/public_html/utilities/posta/clinic-ici.php(34): PHPMailer->Send()
+#4 /home/u1100122/public_html/utilities/posta/clinic-ici.php(39): mailgonder()
+#5 {main}
+  thrown in /home/u1100122/public_html/utilities/posta/class.smtp.php on line 617
+[28-Mar-2023 22:41:48 Europe/Istanbul] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'smilestu_2023'@'localhost' (using password: YES) in /home/u1100122/public_html/utilities/posta/clinic-ici.php:29
+Stack trace:
+#0 /home/u1100122/public_html/utilities/posta/clinic-ici.php(29): mysqli_connect()
+#1 {main}
+  thrown in /home/u1100122/public_html/utilities/posta/clinic-ici.php on line 29
+[28-Mar-2023 22:42:05 Europe/Istanbul] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'smilestu_2023'@'localhost' (using password: YES) in /home/u1100122/public_html/utilities/posta/clinic-ici.php:29
+Stack trace:
+#0 /home/u1100122/public_html/utilities/posta/clinic-ici.php(29): mysqli_connect()
+#1 {main}
+  thrown in /home/u1100122/public_html/utilities/posta/clinic-ici.php on line 29
+[28-Mar-2023 22:42:06 Europe/Istanbul] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'smilestu_2023'@'localhost' (using password: YES) in /home/u1100122/public_html/utilities/posta/clinic-ici.php:29
+Stack trace:
+#0 /home/u1100122/public_html/utilities/posta/clinic-ici.php(29): mysqli_connect()
+#1 {main}
+  thrown in /home/u1100122/public_html/utilities/posta/clinic-ici.php on line 29
+[28-Mar-2023 22:43:56 Europe/Istanbul] PHP Parse error:  Unmatched '}' in /home/u1100122/public_html/utilities/posta/clinic-ici.php on line 101
+[28-Mar-2023 22:43:59 Europe/Istanbul] PHP Parse error:  Unmatched '}' in /home/u1100122/public_html/utilities/posta/clinic-ici.php on line 101
+[28-Mar-2023 22:44:21 Europe/Istanbul] PHP Parse error:  Unmatched '}' in /home/u1100122/public_html/utilities/posta/clinic-ici.php on line 101
+[28-Mar-2023 22:44:41 Europe/Istanbul] PHP Parse error:  Unmatched '}' in /home/u1100122/public_html/utilities/posta/clinic-ici.php on line 102
+[28-Mar-2023 22:44:42 Europe/Istanbul] PHP Parse error:  Unmatched '}' in /home/u1100122/public_html/utilities/posta/clinic-ici.php on line 102
+[28-Mar-2023 22:44:59 Europe/Istanbul] PHP Parse error:  Unmatched '}' in /home/u1100122/public_html/utilities/posta/clinic-ici.php on line 103
+[28-Mar-2023 22:45:00 Europe/Istanbul] PHP Parse error:  Unmatched '}' in /home/u1100122/public_html/utilities/posta/clinic-ici.php on line 103
+[28-Mar-2023 22:45:07 Europe/Istanbul] PHP Parse error:  Unmatched '}' in /home/u1100122/public_html/utilities/posta/clinic-ici.php on line 103
+[28-Mar-2023 22:46:11 Europe/Istanbul] PHP Parse error:  Unmatched '}' in /home/u1100122/public_html/utilities/posta/clinic-ici.php on line 103
+[28-Mar-2023 22:46:26 Europe/Istanbul] PHP Warning:  Undefined variable $tarih in /home/u1100122/public_html/utilities/posta/clinic-ici.php on line 32
+[28-Mar-2023 22:46:27 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined function each() in /home/u1100122/public_html/utilities/posta/class.smtp.php:617
+Stack trace:
+#0 /home/u1100122/public_html/utilities/posta/inc/class.phpmailer.php(1023): SMTP->Data()
+#1 /home/u1100122/public_html/utilities/posta/inc/class.phpmailer.php(845): PHPMailer->SmtpSend()
+#2 /home/u1100122/public_html/utilities/posta/inc/class.phpmailer.php(763): PHPMailer->PostSend()
+#3 /home/u1100122/public_html/utilities/posta/clinic-ici.php(36): PHPMailer->Send()
+#4 /home/u1100122/public_html/utilities/posta/clinic-ici.php(41): mailgonder()
+#5 {main}
+  thrown in /home/u1100122/public_html/utilities/posta/class.smtp.php on line 617
+[28-Mar-2023 22:46:41 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined function each() in /home/u1100122/public_html/utilities/posta/class.smtp.php:617
+Stack trace:
+#0 /home/u1100122/public_html/utilities/posta/inc/class.phpmailer.php(1023): SMTP->Data()
+#1 /home/u1100122/public_html/utilities/posta/inc/class.phpmailer.php(845): PHPMailer->SmtpSend()
+#2 /home/u1100122/public_html/utilities/posta/inc/class.phpmailer.php(763): PHPMailer->PostSend()
+#3 /home/u1100122/public_html/utilities/posta/clinic-ici.php(36): PHPMailer->Send()
+#4 /home/u1100122/public_html/utilities/posta/clinic-ici.php(41): mailgonder()
+#5 {main}
+  thrown in /home/u1100122/public_html/utilities/posta/class.smtp.php on line 617
+[28-Mar-2023 22:48:35 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined function each() in /home/u1100122/public_html/utilities/posta/class.smtp.php:617
+Stack trace:
+#0 /home/u1100122/public_html/utilities/posta/inc/class.phpmailer.php(1023): SMTP->Data()
+#1 /home/u1100122/public_html/utilities/posta/inc/class.phpmailer.php(845): PHPMailer->SmtpSend()
+#2 /home/u1100122/public_html/utilities/posta/inc/class.phpmailer.php(763): PHPMailer->PostSend()
+#3 /home/u1100122/public_html/utilities/posta/clinic-ici.php(36): PHPMailer->Send()
+#4 /home/u1100122/public_html/utilities/posta/clinic-ici.php(41): mailgonder()
+#5 {main}
+  thrown in /home/u1100122/public_html/utilities/posta/class.smtp.php on line 617
+[28-Mar-2023 22:50:21 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined function each() in /home/u1100122/public_html/utilities/posta/class.smtp.php:617
+Stack trace:
+#0 /home/u1100122/public_html/utilities/posta/inc/class.phpmailer.php(1023): SMTP->Data()
+#1 /home/u1100122/public_html/utilities/posta/inc/class.phpmailer.php(845): PHPMailer->SmtpSend()
+#2 /home/u1100122/public_html/utilities/posta/inc/class.phpmailer.php(763): PHPMailer->PostSend()
+#3 /home/u1100122/public_html/utilities/posta/clinic-ici.php(37): PHPMailer->Send()
+#4 /home/u1100122/public_html/utilities/posta/clinic-ici.php(42): mailgonder()
+#5 {main}
+  thrown in /home/u1100122/public_html/utilities/posta/class.smtp.php on line 617
+[28-Mar-2023 22:50:36 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined function each() in /home/u1100122/public_html/utilities/posta/class.smtp.php:617
+Stack trace:
+#0 /home/u1100122/public_html/utilities/posta/inc/class.phpmailer.php(1023): SMTP->Data()
+#1 /home/u1100122/public_html/utilities/posta/inc/class.phpmailer.php(845): PHPMailer->SmtpSend()
+#2 /home/u1100122/public_html/utilities/posta/inc/class.phpmailer.php(763): PHPMailer->PostSend()
+#3 /home/u1100122/public_html/utilities/posta/clinic-ici.php(36): PHPMailer->Send()
+#4 /home/u1100122/public_html/utilities/posta/clinic-ici.php(41): mailgonder()
+#5 {main}
+  thrown in /home/u1100122/public_html/utilities/posta/class.smtp.php on line 617
+[28-Mar-2023 22:51:31 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined function each() in /home/u1100122/public_html/utilities/posta/class.smtp.php:617
+Stack trace:
+#0 /home/u1100122/public_html/utilities/posta/inc/class.phpmailer.php(1023): SMTP->Data()
+#1 /home/u1100122/public_html/utilities/posta/inc/class.phpmailer.php(845): PHPMailer->SmtpSend()
+#2 /home/u1100122/public_html/utilities/posta/inc/class.phpmailer.php(763): PHPMailer->PostSend()
+#3 /home/u1100122/public_html/utilities/posta/clinic-ici.php(36): PHPMailer->Send()
+#4 /home/u1100122/public_html/utilities/posta/clinic-ici.php(41): mailgonder()
+#5 {main}
+  thrown in /home/u1100122/public_html/utilities/posta/class.smtp.php on line 617
+[28-Mar-2023 22:51:51 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined function each() in /home/u1100122/public_html/utilities/posta/inc/class.smtp.php:544
+Stack trace:
+#0 /home/u1100122/public_html/utilities/posta/inc/class.phpmailer.php(1023): SMTP->Data()
+#1 /home/u1100122/public_html/utilities/posta/inc/class.phpmailer.php(845): PHPMailer->SmtpSend()
+#2 /home/u1100122/public_html/utilities/posta/inc/class.phpmailer.php(763): PHPMailer->PostSend()
+#3 /home/u1100122/public_html/utilities/posta/clinic-ici.php(36): PHPMailer->Send()
+#4 /home/u1100122/public_html/utilities/posta/clinic-ici.php(41): mailgonder()
+#5 {main}
+  thrown in /home/u1100122/public_html/utilities/posta/inc/class.smtp.php on line 544
+[28-Mar-2023 22:52:45 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined function each() in /home/u1100122/public_html/utilities/posta/inc/class.smtp.php:544
+Stack trace:
+#0 /home/u1100122/public_html/utilities/posta/inc/class.phpmailer.php(1023): SMTP->Data()
+#1 /home/u1100122/public_html/utilities/posta/inc/class.phpmailer.php(845): PHPMailer->SmtpSend()
+#2 /home/u1100122/public_html/utilities/posta/inc/class.phpmailer.php(763): PHPMailer->PostSend()
+#3 /home/u1100122/public_html/utilities/posta/clinic-ici.php(36): PHPMailer->Send()
+#4 /home/u1100122/public_html/utilities/posta/clinic-ici.php(41): mailgonder()
+#5 {main}
+  thrown in /home/u1100122/public_html/utilities/posta/inc/class.smtp.php on line 544

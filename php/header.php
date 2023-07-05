@@ -44,6 +44,10 @@ $URL = 'data/dental_before_after.json';
 $JSON = file_get_contents($URL);
 $dentalBeforeAfter_JSON = json_decode($JSON);
 
+$URL = 'data/dialcode.json';
+$JSON = file_get_contents($URL);
+$phone_JSON = json_decode($JSON);
+
 
 ?>
 

@@ -368,39 +368,50 @@
         <div class="dental-tourism-appointment-form">
             <h4><i class="flaticon-calendar"></i> <?php echo $lang['makeaAnAppointment'] ?></h4>
 
-            <form>
+            <form method="POST" action="/utilities/posta/mail.php">
                 <div class="row">
 
 
                     <div class="col-lg-6 col-md-12">
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="<?php echo $lang['name'] ?>">
+                            <input type="text" class="form-control" name="patientnamesurname" placeholder="<?php echo $lang['name'] ?>">
                         </div>
                     </div>
 
                     <div class="col-lg-6 col-md-12">
                         <div class="form-group">
-                            <input type="email" class="form-control" placeholder="<?php echo $lang['eMail'] ?>">
+                            
+                            <input type="email" name="mail"  class="form-control" placeholder="<?php echo $lang['eMail'] ?>">
                         </div>
                     </div>
-
                     <div class="col-lg-6 col-md-12">
                         <div class="form-group">
-                            <input type="number" class="form-control" placeholder="<?php echo $lang['number'] ?>">
+                        <select name="patientDialCode" id="patientDialCode">
+                                <option class="d-none" value=""><?php echo $lang['countryCode'] ?></option>
+                                <?php
+
+                                foreach ($phone_JSON as $phone) { ?>
+                                    <option value="<?= $phone->dial_code ?>"><?= $phone->name ?> (<?= $phone->dial_code ?>) </option>
+                                <?php }
+                                ?>
+
+                            </select>
+                            <!-- <input type="text" class="form-control" placeholder="<?php echo $lang['countryCode'] ?>"> -->
                         </div>
                     </div>
-
-
-
                     <div class="col-lg-6 col-md-12">
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="<?php echo $lang['countryCode'] ?>">
+                            <input type="number" name="patientPhone" class="form-control" placeholder="<?php echo $lang['number'] ?>">
                         </div>
                     </div>
+
+
+
+                   
 
                     <div class="col-lg-12 col-md-12">
                         <div class="form-group">
-                            <textarea name="message" class="form-control" placeholder="<?php echo $lang['message'] ?>"></textarea>
+                            <textarea name="patientNote" class="form-control" placeholder="<?php echo $lang['message'] ?>"></textarea>
                         </div>
                     </div>
 

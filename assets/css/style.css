@@ -16332,6 +16332,7 @@ Covid Footer Area CSS
 .main-button img {
     vertical-align: middle;
 }
+
 #phone-wp {
     float: right;
     font-weight: bold;
@@ -16365,4 +16366,8 @@ Covid Footer Area CSS
     z-index: 8;
     transform: scale(1);
     animation: pulse-purple 2s infinite;
+}
+
+.dental-tourism-appointment-form form .form-group .nice-select .list .option {
+    max-width: 250px;
 }
