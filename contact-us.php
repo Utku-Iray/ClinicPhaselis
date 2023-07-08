@@ -93,7 +93,7 @@
                                         </div>
                                         <h3><?php echo $lang['contactUsFree'] ?></h3>
                                         <p>
-                                        <i class='bx bxs-phone'></i>  <a href="tel:+9008507579394">+ 90 0850 757 93 94 </a> <br>
+                                        <i class='bx bxs-phone'></i>  <a href="tel:+908507579394">+ 90 850 757 93 94 </a> <br>
                                         <i class='bx bxl-whatsapp'></i> <a href="tel:+905421590907">+ 90 542 159 09 07</a>
                                         </p>
                                     </div>

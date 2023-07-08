@@ -12,7 +12,7 @@
             <span class="pulset">Whatsapp</span>
         </a>
     </div>
-    <div class="col-md-6"> <a href="tel:+9008507579394" id="phone-form">
+    <div class="col-md-6"> <a href="tel:+908507579394" id="phone-form">
             <span class="pulset"><?php echo $lang['freeCall'] ?></span>
         </a>
     </div>
@@ -74,8 +74,8 @@
 
                     <ul class="info-list">
                         <li><span><?php echo $lang['location'] ?>:</span> Muratpaşa/Antalya</li>
-                        <li><span><?php echo $lang['phone'] ?>:</span> <a href="tel:+90 0850 757 93 94"> + 90 0850 757 93 94</a></li>
-                        <li><span>Whatsapp:</span> <a href="tel:+90 542 159 09 07">+90 542 159 09 07</a></li>
+                        <li><span><?php echo $lang['phone'] ?>:</span> <a href="tel:+908507579394"> + 90 850 757 93 94</a></li>
+                        <li><span>Whatsapp:</span> <a href="tel:+905421590907">+90 542 159 09 07</a></li>
                         <li><span>E-Mail:</span> <a href="mailto:info@clinicphaselis.com">info@clinicphaselis.com</a></li>
                     </ul>
                     <ul class="share-link">
