@@ -85,7 +85,7 @@
                 <div class=" pb-75">
                     <div class="container">
                         <div class="row justify-content-center">
-                        <div class="col-lg-12 col-md-6">
+                            <div class="col-lg-12 col-md-6">
                                 <div class="hospital-information-card">
                                     <div class="content">
                                         <div class="icon">
@@ -93,16 +93,43 @@
                                         </div>
                                         <h3><?php echo $lang['contactUsFree'] ?></h3>
                                         <p>
-                                        <i class='bx bxs-phone'></i>  <a href="tel:+908507579394">+ 90 850 757 93 94 </a> <br>
-                                        <i class='bx bxl-whatsapp'></i> <a href="tel:+905421590907">+ 90 542 159 09 07</a>
+                                            <i class='bx bxs-phone'></i> <a href="tel:+908507579394">+ 90 850 757 93 94 </a> <br>
+                                            <i class='bx bxl-whatsapp'></i> <a href="tel:+905421590907">+ 90 542 159 09 07</a>
                                         </p>
+                                        <div class="dental-tourism-footer-widget" style="margin:0">
+                                           
+                                            <ul class="share-link contact-us-social-icon" style="margin: 0;">
+                                            
+                                                <li>
+                                                    <a href="https://www.facebook.com/clinicphaselis" target="_blank">
+                                                        <i class='bx bxl-facebook'></i>
+                                                    </a>
+                                                </li>
+                                                <!-- <li>
+                                <a href="https://twitter.com/?lang=en" target="_blank">
+                                    <i class='bx bxl-twitter'></i>
+                                </a>
+                            </li> -->
+                                                <li>
+                                                    <a href="https://www.linkedin.com/company/clinicphaselis/" target="_blank">
+                                                        <i class='bx bxl-linkedin'></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.instagram.com/clinicphaselis/" target="_blank">
+                                                        <i class='bx bxl-instagram'></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
+
                                     <div class="shape">
                                         <img src="assets/images/hospital/info-shape.png" alt="image">
                                     </div>
                                 </div>
                             </div>
-                          
+
 
                             <div class="col-lg-12 col-md-6">
                                 <div class="hospital-information-card">
@@ -113,7 +140,7 @@
                                         <h3><?php echo $lang['EMail'] ?></h3>
                                         <p>
                                             <a href="mailto: info@clinicphaselis.com"> info@clinicphaselis.com</a>
-                                           
+
                                         </p>
                                     </div>
                                     <div class="shape">
@@ -135,7 +162,7 @@
                                     </div>
                                 </div>
                             </div>
-                          
+
                         </div>
                     </div>
                 </div>

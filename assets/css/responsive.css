@@ -1215,12 +1215,12 @@
         padding: 25px 20px;
     }
     .hospital-information-card .content {
-        padding-left: 80px;
+        padding-left: 60px;
     }
     .hospital-information-card .content .icon i {
-        height: 65px;
-        width: 65px;
-        line-height: 65px;
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
         font-size: 35px;
     }
     .hospital-information-card .content h3 {

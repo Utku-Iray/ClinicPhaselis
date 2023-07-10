@@ -16371,3 +16371,18 @@ Covid Footer Area CSS
 .dental-tourism-appointment-form form .form-group .nice-select .list .option {
     max-width: 250px;
 }
+.contact-us-social-icon li a i{
+    color: black !important;
+    font-size: 25px;
+    position: relative;
+    top: 1px;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    line-height: 28px;
+    border: 2px solid #000 !important;
+    text-align: center;
+    border-radius: 5px;
+}
