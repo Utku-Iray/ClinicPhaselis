@@ -35,39 +35,61 @@
     border-radius: 15px;">
             <div class="col-md-6">
                 <div class="contact-form">
-                    <form id="contactForm">
+                    <form method="POST" action="mail/tesekkurler.php">
                         <div class="row">
                             <div class="col-lg-6 col-md-6">
                                 <div class="form-group">
-                                    <input type="text" name="name" id="name" class="form-control" required data-error="Please enter your name" placeholder="<?php echo $lang['name'] ?>">
+                                    <input type="text" name="patientnamesurname" class="form-control" required data-error="Please enter your name" placeholder="<?php echo $lang['name'] ?>">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
 
                             <div class="col-lg-6 col-md-6">
                                 <div class="form-group">
-                                    <input type="email" name="email" id="email" class="form-control" required data-error="Please enter your email" placeholder="<?php echo $lang['eMail'] ?>">
+                                    <input type="email" name="mail" class="form-control" required data-error="Please enter your email" placeholder="<?php echo $lang['eMail'] ?>">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="form-group">
+                                    <style>
+                                        .nice-select {
+                                            height: 60px;
+                                            line-height: 60px;
+                                        }
+                                        .nice-select.open .list{
+                                           height: 200px !important;
+                                           overflow: auto !important;
+                                        }
+                                        .nice-select .list{
+                                            height: 200px;
+                                        }
+                                    </style>
+                                    <select name="patientDialCode" id="patientDialCode">
+                                        <option value=""><?php echo $lang['countryCode'] ?></option>
+                                        <?php
+
+                                        foreach ($phone_JSON as $phone) { ?>
+                                            <option  value="<?= $phone->dial_code ?>"><?= $phone->name ?> (<?= $phone->dial_code ?>) </option>
+                                        <?php }
+                                        ?>
+
+                                    </select>
+                                    <!-- <input type="text" class="form-control" placeholder="<?php echo $lang['countryCode'] ?>"> -->
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="form-group">
+                                    <input type="text" name="patientPhone" required data-error="Please enter your number" class="form-control" placeholder="<?php echo $lang['number'] ?>">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
 
-                            <div class="col-lg-6 col-md-6">
-                                <div class="form-group">
-                                    <input type="text" name="phone_number" id="phone_number" required data-error="Please enter your number" class="form-control" placeholder="<?php echo $lang['number'] ?>">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
 
-                            <div class="col-lg-6 col-md-6">
-                                <div class="form-group">
-                                    <input type="text" name="msg_subject" id="msg_subject" class="form-control" required data-error="Please enter your subject" placeholder="<?php echo $lang['subjject'] ?>">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
 
                             <div class="col-lg-12 col-md-12">
                                 <div class="form-group">
-                                    <textarea name="message" class="form-control" id="message" cols="30" rows="5" required data-error="Write your message" placeholder="<?php echo $lang['message'] ?>"></textarea>
+                                    <textarea name="patientNote" class="form-control"  cols="30" rows="5" required data-error="Write your message" placeholder="<?php echo $lang['message'] ?>"></textarea>
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
@@ -97,9 +119,9 @@
                                             <i class='bx bxl-whatsapp'></i> <a href="tel:+905421590907">+ 90 542 159 09 07</a>
                                         </p>
                                         <div class="dental-tourism-footer-widget" style="margin:0">
-                                           
+
                                             <ul class="share-link contact-us-social-icon" style="margin: 0;">
-                                            
+
                                                 <li>
                                                     <a href="https://www.facebook.com/clinicphaselis" target="_blank">
                                                         <i class='bx bxl-facebook'></i>
