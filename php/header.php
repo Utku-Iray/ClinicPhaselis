@@ -48,6 +48,10 @@ $URL = 'data/dialcode.json';
 $JSON = file_get_contents($URL);
 $phone_JSON = json_decode($JSON);
 
+$URL = 'data/blog.json';
+$JSON = file_get_contents($URL);
+$blog_JSON = json_decode($JSON);
+
 
 ?>
 
