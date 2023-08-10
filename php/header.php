@@ -239,7 +239,9 @@ $blog_JSON = json_decode($JSON);
                                         </li>
                                     </ul>
                                 </li>
-
+                                <li class="nav-item">
+                                    <a href="blog.php" class="nav-link"><?php echo $lang['blogs'] ?></a>
+                                </li>
                                 <!-- <li class="nav-item">
                                     <a href="#" class="nav-link">
                                         Pages

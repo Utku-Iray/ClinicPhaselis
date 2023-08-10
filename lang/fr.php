@@ -26,7 +26,7 @@ $lang = array(
     "bookAppointment" => "Prendre rendez-vous",
     "whatWeOfer" => "Qu'est-ce que nous offrons ?",
     "whatWeOferDescription" => "La clinique Phaselis vise à maintenir le modèle de boutique et de pratique haut de gamme pour chaque patient. Tous nos patients sont exclusifs et ils reçoivent tous un service exclusif à des prix abordables.",
-
+    "blogs"=>"Blog",
 
 
     //Slider

@@ -1,9 +1,11 @@
 <!doctype html>
 <html lang="zxx">
-<?php include 'php/head.php' ?>
-<?php include 'php/header.php' ?>
+<?php
 
+include 'php/head.php' ;
+include 'php/header.php' ;
 
+?>
 <!-- Start Page Banner -->
 <!-- <div class="page-banner-area">
                 <div class="container">
@@ -35,16 +37,16 @@
                <div class="col-lg-4 col-md-6">
                <div class="single-blog">
                    <div class="blog-image">
-                       <a href="blog-details.html"><img src="<?= $blog->$blog_image_cover ?>" alt="image"></a>
+                       <a href="blog-details.php?name=<?= $blog->$langBlogTitle ?>"><img src="<?= $blog->blog_image_cover ?>" alt="image"></a>
 
 
                    </div>
                    <div class="blog-content">
                        <h3>
-                           <a href="blog-details.html"><?= $blog->$blog_title ?></a>
+                           <a href="blog-details.php?name=<?= $blog->$langBlogTitle ?>"><?= $blog->$langBlogTitle ?></a>
                        </h3>
-                       <p><?= $blog->$blog_description ?></p>
-                       <a href="blog-details.html" class="blog-btn">Read More</a>
+                       <p><?= $blog->blog_description_en ?></p>
+                       <a href="blog-details.php?name=<?= $blog->$langBlogTitle ?>" class="blog-btn"><?php echo $lang['learnMore'] ?></a>
 
 
                    </div>

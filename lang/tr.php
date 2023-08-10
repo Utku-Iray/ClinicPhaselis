@@ -23,6 +23,7 @@ $lang = array(
     "dentalBA" => "Diş Ö&S",
     "contactUs" => "İletişim",
     "bookAppointment" => "Randevu Alınız",
+    "blogs"=>"Blog",
 
     //Slider
     "surgery" => "Cerrahi",

@@ -56,7 +56,7 @@ $lang = array(
     "makeaAnAppointment" => "Make An Appointment",
     "whatWeOfer" => "What We Ofer?",
     "whatWeOferDescription" => "Clinic Phaselis aims to maintain the boutique and premium practice model for every patient. All our patients are exclusive and they all receive an exclusive service with affordable prices. ",
-
+    "blogs"=>"Blog",
 
 
 

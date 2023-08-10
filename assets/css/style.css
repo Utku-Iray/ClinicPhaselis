@@ -602,7 +602,7 @@ Navbar Area CSS
 .main-navbar .navbar .navbar-nav .nav-item {
     position: relative;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 8px;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item a {
