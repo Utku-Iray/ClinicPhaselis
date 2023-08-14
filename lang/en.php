@@ -109,9 +109,9 @@ $lang = array(
     "services"=>"Services",
 
     "ourMission"=>"Our Mission",
-    "ourMissionDescription"=>"Clinic Phaselis is a succeeding medical travel and medical consulting firm dedicated to providing medical excellence with a patient centric vision. Our goal is to eliminate common concerns about cosmetic surgery treatments by focusing on surgical excellence, quick post-operative recovery, and to make plastic surgery the most appealing alternative for body shaping procedures overall. We guarantee a personalized and flawless anesthetic experience, the shortest post-operative downtime a patient has ever experienced, and scarring that is virtually undetectable.",
+    "ourMissionDescription"=>"Affordable Excellence, Unveiling Your Potential: <br>Clinic Phaselis is on a dedicated mission to make the journey towards one's dream body both accessible and exceptional. We offer a comprehensive range of cosmetic procedures, including plastic surgeries, bariatric surgeries, dental treatments, and more, all delivered with artistry and precision. Through our commitment to affordable pricing, unparalleled aftercare, and unwavering support, we guide our patients towards the epitome of their aspirations.",
     "ourVison"=>"Our Vision",
-    "ourVisonDescription"=>"We establish a patient-centric vision by putting the patient's safety and achieving the desired result at the core of our operations. Our objective is to provide what the patient wants at the most affordable price by focusing solely on the medical perfection of the procedure rather than charging the consumer for unrelated fees.",
+    "ourVisonDescription"=>"Empowering Dreams, Enhancing Lives: <br>Our vision at Clinic Phaselis is to be the catalyst in transforming aspirations into realities. We envision a world where individuals confidently embrace their desired appearances, and we stand as the gateway to a life imbued with self-assurance and joy.",
     "ourPromise"=>"Our Promise",
     "ourPromiseDescription1"=>"We guarantee that we deliver the best and safest results. We promise a surgery journey without complications and a rapid recovery process. We guarantee that you will not have to pay any additional fees. You are 100% under the Clinic Phaselis’s insurance.",
     "ourPromiseDescription2"=>"Our priority is to make your dreams come true.",
@@ -165,4 +165,9 @@ $lang = array(
 "phone" => "Phone",
 "location" => "Location",
 "getSocial" => "Get Social",
+
+
+//Mail
+"tesekkurler"=>"Thank You",
+"geridon"=>"Back",
 );

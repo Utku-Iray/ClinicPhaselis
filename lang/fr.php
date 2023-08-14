@@ -107,9 +107,9 @@ $lang = array(
     "services" => "Prestations de service",
 
     "ourMission"=>"Notre mission ",
-    "ourMissionDescription"=>"La Clinic Phaselis est une société de voyage et de conseil médical en plein essor qui se consacre à l'excellence médicale dans une vision centrée sur le patient. Notre objectif est d'éliminer les inquiétudes courantes concernant les traitements de chirurgie esthétique en nous concentrant sur l'excellence chirurgicale, la rapidité du rétablissement post-opératoire, et de faire de la chirurgie plastique l'alternative la plus attrayante pour les procédures de remodelage du corps en général. Nous garantissons une expérience anesthésique personnalisée et sans faille, le temps d'immobilisation postopératoire le plus court qu'un patient ait jamais connu, et des cicatrices pratiquement indétectables.",
+    "ourMissionDescription"=>"Excellence abordable, dévoiler votre potentiel :<br>la Clinic Phaselis s'est donné pour mission de rendre le voyage vers le corps de vos rêves à la fois accessible et exceptionnel. Nous offrons une gamme complète de procédures esthétiques, y compris les chirurgies plastiques, les chirurgies bariatriques, les traitements dentaires, et plus encore, tous livrés avec art et précision. Grâce à notre engagement à des prix abordables, à un suivi inégalé et à un soutien indéfectible, nous guidons nos patients vers la quintessence de leurs aspirations.",
     "ourVison"=>"Notre vision ",
-    "ourVisonDescription"=>"Nous établissons une vision centrée sur le patient en plaçant la sécurité du patient et l'obtention du résultat souhaité au cœur de nos opérations. Notre objectif est de fournir ce que le patient souhaite au prix le plus abordable en nous concentrant uniquement sur la perfection médicale de la procédure plutôt que de facturer au consommateur des frais non liés.",
+    "ourVisonDescription"=>"Autonomiser les rêves, améliorer la vie : <br>Notre vision à la Clinic Phaselis est d'être le catalyseur de la transformation des aspirations en réalités. Nous envisageons un monde où les individus adoptent en toute confiance l'apparence qu'ils souhaitent, et nous sommes la porte d'entrée d'une vie empreinte d'assurance et joie.",
     "ourPromise"=>"Notre promesse",
     "ourPromiseDescription1"=>"Nous garantissons que nous fournissons les meilleurs résultats et les plus sûrs. Nous promettons un parcours chirurgical sans complications et un processus de récupération rapide. Nous vous garantissons que vous n'aurez pas à payer de frais supplémentaires. Vous êtes couvert à 100% par l'assurance de la Clinic Phaselis.",
     "ourPromiseDescription2"=>"Notre priorité est de faire de vos rêves une réalité.",
@@ -162,5 +162,9 @@ $lang = array(
 "phone" => "Téléphone",
 "location" => "Emplacement",
 "getSocial" => "Soyez social",
+
+//Mail
+"tesekkurler"=>"Merci",
+"geridon"=>"faire demi-tour",
 
 );

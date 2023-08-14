@@ -43,7 +43,7 @@ function mailgonder(){
 
          $mail->Body = $_POST['patientnamesurname'] . "<br>Dial Kodu: " . $_POST['patientDialCode']. "<br>Telefon Numarası: " . $_POST['patientPhone'] . "<br>Not: ". $_POST['patientNote'] . "<br>Mail adresi: " . $_POST['mail'];
          $mail->AltBody = strip_tags("mesaj");
-         $mail->AddAddress("utku.iray.99@gmail.com"); 
+         $mail->AddAddress("info@clinicphaselis.com"); 
          return ($mail->Send())?true:false;      
          $mail->ClearAddresses();  
          $mail->ClearAttachments();
@@ -89,9 +89,9 @@ else echo "";
                 <article>
                     <h1><span style="
     color: #607d8b;
-">Teşekkürler</span></h1>
-                    <span>Bilgi talebiniz tarafımıza ulaştı.</span>
-                    <p>En kısa sürede danışmanlarımız size bilgi verecektir.</p>
+">Thank You</span></h1>
+                    <span>Your request for information has reached us.</span>
+                    <p>Our consultants will inform you as soon as possible.</p>
                 </article>
                 
                 
@@ -99,7 +99,7 @@ else echo "";
                     <a href="javascript:history.back()" style="
     margin-top: 1rem;
     background: black;
-">Geri Dön</a>
+">Back</a>
                 </div>
             </div>
         </div>

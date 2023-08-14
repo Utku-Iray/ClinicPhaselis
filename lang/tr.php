@@ -109,9 +109,9 @@ $lang = array(
     "services" => "Servisler",
 
     "ourMission" => "Misyonumuz ",
-    "ourMissionDescription" => "CClinic Phaselis, hasta merkezli bir vizyonla tıbbi mükemmellik sağlamaya adanmış başarılı bir sağlık turizmi ve tıbbi danışmanlık firmasıdır. Amacımız, cerrahi mükemmelliğe, ameliyat sonrası hızlı iyileşmeye odaklanarak kozmetik cerrahi , bariatric, diş , saç ekimi ve küçük cerrahi işlem tedavileriyle ilgili yaygın endişeleri ortadan kaldırmak ve plastik cerrahiyi genel olarak vücut şekillendirme prosedürleri için en çekici alternatif haline getirmektir. Hastaya özel cerrahi ve kusursuz bir anestezi deneyimini, bir hastanın şimdiye kadar yaşadığı en kısa ameliyat sonrası en hızlı iyileşme süresini ve neredeyse tespit edilemeyen yara izini garanti ediyoruz.",
+    "ourMissionDescription" => "Uygun Fiyatlı Mükemmellik, Potansiyelinizi Ortaya Çıkarıyor: <br>Clinic Phaselis, kişinin hayalindeki vücuda giden yolculuğu hem erişilebilir hem de olağanüstü kılmak için özel bir misyon üstlenmiştir. Herşeyi sanat ve hassasiyetle sunuyor. Uygun fiyat, benzersiz bakım ve destek taahhüdümüz sayesinde, hastalarımızı özlemlerinin özüne doğru yönlendiriyoruz.",
     "ourVison" => "Vizyonumuz",
-    "ourVisonDescription" => "Hastanın güvenliğini ve istenen sonuca ulaşmayı operasyonlarımızın merkezine koyarak hasta merkezli bir vizyon oluşturuyoruz. Amacımız, tüketiciden ilgisiz ücretler talep etmek yerine yalnızca prosedürün tıbbi mükemmelliğine odaklanarak hastanın istediğini en uygun fiyata sağlamaktır.",
+    "ourVisonDescription" => "Hayalleri Güçlendirmek, Yaşamları İyileştirmek:  <br>Clinic Phaselis olarak vizyonumuz, özlemleri gerçeğe dönüştürmede katalizör olmaktır. Bireylerin arzu ettikleri görünümleri güvenle kucakladıkları bir dünya hayal ediyor, özgüven ve özgüvenle dolu bir yaşama açılan kapı olarak duruyoruz.",
     "ourPromise" => "Sözümüz",
     "ourPromiseDescription1" => "En iyi sonuçları en güvenli şekilde sunacağımızı garanti ediyoruz. Neredeyse Komplikasyonsuz bir ameliyat yolculuğu ve hızlı bir iyileşme süreci vaat ediyoruz. Herhangi bir ek ücret ödemek zorunda kalmayacağınızı garanti ediyoruz. Yüzde 100 Clinic Phaselis'in sigortası altındasınız.",
     "ourPromiseDescription2" => "Önceliğimiz hayallerinizi gerçeğe dönüştürmektir.",
@@ -163,4 +163,8 @@ $lang = array(
     "phone" => "Telefon",
     "location" => "Lokasyon",
     "getSocial" => "Sosyal Medya",
+
+    //Mail
+"tesekkurler"=>"Teşekkürler",
+"geridon"=>"Geri Dön",
 );
