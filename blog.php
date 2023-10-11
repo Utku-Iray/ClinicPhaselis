@@ -45,7 +45,7 @@ include 'php/header.php' ;
                        <h3>
                            <a href="blog-details.php?name=<?= $blog->$langBlogTitle ?>"><?= $blog->$langBlogTitle ?></a>
                        </h3>
-                       <p><?= $blog->blog_description_en ?></p>
+                       <p><?= $blog->$langBlogDescription ?></p>
                        <a href="blog-details.php?name=<?= $blog->$langBlogTitle ?>" class="blog-btn"><?php echo $lang['learnMore'] ?></a>
 
 
