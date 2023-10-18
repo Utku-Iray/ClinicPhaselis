@@ -82,7 +82,7 @@ $blog_JSON = json_decode($JSON);
 
                             <li>
                                 <i class='bx bxs-map'></i>
-                                Fener Mahallesi, 1967. Sokak, No:6/8 Muratpaşa/Antalya
+                                Registered by Lilith Health Tourism
                             </li>
 
                             <li>
