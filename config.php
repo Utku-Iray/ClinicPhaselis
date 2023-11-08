@@ -26,6 +26,7 @@ $langTreatmentDescription = "treatment_description_" . $_SESSION['lang'];
 $langTreatmentContent = "treatment_details_" . $_SESSION['lang'];
 $langFaq = "treatment_faq_" . $_SESSION['lang'];
 $langAnswer = "treatment_answer_" . $_SESSION['lang'];
+$langTreatmentLink = "treatment_link_" . $_SESSION['lang'];
 
 $langQuery = $_GET;
 
