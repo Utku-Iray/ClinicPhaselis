@@ -38,16 +38,16 @@
                    <div class="col-lg-4 col-md-6">
                         <div class="single-services">
                             <div class="services-image">
-                                <a href="plastic_surgery_breast_details.php?name=<?= $breast->$langTreatmentName ?>"><img src="<?= $breast->treatment_first_photo ?>" alt="image"></a>
+                                <a href="plastic_surgery_breast_details.php?name=<?= $breast->$langTreatmentLink ?>"><img src="<?= $breast->treatment_first_photo ?>" alt="image"></a>
 
                                 <div class="icon">
-                                    <a href="plastic_surgery_breast_details.php?name=<?= $breast->$langTreatmentName ?>"><i class="flaticon-chair"></i></a>
+                                    <a href="plastic_surgery_breast_details.php?name=<?= $breast->$langTreatmentLink ?>"><i class="flaticon-chair"></i></a>
                                 </div>
                             </div>
 
                             <div class="services-content">
                                 <h3>
-                                    <a href="plastic_surgery_breast_details.php?name=<?= $breast ->$langTreatmentName ?>"><?= $breast ->$langTreatmentName ?></a>
+                                    <a href="plastic_surgery_breast_details.php?name=<?= $breast ->$langTreatmentLink ?>"><?= $breast ->$langTreatmentName ?></a>
                                 </h3>
                                 <p><?= $breast->$langTreatmentDescription ?></p>
                             </div>

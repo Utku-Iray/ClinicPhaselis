@@ -16,7 +16,7 @@ if (isset($_GET["name"]) && $_GET["name"] != "" && !isset($_GET["lang"])) {
 <?php
 
 for ($i = 0; $i < count($dental_JSON); $i++) {
-    if ($dental_JSON[$i]->$langTreatmentName == $name) {
+    if ($dental_JSON[$i]->$langTreatmentLink == $name) {
 
         array_push($selectedVal, $dental_JSON[$i]);
     }
@@ -103,12 +103,12 @@ for ($i = 0; $i < count($dental_JSON); $i++) {
                         <?php foreach ($dental_JSON as $dental) { ?>
 
                             <article class="item">
-                                <a href="dental_procedures_details.php?name=<?= $dental->$langTreatmentName ?>" class="thumb">
+                                <a href="dental_procedures_details.php?name=<?= $dental->$langTreatmentLink ?>" class="thumb">
                                     <img src="<?= $dental->treatment_first_photo ?>" alt="">
                                 </a>
                                 <div class="info">
                                     <h4 class="title usmall">
-                                        <a href="dental_procedures_details.php?name=<?= $dental->$langTreatmentName ?>"><?= $dental->$langTreatmentName ?></a>
+                                        <a href="dental_procedures_details.php?name=<?= $dental->$langTreatmentLink ?>"><?= $dental->$langTreatmentName ?></a>
                                     </h4>
                                 </div>
                             </article>

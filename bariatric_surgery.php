@@ -38,16 +38,16 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-services">
                         <div class="services-image">
-                            <a href="bariatric_surgery_details.php?name=<?= $bariatric->$langTreatmentName ?>"><img src="<?= $bariatric->treatment_first_photo ?>" alt="image"></a>
+                            <a href="bariatric_surgery_details.php?name=<?= $bariatric->$langTreatmentLink ?>"><img src="<?= $bariatric->treatment_first_photo ?>" alt="image"></a>
 
                             <div class="icon">
-                                <a href="bariatric_surgery_details.php?name=<?= $bariatric->$langTreatmentName ?>"><i class="flaticon-chair"></i></a>
+                                <a href="bariatric_surgery_details.php?name=<?= $bariatric->$langTreatmentLink ?>"><i class="flaticon-chair"></i></a>
                             </div>
                         </div>
 
                         <div class="services-content">
                             <h3>
-                                <a href="bariatric_surgery_details.php?name=<?= $bariatric->$langTreatmentName ?>"><?= $bariatric->$langTreatmentName ?></a>
+                                <a href="bariatric_surgery_details.php?name=<?= $bariatric->$langTreatmentLink ?>"><?= $bariatric->$langTreatmentName ?></a>
                             </h3>
                             <p><?= $bariatric->$langTreatmentDescription ?></p>
                         </div>

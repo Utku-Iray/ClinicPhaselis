@@ -135,15 +135,15 @@
             "Bien que votre corps absorbe une partie de la graisse injectée dans vos fesses, les résultats de votre opération de lifting brésilien des fesses peuvent durer de longues années.",
             "Vous pouvez combiner votre BBL avec une sélection d'interventions chirurgicales."
         ],
-        "treatment_link_tr": [
-            "Brazilian-Butt-Lift"
-        ],
-        "treatment_link_en": [
+        "treatment_link_tr": 
             "Brezi̇lya-Popo-Kaldirma"
-        ],
-        "treatment_link_fr": [
+        ,
+        "treatment_link_en":
+            "Brazilian-Butt-Lift"
+        ,
+        "treatment_link_fr":
             "Lifting-Brésilien-Des-Fesses"
-        ]
+    
     },
     {
         "treatment_name_en": "Liposuction",
@@ -253,15 +253,15 @@
             "Après une liposuccion, il faut s'attendre à un certain gonflement et à une accumulation de liquide. Pour faciliter la réabsorption des liquides, vous devez porter un vêtement de compression.",
             "Cette intervention étant associée à un gonflement postopératoire, vous ne pourrez pas évaluer votre résultat 'final' avant plusieurs mois. En attendant, il est essentiel de continuer à porter votre vêtement de compression et de suivre un régime alimentaire équilibré. "
         ],
-        "treatment_link_tr": [
+        "treatment_link_tr":
             "Liposuction"
-        ],
-        "treatment_link_en": [
+        ,
+        "treatment_link_en": 
             "Liposuction"
-        ],
-        "treatment_link_fr": [
+        ,
+        "treatment_link_fr": 
             "Liposuction"
-        ]
+    
     },
     {
         "treatment_name_en": "Mommy Makeover",
@@ -359,15 +359,12 @@
             "Les résultats d'une transformation de la silhouette sont permanents et durent toute la vie.",
             "Toute intervention chirurgicale comporte un certain niveau de risque. Une infection, une mauvaise cicatrisation de l'incision, un hématome, une hémorragie, une perte de mamelon, un sérome, une cicatrisation, un relâchement récurrent et une contracture capsulaire sont autant de problèmes possibles."
         ],
-        "treatment_link_tr": [
-            "Mommy-Makeover"
-        ],
-        "treatment_link_en": [
-            "Annelik-Estetigi"
-        ],
-        "treatment_link_fr": [
-            "Maman-Makeover"
-        ]
+        "treatment_link_tr":"Annelik-Estetigi"
+        ,
+        "treatment_link_en":"Mommy-Makeover"
+        ,
+        "treatment_link_fr":"Maman-Makeover"
+        
     },
     {
         "treatment_name_en": "Thigh Lift",
@@ -496,15 +493,15 @@
             "Après l'opération, il est recommandé d'attendre cinq à sept jours avant de conduire. Dans les jours qui suivent l'opération, ne conduisez pas du tout.",
             "Environ six mois après l'opération, vous pourrez constater les résultats définitifs. Le gonflement disparaît après quelques mois, les cicatrices s'estompent considérablement et vous pouvez voir vos jambes tonifiées."
         ],
-        "treatment_link_tr": [
-            "Thigh-Lift"
-        ],
-        "treatment_link_en": [
+        "treatment_link_tr": 
             "Uyluk-Germe"
-        ],
-        "treatment_link_fr": [
+        ,
+        "treatment_link_en": 
+            "Thigh-Lift"
+        ,
+        "treatment_link_fr": 
             "Lifting-Des-Cuisses"
-        ]
+        
     },
     {
         "treatment_name_en": "Tummy Tuck",
@@ -576,14 +573,14 @@
             "Cevap1",
             "Cevap"
         ],
-        "treatment_link_tr": [
-            "Tummy-Tuck"
-        ],
-        "treatment_link_en": [
+        "treatment_link_tr": 
             "Karin-Germe"
-        ],
-        "treatment_link_fr": [
+        ,
+        "treatment_link_en": 
+            "Tummy-Tuck"
+        ,
+        "treatment_link_fr": 
             "Abdominoplastie"
-        ]
+        
     }
 ]

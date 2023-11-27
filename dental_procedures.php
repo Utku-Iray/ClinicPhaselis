@@ -41,16 +41,16 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-services">
                         <div class="services-image">
-                            <a href="dental_procedures_details.php?name=<?= $dental->$langTreatmentName ?>"><img src="<?= $dental->treatment_first_photo ?>" alt="image"></a>
+                            <a href="dental_procedures_details.php?name=<?= $dental->$langTreatmentLink ?>"><img src="<?= $dental->treatment_first_photo ?>" alt="image"></a>
 
                             <div class="icon">
-                                <a href="dental_procedures_details.php?name=<?= $dental->$langTreatmentName ?>"><i class="flaticon-chair"></i></a>
+                                <a href="dental_procedures_details.php?name=<?= $dental->$langTreatmentLink ?>"><i class="flaticon-chair"></i></a>
                             </div>
                         </div>
 
                         <div class="services-content">
                             <h3>
-                                <a href="dental_procedures_details.php?name=<?= $dental->$langTreatmentName ?>"><?= $dental->$langTreatmentName ?></a>
+                                <a href="dental_procedures_details.php?name=<?= $dental->$langTreatmentLink ?>"><?= $dental->$langTreatmentName ?></a>
                             </h3>
                             <p><?= $dental->$langTreatmentDescription ?></p>
                         </div>

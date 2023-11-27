@@ -25,7 +25,6 @@ for ($i = 0; $i < count($body_JSON); $i++) {
 
 ?>
 
-
 <!-- Start Page Banner -->
 <!-- <div class="page-banner-area">
             <div class="container">
