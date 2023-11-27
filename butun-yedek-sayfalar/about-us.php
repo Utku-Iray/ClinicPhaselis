@@ -3,7 +3,21 @@
 <?php include 'php/head.php' ?>
 <?php include 'php/header.php' ?>
 
-
+<!-- Start Page Banner -->
+<!-- <div class="page-banner-area">
+            <div class="container">
+                <div class="page-banner-content">
+                    <h2>About Us</h2>
+                    
+                    <ul class="pages-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li>About Us</li>
+                    </ul>
+                </div>
+            </div>
+        </div> -->
+<!-- End Page Banner -->
+<!-- Start About Area -->
 <section class="about-area ptb-100">
     <div class="container">
         <div class="row align-items-center">
@@ -54,7 +68,9 @@
             <div class="col-lg-5 col-md-12">
                 <div class="dental-tourism-about-image">
                     <img src="assets/images/anasayfa1.jpg" alt="image">
-                  
+                    <!-- <div class="certified">
+                        <img src="assets/images/dental-tourism/about/certified.png" alt="image">
+                    </div> -->
                 </div>
             </div>
             <div class="col-lg-7 col-md-12">

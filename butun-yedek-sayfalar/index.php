@@ -188,7 +188,11 @@
                 </div>
             </div>
 
-          
+            <!-- <div class="col-lg-4">
+                <div class="section-warp-btn">
+                    <a href="testimonials.html" class="default-btn">See All Review</a>
+                </div>
+            </div> -->
         </div>
 
         <div class="dental-tourism-review-slides owl-carousel owl-theme">
@@ -231,7 +235,11 @@
                 </div>
             </div>
 
-         
+            <!-- <div class="col-lg-5">
+                        <div class="section-warp-btn">
+                            <a href="services.html" class="default-btn">View All</a>
+                        </div>
+                    </div> -->
         </div>
 
         <div class="row">
@@ -249,7 +257,7 @@
                         <h3>
                             <a href="bariatric_surgery.php"><?php echo $lang['bariatricProcedures'] ?></a>
                         </h3>
-                        
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
                     </div>
                 </div>
             </div>
@@ -267,7 +275,7 @@
                         <h3>
                             <a href="dental_procedures.php"><?php echo $lang['dentalProcedures'] ?></a>
                         </h3>
-                        
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
                     </div>
                 </div>
             </div>
@@ -285,7 +293,7 @@
                         <h3>
                             <a href="hair_transplant_details.php"><?php echo $lang['hairTransplant'] ?></a>
                         </h3>
-                        
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
                     </div>
                 </div>
             </div>
@@ -305,7 +313,7 @@
                             <h3>
                                 <a href="<?= $plastic_JSON[$i]->treatment_link ?>"><?= $plastic_JSON[$i]->$langTreatmentName ?></a>
                             </h3>
-                            
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
                         </div>
                     </div>
                 </div>
@@ -318,7 +326,9 @@
         </div>
     </div>
 </section>
+<!-- End Dental Tourism Services Area -->
 
+<!-- Start Dental Tourism Choose Area -->
 <div class="dental-tourism-choose-area ptb-100">
     <div class="container">
         <div class="row align-items-center">
@@ -342,13 +352,17 @@
                 <div class="dental-tourism-choose-image">
                     <img src="assets/images/2.png" alt="image">
 
-                    
+                    <!-- <a href="https://www.youtube.com/watch?v=Buhosl-jJGA" class="video-btn popup-youtube">
+                        <i class='bx bx-play-circle'></i>
+                    </a> -->
                 </div>
             </div>
         </div>
     </div>
 </div>
+<!-- End Dental Tourism Choose Area -->
 
+<!-- Start Dental Tourism Appointment Area -->
 <div class="dental-tourism-appointment-area ptb-100">
     <div class="container">
         <div class="dental-tourism-appointment-form">
