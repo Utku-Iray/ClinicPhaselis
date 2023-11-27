@@ -18,6 +18,7 @@ if (!isset($_SESSION['lang'])) {
 require_once "lang/" . $_SESSION['lang'] . ".php";
 //Blog
 $langBlogTitle = "blog_title_" . $_SESSION['lang'];
+$langBlogLink = "blog_link_" . $_SESSION['lang'];
 $langBlogDescription = "blog_description_" . $_SESSION['lang'];
 $langBlogContent = "blog_content_" . $_SESSION['lang'];
 // Treatment

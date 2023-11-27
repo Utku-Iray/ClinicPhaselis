@@ -37,16 +37,16 @@ include 'php/header.php' ;
                <div class="col-lg-4 col-md-6">
                <div class="single-blog">
                    <div class="blog-image">
-                       <a href="blog-details.php?name=<?= $blog->$langBlogTitle ?>"><img src="<?= $blog->blog_image_cover ?>" alt="image"></a>
+                       <a href="blog-details.php?name=<?= $blog->$langBlogLink ?>"><img src="<?= $blog->blog_image_cover ?>" alt="image"></a>
 
 
                    </div>
                    <div class="blog-content">
                        <h3>
-                           <a href="blog-details.php?name=<?= $blog->$langBlogTitle ?>"><?= $blog->$langBlogTitle ?></a>
+                           <a href="blog-details.php?name=<?= $blog->$langBlogLink ?>"><?= $blog->$langBlogTitle ?></a>
                        </h3>
                        <p><?= $blog->$langBlogDescription ?></p>
-                       <a href="blog-details.php?name=<?= $blog->$langBlogTitle ?>" class="blog-btn"><?php echo $lang['learnMore'] ?></a>
+                       <a href="blog-details.php?name=<?= $blog->$langBlogLink ?>" class="blog-btn"><?php echo $lang['learnMore'] ?></a>
 
 
                    </div>

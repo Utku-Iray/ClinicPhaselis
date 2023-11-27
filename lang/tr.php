@@ -8,6 +8,7 @@ $lang = array(
     "treatments" => "Treatments",
     "treatments" => "Tedaviler",
 
+    "plasticSurgeryBody"=> "Vücut İşlemleri",
     "plasticSurgeryProcedures" => "Plastik Cerrahi İşlemleri",
     "bariatricSurgery" => "Bariatrik Cerrahi",
     "dentalProcedures" => "Diş İşlemleri",

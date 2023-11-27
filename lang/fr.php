@@ -7,6 +7,7 @@ $lang = array(
     "hospitals" => "Hôpitaux et hébergement",
     "treatments" => "Traitements",
 
+    "plasticSurgeryBody"=> "Procédures Corporelles",
     "plasticSurgeryProcedures" => "Procédures de chirurgie plastique",
     "bariatricSurgery" => "Chirurgie Bariatrique",
     "dentalProcedures" => "Procédures Dentaires",
