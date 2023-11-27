@@ -35,7 +35,7 @@
     border-radius: 15px;">
             <div class="col-md-6">
                 <div class="contact-form">
-                    <form method="POST" action="mail/tesekkurler.php">
+                    <form method="POST" action="mail/tesekkurler">
                         <div class="row">
                             <div class="col-lg-6 col-md-6">
                                 <div class="form-group">

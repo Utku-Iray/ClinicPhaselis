@@ -119,7 +119,7 @@ $blog_JSON = json_decode($JSON);
                 <div class="container">
                     <div class="main-responsive-menu">
                         <div class="logo">
-                            <a href="index.php">
+                            <a href="https://clinicphaselis.com">
                                 <img src="assets/images/logo/clinic-phaselis.png" class="main-logo" alt="logo">
                                 <img src="assets/images/logo/clinic-phaselis.png" class="white-logo" alt="logo">
                             </a>
@@ -131,13 +131,13 @@ $blog_JSON = json_decode($JSON);
             <div class="main-navbar">
                 <div class="container-fluid">
                     <nav class="navbar navbar-expand-md navbar-light">
-                        <a class="navbar-brand" href="index.php"> <img src="assets/images/logo/clinic-phaselis.png" class="main-logo" alt="logo"></a>
+                        <a class="navbar-brand" href="https://clinicphaselis.com"> <img src="assets/images/logo/clinic-phaselis.png" class="main-logo" alt="logo"></a>
 
                         <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                             <ul class="navbar-nav">
                                 
                                 <li class="nav-item">
-                                    <a href="index.php" class="nav-link"><?php echo $lang['homePage'] ?></a>
+                                    <a href="https://clinicphaselis.com" class="nav-link"><?php echo $lang['homePage'] ?></a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="#0" class="nav-link"><?php echo $lang['aboutUs'] ?> <i class='bx bx-caret-down'></i></a>

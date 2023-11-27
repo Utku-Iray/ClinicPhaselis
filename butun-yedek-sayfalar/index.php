@@ -368,7 +368,7 @@
         <div class="dental-tourism-appointment-form">
             <h4><i class="flaticon-calendar"></i> <?php echo $lang['makeaAnAppointment'] ?></h4>
 
-            <form method="POST" action="mail/tesekkurler.php">
+            <form method="POST" action="mail/tesekkurler">
                 <div class="row">
 
 

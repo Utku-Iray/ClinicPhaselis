@@ -24,7 +24,7 @@
             <div class="col-lg-3 col-sm-6">
                 <div class="dental-tourism-footer-widget">
                     <h2>
-                        <a href="index.php">
+                        <a href="https://clinicphaselis.com">
                             <img src="assets/images/logo/clinic-phaselis-beyaz.png" alt="">
                         </a>
                     </h2>
@@ -36,7 +36,7 @@
                     <h3><?php echo $lang['usefulLinks'] ?></h3>
 
                     <ul class="quick-links">
-                        <li><i class='bx bxs-chevrons-right'></i> <a href="index.php"><?php echo $lang['homePage'] ?></a></li>
+                        <li><i class='bx bxs-chevrons-right'></i> <a href="https://clinicphaselis.com"><?php echo $lang['homePage'] ?></a></li>
                         <li><i class='bx bxs-chevrons-right'></i> <a href="about-us.php"><?php echo $lang['aboutUs'] ?></a></li>
                         <li><i class='bx bxs-chevrons-right'></i> <a href="contact-us.php"><?php echo $lang['contactUs'] ?></a></li>
                         <!-- <li><i class='bx bxs-chevrons-right'></i> <a href="privacy-policy.html">Privacy Policy</a></li>
