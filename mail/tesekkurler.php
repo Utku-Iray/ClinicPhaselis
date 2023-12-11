@@ -43,7 +43,7 @@ function mailgonder(){
 
          $mail->Body = $_POST['patientnamesurname'] . "<br>Dial Kodu: " . $_POST['patientDialCode']. "<br>Telefon Numarası: " . $_POST['patientPhone'] . "<br>Not: ". $_POST['patientNote'] . "<br>Mail adresi: " . $_POST['mail'];
          $mail->AltBody = strip_tags("mesaj");
-         $mail->AddAddress("info@clinicphaselis.com"); 
+         $mail->AddAddress("utku.iray.99@gmail.com"); 
          return ($mail->Send())?true:false;      
          $mail->ClearAddresses();  
          $mail->ClearAttachments();
