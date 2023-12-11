@@ -5,7 +5,7 @@ if (isset($_GET["name"]) && $_GET["name"] != "" && !isset($_GET["lang"])) {
 
     $name = $_GET['name'];
 } else {
-    header("Location: https://clinicphaselis.com");
+    header("Location: https://www.clinicphaselis.com");
 }
 ?>
 <!doctype html>
