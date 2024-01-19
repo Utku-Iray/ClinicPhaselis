@@ -23,7 +23,7 @@
 
 
                 <div class="slides-btn">
-                    <a href="appointment" class="default-btn"><?php echo $lang['bookAppointment'] ?></a>
+                    <a href="appointment.php" class="default-btn"><?php echo $lang['bookAppointment'] ?></a>
 
 
                 </div>
@@ -43,7 +43,7 @@
 
 
                 <div class="slides-btn">
-                    <a href="appointment" class="default-btn"><?php echo $lang['bookAppointment'] ?></a>
+                    <a href="appointment.php" class="default-btn"><?php echo $lang['bookAppointment'] ?></a>
 
 
                 </div>
@@ -62,7 +62,7 @@
                 <p><?php echo $lang['welcomeTheNew'] ?></p>
 
                 <div class="slides-btn">
-                    <a href="appointment" class="default-btn"><?php echo $lang['bookAppointment'] ?></a>
+                    <a href="appointment.php" class="default-btn"><?php echo $lang['bookAppointment'] ?></a>
 
 
                 </div>
@@ -80,7 +80,7 @@
                 <p><?php echo $lang['welcomeTheNew'] ?></p>
 
                 <div class="slides-btn">
-                    <a href="appointment" class="default-btn"><?php echo $lang['bookAppointment'] ?></a>
+                    <a href="appointment.php" class="default-btn"><?php echo $lang['bookAppointment'] ?></a>
 
 
                 </div>
@@ -170,7 +170,7 @@
                         <li><i class='bx bxs-check-shield'></i> <?php echo $lang['list4qualityMeetsAesthetics'] ?></li>
                     </ul>
                     <div class="about-btn">
-                        <a href="about-us" class="default-btn"><?php echo $lang['learnMore'] ?></a>
+                        <a href="about-us.php" class="default-btn"><?php echo $lang['learnMore'] ?></a>
                     </div>
                 </div>
             </div>
@@ -256,16 +256,16 @@
             <div class="col-lg-4 col-md-6">
                 <div class="single-services">
                     <div class="services-image">
-                        <a href="dental_procedures"><img src="assets/images/treatments/dental.jpeg" alt="image"></a>
+                        <a href="dental_procedures.php"><img src="assets/images/treatments/dental.jpeg" alt="image"></a>
 
                         <div class="icon">
-                            <a href="dental_procedures"><i class="flaticon-chair"></i></a>
+                            <a href="dental_procedures.php"><i class="flaticon-chair"></i></a>
                         </div>
                     </div>
 
                     <div class="services-content">
                         <h3>
-                            <a href="dental_procedures"><?php echo $lang['dentalProcedures'] ?></a>
+                            <a href="dental_procedures.php"><?php echo $lang['dentalProcedures'] ?></a>
                         </h3>
                         
                     </div>
@@ -274,16 +274,16 @@
             <div class="col-lg-4 col-md-6">
                 <div class="single-services">
                     <div class="services-image">
-                        <a href="hair_transplant_details"><img src="assets/images/treatments/hair-transplant.jpeg" alt="image"></a>
+                        <a href="hair_transplant_details.php"><img src="assets/images/treatments/hair-transplant.jpeg" alt="image"></a>
 
                         <div class="icon">
-                            <a href="hair_transplant_details"><i class="flaticon-chair"></i></a>
+                            <a href="hair_transplant_details.php"><i class="flaticon-chair"></i></a>
                         </div>
                     </div>
 
                     <div class="services-content">
                         <h3>
-                            <a href="hair_transplant_details"><?php echo $lang['hairTransplant'] ?></a>
+                            <a href="hair_transplant_details.php"><?php echo $lang['hairTransplant'] ?></a>
                         </h3>
                         
                     </div>

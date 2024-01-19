@@ -5,7 +5,7 @@ if (isset($_GET["name"]) && $_GET["name"] != "" && !isset($_GET["lang"])) {
 
     $name = $_GET['name'];
 } else {
-    header("Location: https://www.clinicphaselis.com");
+    header("Location: https://clinicphaselis.com");
 }
 ?>
 <!doctype html>
@@ -98,12 +98,12 @@ for ($i = 0; $i < count($bariatric_JSON); $i++) {
                         <?php foreach ($bariatric_JSON as $bariatric) {?>
                            
                         <article class="item">
-                            <a href="bariatric_surgery_details?name=<?= $bariatric->$langTreatmentLink ?>" class="thumb">
+                            <a href="bariatric_surgery_details.php?name=<?= $bariatric->$langTreatmentLink ?>" class="thumb">
                                 <img src="<?= $bariatric->treatment_first_photo ?>" alt="">
                             </a>
                             <div class="info">
                                 <h4 class="title usmall">
-                                    <a href="bariatric_surgery_details?name=<?= $bariatric->$langTreatmentLink ?>"><?= $bariatric->$langTreatmentName ?></a>
+                                    <a href="bariatric_surgery_details.php?name=<?= $bariatric->$langTreatmentLink ?>"><?= $bariatric->$langTreatmentName ?></a>
                                 </h4>
                             </div>
                         </article>

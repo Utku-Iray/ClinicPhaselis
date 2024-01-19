@@ -5,7 +5,7 @@ if (isset($_GET["name"]) && $_GET["name"] != "" && !isset($_GET["lang"])) {
 
     $name = $_GET['name'];
 } else {
-    header("Location: https://www.clinicphaselis.com");
+    header("Location: https://clinicphaselis.com");
 }
 ?>
 <!doctype html>
@@ -74,7 +74,7 @@ for ($i = 0; $i < count($blog_JSON); $i++) {
                         <h3 class="widget-title"><?php echo $lang['blogs'] ?></h3>
                         <?php foreach ($blog_JSON as $blog) { ?>
                             <article class="item">
-                                <a href="blog-details?name=<?= $blog->$langBlogLink ?>" class="thumb">
+                                <a href="blog-details.php?name=<?= $blog->$langBlogLink ?>" class="thumb">
                                     <span class="fullimage cover" role="img">
                                         <img src="<?= $blog->blog_image_cover ?>" alt="">
                                     </span>
@@ -82,7 +82,7 @@ for ($i = 0; $i < count($blog_JSON); $i++) {
                                 <div class="info">
 
                                     <h4 class="title usmall">
-                                        <a href="blog-details?name=<?= $blog->$langBlogLink ?>"><?= $blog->$langBlogTitle ?></a>
+                                        <a href="blog-details.php?name=<?= $blog->$langBlogLink ?>"><?= $blog->$langBlogTitle ?></a>
                                     </h4>
                                 </div>
                             </article>
