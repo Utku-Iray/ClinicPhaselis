@@ -2,6 +2,7 @@
 
 <!doctype html>
 <html lang="zxx">
+<?php include "config.php"; ?>
 
 <?php include 'php/head.php' ?>
 <?php include 'php/header.php' ?>
@@ -380,13 +381,13 @@
 
                     <div class="col-lg-6 col-md-12">
                         <div class="form-group">
-                            
-                            <input type="email" name="mail"  class="form-control" placeholder="<?php echo $lang['eMail'] ?>">
+
+                            <input type="email" name="mail" class="form-control" placeholder="<?php echo $lang['eMail'] ?>">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="form-group">
-                        <select name="patientDialCode" id="patientDialCode">
+                            <select name="patientDialCode" id="patientDialCode">
                                 <option class="d-none" value=""><?php echo $lang['countryCode'] ?></option>
                                 <?php
 
@@ -407,7 +408,7 @@
 
 
 
-                   
+
 
                     <div class="col-lg-12 col-md-12">
                         <div class="form-group">

@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="zxx">
+<?php include "config.php"; ?>
 
 <?php include 'php/head.php' ?>
 <?php include 'php/header.php' ?>
@@ -57,11 +58,13 @@
                                             height: 60px;
                                             line-height: 60px;
                                         }
-                                        .nice-select.open .list{
-                                           height: 200px !important;
-                                           overflow: auto !important;
+
+                                        .nice-select.open .list {
+                                            height: 200px !important;
+                                            overflow: auto !important;
                                         }
-                                        .nice-select .list{
+
+                                        .nice-select .list {
                                             height: 200px;
                                         }
                                     </style>
@@ -70,7 +73,7 @@
                                         <?php
 
                                         foreach ($phone_JSON as $phone) { ?>
-                                            <option  value="<?= $phone->dial_code ?>"><?= $phone->name ?> (<?= $phone->dial_code ?>) </option>
+                                            <option value="<?= $phone->dial_code ?>"><?= $phone->name ?> (<?= $phone->dial_code ?>) </option>
                                         <?php }
                                         ?>
 
@@ -89,7 +92,7 @@
 
                             <div class="col-lg-12 col-md-12">
                                 <div class="form-group">
-                                    <textarea name="patientNote" class="form-control"  cols="30" rows="5" required data-error="Write your message" placeholder="<?php echo $lang['message'] ?>"></textarea>
+                                    <textarea name="patientNote" class="form-control" cols="30" rows="5" required data-error="Write your message" placeholder="<?php echo $lang['message'] ?>"></textarea>
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>

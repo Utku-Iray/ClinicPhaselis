@@ -1,9 +1,10 @@
 <!doctype html>
 <html lang="zxx">
+<?php include "config.php"; ?>
 <?php
 
-include 'php/head.php' ;
-include 'php/header.php' ;
+include 'php/head.php';
+include 'php/header.php';
 
 ?>
 <!-- Start Page Banner -->
@@ -34,26 +35,26 @@ include 'php/header.php' ;
 
         <div class="row">
             <?php foreach ($blog_JSON as $blog) { ?>
-               <div class="col-lg-4 col-md-6">
-               <div class="single-blog">
-                   <div class="blog-image">
-                       <a href="blog-details.php?name=<?= $blog->$langBlogLink ?>"><img src="<?= $blog->blog_image_cover ?>" alt="image"></a>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog">
+                        <div class="blog-image">
+                            <a href="blog-details.php?name=<?= $blog->$langBlogLink ?>"><img src="<?= $blog->blog_image_cover ?>" alt="image"></a>
 
 
-                   </div>
-                   <div class="blog-content">
-                       <h3>
-                           <a href="blog-details.php?name=<?= $blog->$langBlogLink ?>"><?= $blog->$langBlogTitle ?></a>
-                       </h3>
-                       <p><?= $blog->$langBlogDescription ?></p>
-                       <a href="blog-details.php?name=<?= $blog->$langBlogLink ?>" class="blog-btn"><?php echo $lang['learnMore'] ?></a>
+                        </div>
+                        <div class="blog-content">
+                            <h3>
+                                <a href="blog-details.php?name=<?= $blog->$langBlogLink ?>"><?= $blog->$langBlogTitle ?></a>
+                            </h3>
+                            <p><?= $blog->$langBlogDescription ?></p>
+                            <a href="blog-details.php?name=<?= $blog->$langBlogLink ?>" class="blog-btn"><?php echo $lang['learnMore'] ?></a>
 
 
-                   </div>
-               </div>
-           </div>
-           <?php } ?>
-           
+                        </div>
+                    </div>
+                </div>
+            <?php } ?>
+
 
 
 

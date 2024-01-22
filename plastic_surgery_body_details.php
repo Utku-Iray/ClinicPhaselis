@@ -10,6 +10,7 @@ if (isset($_GET["name"]) && $_GET["name"] != "" && !isset($_GET["lang"])) {
 ?>
 <!doctype html>
 <html lang="zxx">
+<?php include "config.php"; ?>
 
 <?php include 'php/head.php' ?>
 <?php include 'php/header.php' ?>
@@ -74,7 +75,7 @@ for ($i = 0; $i < count($body_JSON); $i++) {
                                             <?= $treatment_faq[$i] ?>
                                         </div>
                                         <div class="accordion-content show">
-                                        <?= $treatment_answer[$i] ?>
+                                            <?= $treatment_answer[$i] ?>
 
                                         </div>
                                     </div>

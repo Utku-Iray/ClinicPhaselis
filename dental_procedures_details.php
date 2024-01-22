@@ -10,6 +10,7 @@ if (isset($_GET["name"]) && $_GET["name"] != "" && !isset($_GET["lang"])) {
 ?>
 <!doctype html>
 <html lang="zxx">
+<?php include "config.php"; ?>
 
 <?php include 'php/head.php' ?>
 <?php include 'php/header.php' ?>

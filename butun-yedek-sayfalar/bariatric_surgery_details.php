@@ -10,10 +10,11 @@ if (isset($_GET["name"]) && $_GET["name"] != "" && !isset($_GET["lang"])) {
 ?>
 <!doctype html>
 <html lang="zxx">
+<?php include "config.php"; ?>
 
 <?php include 'php/head.php' ?>
 <?php include 'php/header.php' ?>
-<?php 
+<?php
 
 for ($i = 0; $i < count($bariatric_JSON); $i++) {
     if ($bariatric_JSON[$i]->$langTreatmentLink == $name) {
@@ -74,7 +75,7 @@ for ($i = 0; $i < count($bariatric_JSON); $i++) {
                                             <?= $treatment_faq[$i] ?>
                                         </div>
                                         <div class="accordion-content show">
-                                        <?= $treatment_answer[$i] ?>
+                                            <?= $treatment_answer[$i] ?>
 
                                         </div>
                                     </div>
@@ -84,7 +85,7 @@ for ($i = 0; $i < count($bariatric_JSON); $i++) {
                     </div>
                 </section>
 
-               
+
 
             </div>
 
@@ -95,18 +96,18 @@ for ($i = 0; $i < count($bariatric_JSON); $i++) {
                     <div class="widget widget_grin_posts_thumb">
                         <h3 class="widget-title"><?php echo $lang['treatments'] ?></h3>
                         <hr>
-                        <?php foreach ($bariatric_JSON as $bariatric) {?>
-                           
-                        <article class="item">
-                            <a href="bariatric_surgery_details?name=<?= $bariatric->$langTreatmentLink ?>" class="thumb">
-                                <img src="<?= $bariatric->treatment_first_photo ?>" alt="">
-                            </a>
-                            <div class="info">
-                                <h4 class="title usmall">
-                                    <a href="bariatric_surgery_details?name=<?= $bariatric->$langTreatmentLink ?>"><?= $bariatric->$langTreatmentName ?></a>
-                                </h4>
-                            </div>
-                        </article>
+                        <?php foreach ($bariatric_JSON as $bariatric) { ?>
+
+                            <article class="item">
+                                <a href="bariatric_surgery_details?name=<?= $bariatric->$langTreatmentLink ?>" class="thumb">
+                                    <img src="<?= $bariatric->treatment_first_photo ?>" alt="">
+                                </a>
+                                <div class="info">
+                                    <h4 class="title usmall">
+                                        <a href="bariatric_surgery_details?name=<?= $bariatric->$langTreatmentLink ?>"><?= $bariatric->$langTreatmentName ?></a>
+                                    </h4>
+                                </div>
+                            </article>
                         <?php  } ?>
 
                     </div>

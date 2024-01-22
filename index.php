@@ -1,9 +1,12 @@
-<?php include "config.php" ?>
-
 <!doctype html>
 <html lang="zxx">
-
+<?php include "config.php"; ?>
+<?php
+$title = "Clinic Phaselis | Antalya";
+$description = "Clinic Phaselis is a medical tourism and medical consulting company that offers quality and excellence in aesthetic surgery with reliability and safety.";
+?>
 <?php include 'php/head.php' ?>
+
 <?php include 'php/header.php' ?>
 
 
@@ -188,7 +191,7 @@
                 </div>
             </div>
 
-          
+
         </div>
 
         <div class="dental-tourism-review-slides owl-carousel owl-theme">
@@ -231,7 +234,7 @@
                 </div>
             </div>
 
-         
+
         </div>
 
         <div class="row">
@@ -249,7 +252,7 @@
                         <h3>
                             <a href="bariatric_surgery.php"><?php echo $lang['bariatricProcedures'] ?></a>
                         </h3>
-                        
+
                     </div>
                 </div>
             </div>
@@ -267,7 +270,7 @@
                         <h3>
                             <a href="dental_procedures.php"><?php echo $lang['dentalProcedures'] ?></a>
                         </h3>
-                        
+
                     </div>
                 </div>
             </div>
@@ -285,7 +288,7 @@
                         <h3>
                             <a href="hair_transplant_details.php"><?php echo $lang['hairTransplant'] ?></a>
                         </h3>
-                        
+
                     </div>
                 </div>
             </div>
@@ -305,7 +308,7 @@
                             <h3>
                                 <a href="<?= $plastic_JSON[$i]->treatment_link ?>"><?= $plastic_JSON[$i]->$langTreatmentName ?></a>
                             </h3>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -342,7 +345,7 @@
                 <div class="dental-tourism-choose-image">
                     <img src="assets/images/2.png" alt="image">
 
-                    
+
                 </div>
             </div>
         </div>
@@ -366,13 +369,13 @@
 
                     <div class="col-lg-6 col-md-12">
                         <div class="form-group">
-                            
-                            <input type="email" name="mail"  class="form-control" placeholder="<?php echo $lang['eMail'] ?>">
+
+                            <input type="email" name="mail" class="form-control" placeholder="<?php echo $lang['eMail'] ?>">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="form-group">
-                        <select name="patientDialCode" id="patientDialCode">
+                            <select name="patientDialCode" id="patientDialCode">
                                 <option class="d-none" value=""><?php echo $lang['countryCode'] ?></option>
                                 <?php
 
@@ -393,7 +396,7 @@
 
 
 
-                   
+
 
                     <div class="col-lg-12 col-md-12">
                         <div class="form-group">

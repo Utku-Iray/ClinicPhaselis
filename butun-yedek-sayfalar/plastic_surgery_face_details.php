@@ -10,10 +10,11 @@ if (isset($_GET["name"]) && $_GET["name"] != "" && !isset($_GET["lang"])) {
 ?>
 <!doctype html>
 <html lang="zxx">
+<?php include "config.php"; ?>
 
 <?php include 'php/head.php' ?>
 <?php include 'php/header.php' ?>
-<?php 
+<?php
 
 for ($i = 0; $i < count($face_JSON); $i++) {
     if ($face_JSON[$i]->$langTreatmentLink == $name) {
@@ -46,11 +47,11 @@ for ($i = 0; $i < count($face_JSON); $i++) {
         <div class="row">
             <div class="col-lg-8 col-md-12">
                 <div class="services-details-image">
-                    <img src="<?= $selectedVal[0] ->treatment_photo ?>" alt="image">
+                    <img src="<?= $selectedVal[0]->treatment_photo ?>" alt="image">
                 </div>
 
                 <div class="services-details-content">
-                    <?= $selectedVal[0] ->$langTreatmentContent ?>
+                    <?= $selectedVal[0]->$langTreatmentContent ?>
                 </div>
                 <section class="faq-area ptb-100">
                     <div class="container">
@@ -74,7 +75,7 @@ for ($i = 0; $i < count($face_JSON); $i++) {
                                             <?= $treatment_faq[$i] ?>
                                         </div>
                                         <div class="accordion-content show">
-                                        <?= $treatment_answer[$i] ?>
+                                            <?= $treatment_answer[$i] ?>
 
                                         </div>
                                     </div>
@@ -84,7 +85,7 @@ for ($i = 0; $i < count($face_JSON); $i++) {
                     </div>
                 </section>
 
-               
+
 
             </div>
 
@@ -95,18 +96,18 @@ for ($i = 0; $i < count($face_JSON); $i++) {
                     <div class="widget widget_grin_posts_thumb">
                         <h3 class="widget-title"><?php echo $lang['treatments'] ?></h3>
                         <hr>
-                        <?php foreach ($face_JSON as $face) {?>
-                           
-                        <article class="item">
-                            <a href="plastic_surgery_face_details?name=<?= $face -> $langTreatmentLink ?>" class="thumb">
-                                <img src="<?= $face -> treatment_first_photo ?>" alt="">
-                            </a>
-                            <div class="info">
-                                <h4 class="title usmall">
-                                    <a href="plastic_surgery_face_details?name=<?= $face -> $langTreatmentLink ?>"><?= $face -> $langTreatmentLink ?></a>
-                                </h4>
-                            </div>
-                        </article>
+                        <?php foreach ($face_JSON as $face) { ?>
+
+                            <article class="item">
+                                <a href="plastic_surgery_face_details?name=<?= $face->$langTreatmentLink ?>" class="thumb">
+                                    <img src="<?= $face->treatment_first_photo ?>" alt="">
+                                </a>
+                                <div class="info">
+                                    <h4 class="title usmall">
+                                        <a href="plastic_surgery_face_details?name=<?= $face->$langTreatmentLink ?>"><?= $face->$langTreatmentLink ?></a>
+                                    </h4>
+                                </div>
+                            </article>
                         <?php  } ?>
 
                     </div>

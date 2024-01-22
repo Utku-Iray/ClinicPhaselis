@@ -1,6 +1,6 @@
-
 <!doctype html>
 <html lang="zxx">
+<?php include "config.php"; ?>
 
 <?php include 'php/head.php' ?>
 <?php include 'php/header.php' ?>
@@ -27,11 +27,11 @@
         <div class="row">
             <div class="col-lg-8 col-md-12">
                 <div class="services-details-image">
-                    <img src="<?= $rhinoplasty_JSON[0] ->treatment_photo ?>" alt="image">
+                    <img src="<?= $rhinoplasty_JSON[0]->treatment_photo ?>" alt="image">
                 </div>
 
                 <div class="services-details-content">
-                    <?= $rhinoplasty_JSON[0] ->$langTreatmentContent ?>
+                    <?= $rhinoplasty_JSON[0]->$langTreatmentContent ?>
                 </div>
                 <section class="faq-area ptb-100">
                     <div class="container">
@@ -55,7 +55,7 @@
                                             <?= $treatment_faq[$i] ?>
                                         </div>
                                         <div class="accordion-content show">
-                                        <?= $treatment_answer[$i] ?>
+                                            <?= $treatment_answer[$i] ?>
 
                                         </div>
                                     </div>
@@ -65,7 +65,7 @@
                     </div>
                 </section>
 
-               
+
 
             </div>
 
@@ -76,18 +76,18 @@
                     <div class="widget widget_grin_posts_thumb">
                         <h3 class="widget-title"><?php echo $lang['treatments'] ?></h3>
                         <hr>
-                        <?php foreach ($plastic_JSON as $rhinoplasty) {?>
-                           
-                        <article class="item">
-                            <a href="<?= $rhinoplasty -> treatment_link ?>" class="thumb">
-                                <img src="<?= $rhinoplasty -> treatment_first_photo ?>" alt="">
-                            </a>
-                            <div class="info">
-                                <h4 class="title usmall">
-                                    <a href="<?= $rhinoplasty -> treatment_link ?>"><?= $rhinoplasty -> $langTreatmentName ?></a>
-                                </h4>
-                            </div>
-                        </article>
+                        <?php foreach ($plastic_JSON as $rhinoplasty) { ?>
+
+                            <article class="item">
+                                <a href="<?= $rhinoplasty->treatment_link ?>" class="thumb">
+                                    <img src="<?= $rhinoplasty->treatment_first_photo ?>" alt="">
+                                </a>
+                                <div class="info">
+                                    <h4 class="title usmall">
+                                        <a href="<?= $rhinoplasty->treatment_link ?>"><?= $rhinoplasty->$langTreatmentName ?></a>
+                                    </h4>
+                                </div>
+                            </article>
                         <?php  } ?>
 
                     </div>

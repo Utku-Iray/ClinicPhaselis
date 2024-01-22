@@ -1,5 +1,10 @@
 <!doctype html>
 <html lang="zxx">
+<?php include "config.php"; ?>
+<?php
+$title = "Clinic Phaselis " . $lang['aboutUs'] . " | Antalya";
+$description = $lang['aboutUslist1'];
+?>
 <?php include 'php/head.php' ?>
 <?php include 'php/header.php' ?>
 
@@ -54,7 +59,7 @@
             <div class="col-lg-5 col-md-12">
                 <div class="dental-tourism-about-image">
                     <img src="assets/images/anasayfa1.jpg" alt="image">
-                  
+
                 </div>
             </div>
             <div class="col-lg-7 col-md-12">

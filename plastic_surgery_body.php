@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="zxx">
+<?php include "config.php"; ?>
 <?php include 'php/head.php' ?>
 <?php include 'php/header.php' ?>
 
@@ -27,7 +28,7 @@
                         <i class="flaticon-hashtag-symbol"></i>
                         Our Best body Services
                     </span> -->
-                    <h2><?php echo $lang['plasticSurgeryBody'] ?></h2>
+            <h2><?php echo $lang['plasticSurgeryBody'] ?></h2>
 
             <hr>
             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p> -->

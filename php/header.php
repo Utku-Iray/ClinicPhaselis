@@ -1,5 +1,4 @@
 <?php
-include "config.php";
 $URL = 'data/bariatric_surgery.json';
 $JSON = file_get_contents($URL);
 $bariatric_JSON = json_decode($JSON);
@@ -57,10 +56,9 @@ $blog_JSON = json_decode($JSON);
 
 
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N3PNC299"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N3PNC299" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <div class="preloader">
         <div class="loader">
             <div class="sbl-half-circle-spin"></div>
@@ -98,7 +96,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <i class='bx bxl-facebook'></i>
                                 </a>
                             </li>
-                            
+
                             <li>
                                 <a href="https://www.linkedin.com/company/clinicphaselis/" target="_blank">
                                     <i class='bx bxl-linkedin'></i>
@@ -138,7 +136,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                         <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                             <ul class="navbar-nav">
-                                
+
                                 <li class="nav-item">
                                     <a href="https://clinicphaselis.com" class="nav-link"><?php echo $lang['homePage'] ?></a>
                                 </li>
@@ -155,11 +153,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     </ul>
                                 </li>
 
-                               
+
 
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">
-                                    <?php echo $lang['treatments'] ?>
+                                        <?php echo $lang['treatments'] ?>
                                         <i class='bx bx-caret-down'></i>
                                     </a>
 
@@ -183,7 +181,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <li class="nav-item">
                                     <a href="blog.php" class="nav-link"><?php echo $lang['blogs'] ?></a>
                                 </li>
-                                
+
                                 <li class="nav-item">
                                     <a href="testimonials.php" class="nav-link"><?php echo $lang['reviews'] ?></a>
                                 </li>
@@ -234,7 +232,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             </ul>
 
                             <div class="others-options d-flex align-items-center">
-                                
+
                                 <div class="option-item">
                                     <div class="navbar-btn">
                                         <a href="https://www.trustpilot.com/review/clinicphaselis.com"><img width="100px" src="assets/images/trustpliot.png" alt=""></a>
@@ -246,8 +244,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
             </div>
 
-           
+
         </div>
 
     </header>
-  
