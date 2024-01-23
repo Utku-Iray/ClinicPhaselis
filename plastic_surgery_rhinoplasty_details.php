@@ -1,7 +1,11 @@
 <!doctype html>
 <html lang="zxx">
 <?php include "config.php"; ?>
+<?php
 
+$title = "Clinic Phaselis  | Rhinoplasty";
+$description ="Clinic Phaselis  | Rhinoplasty, also known as a nose job, is the process of reshaping the nose to make it more proportional to the rest of the face. Rhinoplasty can also be used to repair damage caused by a nose injury or to relieve breathing problems caused by an abnormal nasal structure, such as a deviated septum. "; 
+?>
 <?php include 'php/head.php' ?>
 <?php include 'php/header.php' ?>
 

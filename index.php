@@ -2,8 +2,8 @@
 <html lang="zxx">
 <?php include "config.php"; ?>
 <?php
-$title = "Clinic Phaselis | Antalya";
-$description = "Clinic Phaselis is a medical tourism and medical consulting company that offers quality and excellence in aesthetic surgery with reliability and safety.";
+$title = "Clinic Phaselis ";
+$description = $lang['aboutUslist1'];
 ?>
 <?php include 'php/head.php' ?>
 
@@ -173,7 +173,7 @@ $description = "Clinic Phaselis is a medical tourism and medical consulting comp
                         <li><i class='bx bxs-check-shield'></i> <?php echo $lang['list4qualityMeetsAesthetics'] ?></li>
                     </ul>
                     <div class="about-btn">
-                        <a href="about-us.php" class="default-btn"><?php echo $lang['learnMore'] ?></a>
+                        <a href="about-us" class="default-btn"><?php echo $lang['learnMore'] ?></a>
                     </div>
                 </div>
             </div>

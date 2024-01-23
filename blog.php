@@ -2,6 +2,10 @@
 <html lang="zxx">
 <?php include "config.php"; ?>
 <?php
+$title = "Clinic Phaselis " . $lang['blogs'] ;
+$description = "Clinic Phaselis ". $lang['blogs']." | Antalya";
+?>
+<?php
 
 include 'php/head.php';
 include 'php/header.php';

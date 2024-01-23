@@ -2,7 +2,7 @@
 <html lang="zxx">
 <?php include "config.php"; ?>
 <?php
-$title = "Clinic Phaselis " . $lang['aboutUs'] . " | Antalya";
+$title = "Clinic Phaselis " . $lang['aboutUs'] . " ";
 $description = $lang['aboutUslist1'];
 ?>
 <?php include 'php/head.php' ?>

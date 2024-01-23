@@ -120,7 +120,7 @@ $blog_JSON = json_decode($JSON);
                 <div class="container">
                     <div class="main-responsive-menu">
                         <div class="logo">
-                            <a href="https://clinicphaselis.com">
+                            <a href="https://www.clinicphaselis.com">
                                 <img src="assets/images/logo/clinic-phaselis.png" class="main-logo" alt="logo">
                                 <img src="assets/images/logo/clinic-phaselis.png" class="white-logo" alt="logo">
                             </a>
@@ -132,22 +132,22 @@ $blog_JSON = json_decode($JSON);
             <div class="main-navbar">
                 <div class="container-fluid">
                     <nav class="navbar navbar-expand-md navbar-light">
-                        <a class="navbar-brand" href="https://clinicphaselis.com"> <img src="assets/images/logo/clinic-phaselis.png" class="main-logo" alt="logo"></a>
+                        <a class="navbar-brand" href="https://www.clinicphaselis.com"> <img src="assets/images/logo/clinic-phaselis.png" class="main-logo" alt="logo"></a>
 
                         <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                             <ul class="navbar-nav">
 
                                 <li class="nav-item">
-                                    <a href="https://clinicphaselis.com" class="nav-link"><?php echo $lang['homePage'] ?></a>
+                                    <a href="https://www.clinicphaselis.com" class="nav-link"><?php echo $lang['homePage'] ?></a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="#0" class="nav-link"><?php echo $lang['aboutUs'] ?> <i class='bx bx-caret-down'></i></a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <a href="about-us.php" class="nav-link"><?php echo $lang['whoAreWe'] ?></a>
+                                            <a href="about-us" class="nav-link"><?php echo $lang['whoAreWe'] ?></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="accommodation.php" class="nav-link"><?php echo $lang['hospitals'] ?></a>
+                                            <a href="accommodation" class="nav-link"><?php echo $lang['hospitals'] ?></a>
                                         </li>
 
                                     </ul>
@@ -163,27 +163,27 @@ $blog_JSON = json_decode($JSON);
 
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <a href="plastic_surgery_procedures.php" class="nav-link"> <?php echo $lang['plasticSurgeryProcedures'] ?></a>
+                                            <a href="plastic_surgery_procedures" class="nav-link"> <?php echo $lang['plasticSurgeryProcedures'] ?></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="bariatric_surgery.php" class="nav-link"> <?php echo $lang['bariatricSurgery'] ?></a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a href="dental_procedures.php" class="nav-link"> <?php echo $lang['dentalProcedures'] ?></a>
+                                            <a href="bariatric_surgery" class="nav-link"> <?php echo $lang['bariatricSurgery'] ?></a>
                                         </li>
 
                                         <li class="nav-item">
-                                            <a href="hair_transplant_details.php" class="nav-link"> <?php echo $lang['hairTransplant'] ?></a>
+                                            <a href="dental_procedures" class="nav-link"> <?php echo $lang['dentalProcedures'] ?></a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="hair_transplant_details" class="nav-link"> <?php echo $lang['hairTransplant'] ?></a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="blog.php" class="nav-link"><?php echo $lang['blogs'] ?></a>
+                                    <a href="blog" class="nav-link"><?php echo $lang['blogs'] ?></a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="testimonials.php" class="nav-link"><?php echo $lang['reviews'] ?></a>
+                                    <a href="testimonials" class="nav-link"><?php echo $lang['reviews'] ?></a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="#0" class="nav-link"><?php echo $lang['baGallery'] ?>
@@ -191,16 +191,16 @@ $blog_JSON = json_decode($JSON);
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <a href="plastic-surgery-gallery.php" class="nav-link"><?php echo $lang['plasticSurgeryBA'] ?></a>
+                                            <a href="plastic-surgery-gallery" class="nav-link"><?php echo $lang['plasticSurgeryBA'] ?></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="dental-gallery.php" class="nav-link"><?php echo $lang['dentalBA'] ?></a>
+                                            <a href="dental-gallery" class="nav-link"><?php echo $lang['dentalBA'] ?></a>
                                         </li>
 
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="contact-us.php" class="nav-link"><?php echo $lang['contactUs'] ?></a>
+                                    <a href="contact-us" class="nav-link"><?php echo $lang['contactUs'] ?></a>
                                 </li>
 
                                 <li class="nav-item">

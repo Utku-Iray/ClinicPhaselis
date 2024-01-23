@@ -1,7 +1,10 @@
 <!doctype html>
 <html lang="zxx">
 <?php include "config.php"; ?>
-
+<?php
+$title = "Clinic Phaselis  | " . $lang['hairTransplant'] . " ";
+$description ="Clinic Phaselis  | Hair transplantation is a surgical technique that removes hair follicles from one part of the body, called the 'donor site', to a bald or balding part of the body known as the 'recipient site'. The technique is primarily used to treat male pattern baldness."; 
+?>
 <?php include 'php/head.php' ?>
 <?php include 'php/header.php' ?>
 

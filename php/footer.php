@@ -24,7 +24,7 @@
             <div class="col-lg-3 col-sm-6">
                 <div class="dental-tourism-footer-widget">
                     <h2>
-                        <a href="https://clinicphaselis.com">
+                        <a href="https://www.clinicphaselis.com">
                             <img src="assets/images/logo/clinic-phaselis-beyaz.png" alt="">
                         </a>
                     </h2>
@@ -36,9 +36,9 @@
                     <h3><?php echo $lang['usefulLinks'] ?></h3>
 
                     <ul class="quick-links">
-                        <li><i class='bx bxs-chevrons-right'></i> <a href="https://clinicphaselis.com"><?php echo $lang['homePage'] ?></a></li>
-                        <li><i class='bx bxs-chevrons-right'></i> <a href="about-us.php"><?php echo $lang['aboutUs'] ?></a></li>
-                        <li><i class='bx bxs-chevrons-right'></i> <a href="contact-us.php"><?php echo $lang['contactUs'] ?></a></li>
+                        <li><i class='bx bxs-chevrons-right'></i> <a href="https://www.clinicphaselis.com"><?php echo $lang['homePage'] ?></a></li>
+                        <li><i class='bx bxs-chevrons-right'></i> <a href="about-us"><?php echo $lang['aboutUs'] ?></a></li>
+                        <li><i class='bx bxs-chevrons-right'></i> <a href="contact-us"><?php echo $lang['contactUs'] ?></a></li>
                         <!-- <li><i class='bx bxs-chevrons-right'></i> <a href="privacy-policy.html">Privacy Policy</a></li>
                         <li><i class='bx bxs-chevrons-right'></i> <a href="contact-us.html">Contact Us</a></li> -->
                     </ul>
@@ -62,9 +62,9 @@
                     <h3><?php echo $lang['ourServices'] ?></h3>
 
                     <ul class="quick-links">
-                        <li><i class='bx bxs-chevrons-right'></i> <a href="bariatric_surgery.php"><?php echo $lang['bariatricSurgery'] ?></a></li>
-                        <li><i class='bx bxs-chevrons-right'></i> <a href="dental_procedures.php"><?php echo $lang['dentalProcedures'] ?></a></li>
-                        <li><i class='bx bxs-chevrons-right'></i> <a href="hair_transplant_details.php"><?php echo $lang['hairTransplant'] ?></a></li>
+                        <li><i class='bx bxs-chevrons-right'></i> <a href="bariatric_surgery"><?php echo $lang['bariatricSurgery'] ?></a></li>
+                        <li><i class='bx bxs-chevrons-right'></i> <a href="dental_procedures"><?php echo $lang['dentalProcedures'] ?></a></li>
+                        <li><i class='bx bxs-chevrons-right'></i> <a href="hair_transplant_details"><?php echo $lang['hairTransplant'] ?></a></li>
                     </ul>
                 </div>
             </div>

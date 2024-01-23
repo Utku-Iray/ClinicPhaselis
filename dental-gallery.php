@@ -1,7 +1,11 @@
 <!doctype html>
 <html lang="zxx">
 <?php include "config.php"; ?>
+<?php
 
+$title = "Clinic Phaselis  | B&A Gallery ";
+$description ="Clinic Phaselis  | Before & After Gallery "; 
+?>
 <?php include 'php/head.php' ?>
 <?php include 'php/header.php' ?>
 

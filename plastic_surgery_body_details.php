@@ -5,23 +5,30 @@ if (isset($_GET["name"]) && $_GET["name"] != "" && !isset($_GET["lang"])) {
 
     $name = $_GET['name'];
 } else {
-    header("Location: https://clinicphaselis.com");
+    header("Location: https://www.clinicphaselis.com");
 }
 ?>
 <!doctype html>
 <html lang="zxx">
 <?php include "config.php"; ?>
-
-<?php include 'php/head.php' ?>
-<?php include 'php/header.php' ?>
-<?php
-
+<?php 
+$URL = 'data/plastic_surgery_body.json';
+$JSON = file_get_contents($URL);
+$body_JSON = json_decode($JSON);
 for ($i = 0; $i < count($body_JSON); $i++) {
     if ($body_JSON[$i]->$langTreatmentLink == $name) {
 
         array_push($selectedVal, $body_JSON[$i]);
     }
 }
+$title = "Clinic Phaselis  | " . $name . " ";
+$description = $selectedVal[0] -> $langTreatmentDescription ; 
+?>
+<?php include 'php/head.php' ?>
+<?php include 'php/header.php' ?>
+<?php
+
+
 
 
 ?>

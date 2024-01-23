@@ -1,6 +1,11 @@
 <!doctype html>
 <html lang="zxx">
 <?php include "config.php"; ?>
+<?php
+
+$title = "Clinic Phaselis  | " . $lang['plasticSurgeryProcedures'] . " ";
+$description ="Clinic Phaselis  | " . $lang['plasticSurgeryProcedures']; 
+?>
 <?php include 'php/head.php' ?>
 <?php include 'php/header.php' ?>
 

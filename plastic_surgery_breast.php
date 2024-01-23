@@ -1,6 +1,11 @@
 <!doctype html>
 <html lang="zxx">
 <?php include "config.php"; ?>
+<?php
+
+$title = "Clinic Phaselis  | Plastic Surgery Breast ";
+$description ="Clinic Phaselis  | Plastic Surgery Breast"; 
+?>
 <?php include 'php/head.php' ?>
 <?php include 'php/header.php' ?>
 

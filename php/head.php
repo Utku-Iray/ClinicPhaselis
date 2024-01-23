@@ -64,7 +64,7 @@
 
 
     <?php if ($title != "") { ?>
-        <title><?php echo $title ?> Clinics Phaselis Antalya Clinics</title>
+        <title><?php echo $title ?> | Antalya Clinics</title>
     <?php    } else { ?>
         <title>Clinic Phaselis | Antalya </title>
     <?php     }  ?>

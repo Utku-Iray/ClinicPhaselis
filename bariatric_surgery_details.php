@@ -5,17 +5,16 @@ if (isset($_GET["name"]) && $_GET["name"] != "" && !isset($_GET["lang"])) {
 
     $name = $_GET['name'];
 } else {
-    header("Location: https://clinicphaselis.com");
+    header("Location: https://www.clinicphaselis.com");
 }
 ?>
 <!doctype html>
 <html lang="zxx">
 <?php include "config.php"; ?>
-
-<?php include 'php/head.php' ?>
-<?php include 'php/header.php' ?>
 <?php
-
+$URL = 'data/bariatric_surgery.json';
+$JSON = file_get_contents($URL);
+$bariatric_JSON = json_decode($JSON);
 for ($i = 0; $i < count($bariatric_JSON); $i++) {
     if ($bariatric_JSON[$i]->$langTreatmentLink == $name) {
 
@@ -24,7 +23,12 @@ for ($i = 0; $i < count($bariatric_JSON); $i++) {
 }
 
 
+$title = "Clinic Phaselis  | " . $name . " ";
+$description = $selectedVal[0]->$langTreatmentDescription ; 
 ?>
+<?php include 'php/head.php' ?>
+<?php include 'php/header.php' ?>
+
 
 <!-- Start Page Banner -->
 <!-- <div class="page-banner-area">
