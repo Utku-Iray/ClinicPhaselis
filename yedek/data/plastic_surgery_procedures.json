@@ -1,0 +1,38 @@
+[{
+    "treatment_name_en": "Body Procedures",
+    "treatment_name_tr": "Vücut İşlemleri",
+    "treatment_name_fr": "Procédures Corporelles",
+    "treatment_first_photo": "assets/images/treatments/plastic-surgery-body/liposuction-1.jpg",
+    "treatment_description_en": "",
+    "treatment_description_tr": "",
+    "treatment_description_fr": "",
+    "treatment_link": "plastic_surgery_body.php"
+
+}, {
+    "treatment_name_en": "Breast Procedures",
+    "treatment_name_tr": "Meme İşlemleri",
+    "treatment_name_fr": "Procédures Mammaires",
+    "treatment_first_photo": "assets/images/treatments/plastic-surgery-breast/breast-augmentation-1.jpg",
+    "treatment_description_en": "",
+    "treatment_description_tr": "",
+    "treatment_description_fr": "",
+    "treatment_link": "plastic_surgery_breast.php"
+}, {
+    "treatment_name_en": "Facial Procedures",
+    "treatment_name_tr": "Yüz İşlemleri",
+    "treatment_name_fr": "Procédures Faciales",
+    "treatment_first_photo": "assets/images/treatments/plastic-surgery-face/face-neck-lift-1.jpg",
+    "treatment_description_en": "",
+    "treatment_description_tr": "",
+    "treatment_description_fr": "",
+    "treatment_link": "plastic_surgery_face.php"
+}, {
+    "treatment_name_en": "Rhinoplasty",
+    "treatment_name_tr": "Rinoplasti",
+    "treatment_name_fr": "Rhinoplastie",
+    "treatment_first_photo": "assets/images/treatments/plastic-surgery-rhinoplasty/rhinoplasty-1.jpg",
+    "treatment_description_en": "",
+    "treatment_description_tr": "",
+    "treatment_description_fr": "",
+    "treatment_link": "plastic_surgery_rhinoplasty_details.php"
+}]
